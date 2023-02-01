@@ -1,0 +1,7340 @@
+allow-lan: false
+cfw-bypass:
+- qq.com
+- music.163.com
+- '*.music.126.net'
+- localhost
+- 127.*
+- 10.*
+- 172.16.*
+- 172.17.*
+- 172.18.*
+- 172.19.*
+- 172.20.*
+- 172.21.*
+- 172.22.*
+- 172.23.*
+- 172.24.*
+- 172.25.*
+- 172.26.*
+- 172.27.*
+- 172.28.*
+- 172.29.*
+- 172.30.*
+- 172.31.*
+- 192.168.*
+- <local>
+cfw-latency-timeout: 5000
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  enable: false
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  ipv6: false
+  use-hosts: true
+experimental:
+  ignore-resolve-fail: true
+external-controller: 127.0.0.1:9090
+hosts:
+  mtalk.google.com: 108.177.125.188
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1_中国-2.89MB
+  password: 16fd3dbf-8939-4bbd-b6b8-fb9764c16833
+  port: '50023'
+  server: api-wx-5.rancho.gay
+  type: ss
+- cipher: aes-128-cfb
+  name: 2_中国-359.2KB
+  password: QazEdcTgb159@$*
+  port: '24006'
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-256-gcm
+  name: 3_中国-425.7KB
+  password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+  port: '47516'
+  server: 273b36f6-9db1-11ed-a8fc-0242ac120002.interface.buzz
+  type: ss
+- cipher: aes-128-cfb
+  name: 4_中国-359.5KB
+  password: QazEdcTgb159@$*
+  port: '24002'
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-128-cfb
+  name: 5_中国-364.6KB
+  password: QazEdcTgb159@$*
+  port: '24007'
+  server: 14.29.124.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 6_中国-2.63MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13971'
+  server: z2.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7_中国-1.72MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13049'
+  server: z2.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 8_中国-5.30MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: z2.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 9_中国-2.11MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13049'
+  server: z1.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 10_中国-16.32MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: z1.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 11_中国-163.9KB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13065'
+  server: z1.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 12_中国-2.12MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13065'
+  server: z4.810823.xyz
+  type: ss
+- cipher: chacha20-ietf
+  name: 13_中国-19.38MB
+  password: HZGYR9
+  port: '33922'
+  server: 211.99.96.118
+  type: ss
+- cipher: aes-256-cfb
+  name: 14_中国-222.3KB
+  password: RsDk3peCSuo76B68
+  port: '10068'
+  server: 180.101.193.226
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15_中国-5.62MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: sh-jp-dx-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16_中国-191.8KB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13081'
+  server: sz-hk-bgp-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 17_中国-171.9KB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: sz-hk-bgp-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 18_中国-9.99MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: z4.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19_中国-641.2KB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13001'
+  server: sz-hk-bgp-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20_中国-169.2KB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13852'
+  server: sz-hk-bgp-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 21_中国-12.70MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13082'
+  server: z3.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 22_中国-4.61MB
+  password: c91e57d4-4e60-4083-8286-fa879ced7f56
+  port: '13001'
+  server: sh-jp-dx-iplc.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23_中国-1.68MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '31719'
+  server: ccsz.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 24_中国-9.50MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '14339'
+  server: cchn.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 25_中国-9.79MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '42270'
+  server: ccgz.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 26_中国-441.9KB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '34361'
+  server: cctw-iepl.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 27_中国-3.92MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '18258'
+  server: cchn.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28_中国-1.46MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '31182'
+  server: ccfz.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 29_中国-1.70MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '58119'
+  server: ccgz.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 30_中国-2.17MB
+  password: 5cb85999-a052-4785-9b2e-809d6ffa7177
+  port: '30026'
+  server: ccsz.cutcloudjd.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 31_中国-3.98MB
+  password: 82add7d3-b43d-4fc3-9c68-4a2e36512893
+  port: '50023'
+  server: api-wx-5.rancho.gay
+  type: ss
+- cipher: aes-256-gcm
+  name: 32_中国-2.32MB
+  password: 33497afb-9266-40cc-b75b-79256eb4965e
+  port: '53698'
+  server: ydsichuan01.bpzhuanfa.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 33_中国-2.52MB
+  password: 33497afb-9266-40cc-b75b-79256eb4965e
+  port: '43690'
+  server: suijishanghai01.bpzhuanfa.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 34_中国-318.2KB
+  password: yYIukPTr50XpavMx
+  port: '55003'
+  server: tw.wxfz.ml
+  type: ss
+- cipher: aes-256-gcm
+  name: 35_中国-1.26MB
+  password: 33497afb-9266-40cc-b75b-79256eb4965e
+  port: '23293'
+  server: ydsichuan01.bpzhuanfa.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 36_中国-385.0KB
+  password: 33497afb-9266-40cc-b75b-79256eb4965e
+  port: '20112'
+  server: ydsichuan01.bpzhuanfa.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 37_中国-8.76MB
+  password: zaknQPFw0x
+  port: '41682'
+  server: gzct.xn--dlq110j6ul.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 38_中国-1.31MB
+  password: f8957024-7463-4e3d-8c19-b4fbc9aabd15
+  port: '34617'
+  server: suijishanghai01.bpzhuanfa.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 39_中国-8.15MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10006'
+  server: 120.232.242.234
+  type: ss
+- cipher: aes-128-gcm
+  name: 40_中国-847.6KB
+  password: c9a8018c-e887-3b2f-ae64-442bdb21863a
+  port: '13001'
+  server: dc1.v2hub.top
+  type: ss
+- cipher: aes-256-gcm
+  name: 41_中国-6.78MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10054'
+  server: hzcu.xsus.link
+  type: ss
+- cipher: aes-256-gcm
+  name: 42_中国-2.38MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10069'
+  server: szcu.xsus.link
+  type: ss
+- cipher: aes-256-gcm
+  name: 43_中国-4.19MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10064'
+  server: szcu.xsus.link
+  type: ss
+- cipher: aes-256-gcm
+  name: 44_中国-8.78MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10001'
+  server: 120.240.236.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 45_中国-6.31MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10063'
+  server: szcu.xsus.link
+  type: ss
+- cipher: aes-256-gcm
+  name: 46_中国-6.41MB
+  password: 2e6b3931-5e6a-4723-9cd7-7a8db0431591
+  port: '10061'
+  server: szcu.xsus.link
+  type: ss
+- cipher: aes-128-gcm
+  name: 47_中国-1.53MB
+  password: c9a8018c-e887-3b2f-ae64-442bdb21863a
+  port: '13009'
+  server: dc2.v2hub.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 48_中国-4.25MB
+  password: c9a8018c-e887-3b2f-ae64-442bdb21863a
+  port: '13004'
+  server: dc1.v2hub.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 49_中国-4.54MB
+  password: c9a8018c-e887-3b2f-ae64-442bdb21863a
+  port: '13003'
+  server: dc2.v2hub.top
+  type: ss
+- cipher: aes-256-gcm
+  name: 50_中国-1.38MB
+  password: 33497afb-9266-40cc-b75b-79256eb4965e
+  port: '47146'
+  server: ydsichuan01.bpzhuanfa.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51_(已存活1天)中国-312.7KB
+  password: yYIukPTr50XpavMx
+  port: '55002'
+  server: kr.wxfz.ml
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: 52_中国-4.02MB
+  network: tcp
+  port: '10001'
+  server: shcn2-200m02.iplc188.com
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: shcn2-200m02.iplc188.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 53_中国-761.4KB
+  network: ws
+  port: '33726'
+  server: shct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: shct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 54_中国-5.56MB
+  network: tcp
+  port: '20051'
+  server: inszf1.ndym.ml
+  tls: 0
+  type: vmess
+  uuid: d3ffedc4-5fec-4706-9703-0f37b13405ff
+  ws-headers:
+    host: jp5.shitoudata.top
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 55_中国-16.72MB
+  network: ws
+  port: '23244'
+  server: gzct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gzct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 56_中国-13.66MB
+  network: tcp
+  port: '24155'
+  server: inszftwo.ndym.ml
+  tls: 0
+  type: vmess
+  uuid: d3ffedc4-5fec-4706-9703-0f37b13405ff
+  ws-headers:
+    host: trny.ballistics.top
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 57_中国-14.78MB
+  network: ws
+  port: '36140'
+  server: gxct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gxct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 58_中国-3.22MB
+  network: ws
+  port: '46519'
+  server: gzct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gzct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 59_中国-3.73MB
+  network: ws
+  port: '44195'
+  server: shct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: shct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 60_中国-13.99MB
+  network: ws
+  port: '10964'
+  server: gxct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gxct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 61_中国-3.22MB
+  network: ws
+  port: '10422'
+  server: gzct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gzct.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 62_中国-6.92MB
+  network: ws
+  port: '38080'
+  server: 223.111.202.148
+  tls: 0
+  type: vmess
+  uuid: d2727ecc-87bd-4bd0-b321-eb037b5d4cca
+  ws-headers:
+    host: i0.hdslb.com
+  ws-path: /meizhiyuan/us2
+- alterId: '0'
+  cipher: auto
+  name: 63_中国-210.7KB
+  network: ws
+  port: '10016'
+  server: ah.yd01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: kr01.ssru3.casa
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 64_中国-3.11MB
+  network: ws
+  port: '10025'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: us05.ssru4.fun
+  ws-path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: 65_中国-2.79MB
+  network: tcp
+  port: '10003'
+  server: 223.167.208.67
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: glc.hruqoaw.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 66_中国-1.42MB
+  network: ws
+  port: '10037'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: hk08.ssru4.fun
+  ws-path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: 67_中国-4.65MB
+  network: tcp
+  port: '10003'
+  server: shcu01b.tizi1.net
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: us-lb.sshkit.org
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+- alterId: '50'
+  cipher: auto
+  name: 68_中国-321.3KB
+  network: tcp
+  port: '42076'
+  server: jiasu1.jpv2.top
+  tls: 0
+  type: vmess
+  uuid: c481f53a-559a-4cd6-a0e0-7eafd0dc0b1a
+  ws-headers:
+    host: hkbn03.tizi1.net
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 69_中国-415.6KB
+  network: ws
+  port: '10016'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: kr01.ssru3.casa
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 70_中国-328.8KB
+  network: ws
+  port: '10003'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: hk05.ssru4.fun
+  ws-path: /
+- alterId: '1'
+  cipher: auto
+  name: 71_中国-325.0KB
+  network: ws
+  port: '50205'
+  server: data-hk-v2.shwjfkw.cn
+  tls: 0
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 72_中国-10.72MB
+  network: ws
+  port: '10035'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: tw04.ssru3.casa
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 73_中国-333.0KB
+  network: ws
+  port: '10026'
+  server: ah.yd01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: us06.ssru4.fun
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 74_中国-377.0KB
+  network: tcp
+  port: '10001'
+  server: 103.45.78.195
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 75_中国-6.57MB
+  network: tcp
+  port: '50021'
+  server: sqyd.biubiufly.monster
+  tls: 0
+  type: vmess
+  uuid: 242bf205-7fea-3667-b1e6-141327dd9225
+  ws-headers:
+    host: sqyd.biubiufly.monster
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 76_中国-5.05MB
+  network: ws
+  port: '10012'
+  server: az.hk01.ssru7.casa
+  tls: 1
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  ws-headers:
+    host: hl01.ssru3.casa
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 77_中国-735.7KB
+  network: tcp
+  port: '10046'
+  server: cu.subclsnet.com
+  tls: 0
+  type: vmess
+  uuid: 40cc1825-c52a-4438-8983-10aeb1cf3a47
+  ws-headers:
+    host: au-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 78_中国-5.13MB
+  network: tcp
+  port: '10001'
+  server: 183.240.60.119
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 79_中国-355.4KB
+  network: ws
+  port: '2052'
+  server: live15.suijiceshi.xyz
+  tls: 0
+  type: vmess
+  uuid: bfb32a33-cb31-4a10-ad54-b52da93d7173
+  ws-headers:
+    host: live15.hlzuifv.cn
+  ws-path: /xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts
+- alterId: '0'
+  cipher: auto
+  name: 80_中国-2.82MB
+  network: tcp
+  port: '10004'
+  server: 103.45.78.195
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '1'
+  cipher: auto
+  name: 81_中国-7.65MB
+  network: tcp
+  port: '10004'
+  server: 103.45.78.197
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: de-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 82_中国-12.45MB
+  network: tcp
+  port: '10001'
+  server: 183.240.60.120
+  tls: 0
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 83_中国-10.50MB
+  network: ws
+  port: '3433'
+  server: tw-gx-1.dnspro.icu
+  tls: 0
+  type: vmess
+  uuid: 711f38b5-a53f-353d-a887-15252b0ec3d0
+  ws-headers:
+    host: tw-gx-1.dnspro.icu
+  ws-path: /iso
+- alterId: '0'
+  cipher: auto
+  name: 84_中国-10.79MB
+  network: ws
+  port: '28880'
+  server: xd-sl.bestdong.xyz
+  tls: 1
+  type: vmess
+  uuid: bf390441-7bf7-37d6-91bc-0d32bfebbbbc
+  ws-headers:
+    host: 200.marst1-node.top
+  ws-path: /css3
+- alterId: '0'
+  cipher: auto
+  name: 85_中国-1.33MB
+  network: ws
+  port: '28881'
+  server: xd-fs-cm.bestdong.xyz
+  tls: 1
+  type: vmess
+  uuid: bf390441-7bf7-37d6-91bc-0d32bfebbbbc
+  ws-headers:
+    host: 32.marsnode.top
+  ws-path: /css3
+- alterId: '2'
+  cipher: auto
+  name: 86_中国-15.58MB
+  network: tcp
+  port: '30001'
+  server: andromedae.weltknoten.cloud
+  tls: 1
+  type: vmess
+  uuid: ffd275a1-59a9-3911-bd58-e2c12a44a7b5
+  ws-headers:
+    host: pcd462233.netvigator.com
+  ws-path: /
+- alterId: '2'
+  cipher: auto
+  name: 87_中国-7.11MB
+  network: tcp
+  port: '30008'
+  server: monocerotis.weltknoten.cloud
+  tls: 1
+  type: vmess
+  uuid: ffd275a1-59a9-3911-bd58-e2c12a44a7b5
+  ws-headers:
+    host: pcd462233.netvigator.com
+  ws-path: /
+- alterId: '2'
+  cipher: auto
+  name: 88_中国-2.60MB
+  network: tcp
+  port: '30013'
+  server: andromedae.weltknoten.cloud
+  tls: 1
+  type: vmess
+  uuid: ffd275a1-59a9-3911-bd58-e2c12a44a7b5
+  ws-headers:
+    host: pcd462233.netvigator.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 89_中国-7.70MB
+  network: tcp
+  port: '4503'
+  server: zebra2.2022.2025.mlinuu.top
+  tls: 0
+  type: vmess
+  uuid: a29229f6-2fc5-3a1d-889b-cf6a2bdebf7e
+  ws-headers:
+    host: v2ray1.zhujicn2.org
+  ws-path: /UMW36262
+- alterId: '0'
+  cipher: auto
+  name: 90_中国-2.26MB
+  network: ws
+  port: '15800'
+  server: shct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: b1da2d8f-3aca-4111-a0ec-0b40c2d0e79e
+  ws-headers:
+    host: shct.xn--dlq110j6ul.cc
+  ws-path: /fly
+- alterId: '0'
+  cipher: auto
+  name: 91_中国-333.0KB
+  network: ws
+  port: '25803'
+  server: hzyd.abc111222.top
+  tls: 0
+  type: vmess
+  uuid: f2ec1022-b279-4399-9d12-bb7fcd29558f
+  ws-headers:
+    host: vukr1.abc111222.top
+  ws-path: /v2ray
+- alterId: '64'
+  cipher: auto
+  name: 92_中国-432.4KB
+  network: tcp
+  port: '50002'
+  server: 111.45.22.239
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: www.baidu.com
+  ws-path: /zh-cn
+- alterId: '0'
+  cipher: auto
+  name: 93_中国-20.68MB
+  network: ws
+  port: '58563'
+  server: gzcm.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gzcm.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 94_中国-781.2KB
+  network: ws
+  port: '25804'
+  server: hzyd.abc111222.top
+  tls: 0
+  type: vmess
+  uuid: f2ec1022-b279-4399-9d12-bb7fcd29558f
+  ws-headers:
+    host: aiyunus2.abc111222.top
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 95_中国-3.61MB
+  network: ws
+  port: '32415'
+  server: gddx.fosi.hk
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gddx.fosi.hk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 96_中国-7.00MB
+  network: ws
+  port: '43502'
+  server: vipkrv2.jsssline.top
+  tls: 1
+  type: vmess
+  uuid: f245ba15-aff5-7229-cdc6-6535303c2a75
+  ws-headers:
+    host: vipkrv2.jsssline.top
+  ws-path: /cpyhyfd3
+- alterId: '2'
+  cipher: auto
+  name: 97_中国-882.6KB
+  network: tcp
+  port: '21805'
+  server: 124.226.213.250
+  tls: 0
+  type: vmess
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
+  ws-headers:
+    host: gyiepl.1aba.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 98_中国-7.82MB
+  network: tcp
+  port: '43205'
+  server: vip24-ws-tls.jsssline.top
+  tls: 0
+  type: vmess
+  uuid: f245ba15-aff5-7229-cdc6-6535303c2a75
+  ws-headers:
+    host: se-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 99_中国-4.47MB
+  network: ws
+  port: '2086'
+  server: cloudflare.quest
+  tls: 0
+  type: vmess
+  uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10
+  ws-headers:
+    host: buyvm.cloudflare.quest
+  ws-path: /aries
+- alterId: '0'
+  cipher: auto
+  name: 100_中国-9.80MB
+  network: ws
+  port: '28797'
+  server: gzcm.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gzcm.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 101_中国-8.30MB
+  network: ws
+  port: '33346'
+  server: cscu.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: cscu.xn--dlq110j6ul.cc
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 102_中国-5.25MB
+  network: ws
+  port: '17834'
+  server: gyiepl.1aba.cn
+  tls: 0
+  type: vmess
+  uuid: e91f1db0-7440-4eee-b1d2-ca12ab4de40d
+  ws-headers:
+    host: gyiepl.1aba.cn
+  ws-path: /
+- cipher: chacha20-ietf
+  name: 103_中国-7.69MB
+  obfs: plain
+  password: mblank1port
+  port: '568'
+  protocol: auth_aes128_md5
+  server: shgez3.eucdurl.me
+  type: ssr
+- cipher: aes-256-cfb
+  name: 104_中国-5.63MB
+  obfs: http_simple
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  server: z00022.security-cloudfront-cdn.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 105_中国-1.00MB
+  obfs: http_simple
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  server: z00031.security-cloudfront-cdn.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 106_中国-517.6KB
+  obfs: http_simple
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  server: z00012.security-cloudfront-cdn.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 107_中国-853.0KB
+  obfs: http_simple
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  server: z00001.security-cloudfront-cdn.com
+  type: ssr
+- cipher: aes-256-cfb
+  name: 108_中国-12.32MB
+  obfs: http_simple
+  password: YpX2opBbrfqJzzMs
+  port: '42833'
+  protocol: origin
+  server: z80001.security-cloudfront-cdn.com
+  type: ssr
+- cipher: aes-256-gcm
+  name: 109_美国-771.5KB
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 38.91.102.123
+  type: ss
+- cipher: aes-256-gcm
+  name: 110_美国-1.34MB
+  password: e4FCWrgpkji3QY
+  port: '9101'
+  server: ak1446.free.www.outline.network
+  type: ss
+- cipher: aes-256-gcm
+  name: 111_美国-1.20MB
+  password: cdBIDV42DCwnfIN
+  port: '8118'
+  server: 38.91.107.37
+  type: ss
+- cipher: aes-256-gcm
+  name: 112_美国-898.1KB
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 38.91.102.123
+  type: ss
+- cipher: aes-256-gcm
+  name: 113_美国-747.4KB
+  password: e4FCWrgpkji3QY
+  port: '9101'
+  server: 38.91.102.123
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 114_美国-4.48MB
+  network: ws
+  port: '443'
+  server: 172.67.169.131
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 115_美国-2.48MB
+  network: ws
+  port: '80'
+  server: 45.86.74.170
+  tls: 0
+  type: vmess
+  uuid: b7155ee4-3c21-470f-c147-351748ebd1b7
+  ws-headers:
+    host: ''
+  ws-path: /ray
+- alterId: '1'
+  cipher: auto
+  name: 116_美国-5.74MB
+  network: ws
+  port: '64443'
+  server: sea10.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: sea10.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 117_美国-4.28MB
+  network: ws
+  port: '34262'
+  server: uk01.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: c0f41c18-20df-4e8b-d811-d0aa5f51d90d
+  ws-headers:
+    host: uk01.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 118_美国-812.1KB
+  network: ws
+  port: '7631'
+  server: tu.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: zi.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 119_美国-856.6KB
+  network: ws
+  port: '1235'
+  server: zi.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: zi.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 120_美国-3.49MB
+  network: ws
+  port: '2086'
+  server: CLOUDFLARE.QUEST
+  tls: 0
+  type: vmess
+  uuid: 17dafe87-e28d-4a33-f608-375e1a05e7b7
+  ws-headers:
+    host: scw.cloudflare.quest
+  ws-path: /aries
+- alterId: '0'
+  cipher: auto
+  name: 121_美国-1.03MB
+  network: ws
+  port: '80'
+  server: sg-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: sg-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 122_美国-341.5KB
+  network: ws
+  port: '443'
+  server: 141.193.213.10
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: sg-gcore.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 123_美国-2.75MB
+  network: ws
+  port: '443'
+  server: cf.sudoer.net
+  tls: 1
+  type: vmess
+  uuid: 3c83e22e-0bad-5ca6-ad1f-cb109b5a7834
+  ws-headers:
+    host: scherehtzflk01.schere.net
+  ws-path: /api05
+- alterId: '0'
+  cipher: auto
+  name: 124_美国-388.0KB
+  network: ws
+  port: '80'
+  server: fr-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: fr-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 125_美国-2.59MB
+  network: ws
+  port: '443'
+  server: v2.linux.im
+  tls: 1
+  type: vmess
+  uuid: 599a2a1f-dc4f-3378-b4dc-3923e599257b
+  ws-headers:
+    host: v2.linux.im
+  ws-path: /chinanet
+- alterId: '0'
+  cipher: auto
+  name: 126_美国-3.20MB
+  network: ws
+  port: '443'
+  server: 172.67.164.125
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 127_美国-840.3KB
+  network: ws
+  port: '443'
+  server: zhuyong.hucloud-dns.xyz
+  tls: 1
+  type: vmess
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  ws-headers:
+    host: zhuyong.hucloud-dns.xyz
+  ws-path: /huhublog
+- alterId: '0'
+  cipher: auto
+  name: 128_美国-2.96MB
+  network: ws
+  port: '443'
+  server: hucloud.tk
+  tls: 1
+  type: vmess
+  uuid: 2df3ed4a-4313-45f9-b742-2f02ce593a6e
+  ws-headers:
+    host: hucloud.tk
+  ws-path: /huhu
+- alterId: '0'
+  cipher: auto
+  name: 129_美国-6.17MB
+  network: ws
+  port: '443'
+  server: yjz.hk
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 130_美国-5.58MB
+  network: ws
+  port: '443'
+  server: 172.67.45.144
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 131_美国-6.29MB
+  network: ws
+  port: '8880'
+  server: 172.67.34.78
+  tls: 0
+  type: vmess
+  uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+  ws-headers:
+    host: sg1021.hkaa0.tk
+  ws-path: /hkaa0
+- alterId: '0'
+  cipher: auto
+  name: 132_美国-3.52MB
+  network: ws
+  port: '443'
+  server: 24.199.119.135
+  tls: 1
+  type: vmess
+  uuid: e6da31cb-6c97-4699-c412-124d5ab80856
+  ws-headers:
+    host: panda.neet666.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 133_美国-5.13MB
+  network: ws
+  port: '80'
+  server: v140.toddns.tk
+  tls: 0
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-headers:
+    host: v140.toddns.tk
+  ws-path: /fr-unlimitxxx
+- alterId: '0'
+  cipher: auto
+  name: 134_美国-1.81MB
+  network: ws
+  port: '443'
+  server: ming2.kiwireich.com
+  tls: 1
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-headers:
+    host: ming2.kiwireich.com
+  ws-path: /ray
+- alterId: '0'
+  cipher: auto
+  name: 135_美国-1.34MB
+  network: ws
+  port: '80'
+  server: us80-3.sanfen001.pics
+  tls: 0
+  type: vmess
+  uuid: b10abf21-761e-41bb-a45b-f07aea5101b9
+  ws-headers:
+    host: www.baidu.com
+  ws-path: /zh-cn/
+- alterId: '0'
+  cipher: auto
+  name: 136_美国-1.52MB
+  network: ws
+  port: '443'
+  server: 172.64.153.150
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 137_美国-2.03MB
+  network: ws
+  port: '443'
+  server: 172.67.135.57
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 138_美国-5.27MB
+  network: ws
+  port: '443'
+  server: 172.67.127.250
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 139_美国-5.28MB
+  network: ws
+  port: '443'
+  server: 172.67.70.22
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 140_美国-5.98MB
+  network: ws
+  port: '443'
+  server: sfo.wyatt.cf
+  tls: 1
+  type: vmess
+  uuid: dc822f4e-cd60-4174-a93e-c1d3865976aa
+  ws-headers:
+    host: sfo.wyatt.cf
+  ws-path: /us
+- alterId: '0'
+  cipher: auto
+  name: 141_美国-5.67MB
+  network: ws
+  port: '443'
+  server: 172.67.201.14
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 142_美国-247.7KB
+  network: ws
+  port: '443'
+  server: 136.175.178.176mgmg.xhtk.cc
+  tls: 1
+  type: vmess
+  uuid: 23b3724b-3d90-2074-a5bf-09388a9806b7
+  ws-headers:
+    host: 136.175.178.176mgmg.xhtk.cc
+  ws-path: /veghvws
+- alterId: '0'
+  cipher: auto
+  name: 143_美国-6.53MB
+  network: ws
+  port: '443'
+  server: 172.64.152.150
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 144_美国-6.10MB
+  network: ws
+  port: '443'
+  server: 172.64.154.102
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 145_美国-2.45MB
+  network: ws
+  port: '443'
+  server: 172.64.154.155
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 146_美国-2.08MB
+  network: ws
+  port: '443'
+  server: 172.66.44.197
+  tls: 1
+  type: vmess
+  uuid: fa4cb529-3ac9-4268-bb04-ed4253813508
+  ws-headers:
+    host: d.pgypgykmoljklj.xyz
+  ws-path: /mR17oBKzZ7
+- alterId: '0'
+  cipher: auto
+  name: 147_美国-346.0KB
+  network: ws
+  port: '443'
+  server: 172.67.205.70
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: sg-gcore.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 148_美国-2.95MB
+  network: ws
+  port: '80'
+  server: 172.67.199.34
+  tls: 0
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: us-lb.sshkit.org
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+- alterId: '0'
+  cipher: auto
+  name: 149_美国-4.28MB
+  network: ws
+  port: '443'
+  server: 172.67.203.162
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 150_美国-5.24MB
+  network: ws
+  port: '443'
+  server: vus2.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vus2.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 151_美国-3.05MB
+  network: ws
+  port: '8443'
+  server: jdosg.nmsl.pics
+  tls: 1
+  type: vmess
+  uuid: e6dad59a-4557-4fe2-eb21-ba270f9778fc
+  ws-headers:
+    host: jdosg.nmsl.pics
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 152_美国-456.4KB
+  network: ws
+  port: '443'
+  server: cooing-luxuriant-blue.glitch.me
+  tls: 1
+  type: vmess
+  uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2
+  ws-headers:
+    host: cooing-luxuriant-blue.glitch.me
+  ws-path: /api
+- alterId: '0'
+  cipher: auto
+  name: 153_美国-2.66MB
+  network: ws
+  port: '443'
+  server: nl1.baf1.sbs
+  tls: 1
+  type: vmess
+  uuid: 447ef855-b642-4157-a296-d797ef7508d4
+  ws-headers:
+    host: nl1.baf1.sbs
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 154_美国-1.48MB
+  network: ws
+  port: '443'
+  server: 172.67.145.166
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 155_美国-263.8KB
+  network: ws
+  port: '80'
+  server: 108.162.192.55
+  tls: 0
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: us-lb.sshkit.org
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+- alterId: '0'
+  cipher: auto
+  name: 156_美国-1.12MB
+  network: ws
+  port: '443'
+  server: vus4.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vus4.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 157_美国-1.68MB
+  network: ws
+  port: '131'
+  server: 091.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 091.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 158_美国-1.73MB
+  network: ws
+  port: '443'
+  server: 141.193.213.20
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: opc-jp.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 159_美国-1.92MB
+  network: ws
+  port: '443'
+  server: 141.193.213.21
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 160_美国-662.3KB
+  network: ws
+  port: '443'
+  server: 172.67.178.127
+  tls: 1
+  type: vmess
+  uuid: 26b5fbcf-d199-407e-e8bf-96d7489d247d
+  ws-headers:
+    host: en1.wanwushenghua.me
+  ws-path: /123
+- alterId: '0'
+  cipher: auto
+  name: 161_美国-5.52MB
+  network: ws
+  port: '443'
+  server: 172.67.135.55
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 162_美国-3.13MB
+  network: tcp
+  port: '45546'
+  server: us02-02.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 7a85664b-d668-4da6-c81c-57a443bfe134
+  ws-headers:
+    host: 32.marsnode.top
+  ws-path: /css3
+- alterId: '0'
+  cipher: auto
+  name: 163_美国-2.89MB
+  network: ws
+  port: '80'
+  server: 172.67.222.46
+  tls: 0
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: us-lb.sshkit.org
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+- alterId: '0'
+  cipher: auto
+  name: 164_美国-1.80MB
+  network: ws
+  port: '8443'
+  server: els200.jslist.tk
+  tls: 1
+  type: vmess
+  uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
+  ws-headers:
+    host: els200.jslist.tk
+  ws-path: /wo.php
+- alterId: '0'
+  cipher: auto
+  name: 165_美国-2.29MB
+  network: ws
+  port: '443'
+  server: cfspeed.areyouikun.com
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 166_美国-2.04MB
+  network: ws
+  port: '25815'
+  server: us-01.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 254a9c81-a355-4df2-9f2f-03f92bdcfefc
+  ws-headers:
+    host: us-01.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 167_美国-3.30MB
+  network: ws
+  port: '8443'
+  server: 103.21.244.187
+  tls: 1
+  type: vmess
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  ws-headers:
+    host: US-42-153.shoptunnel.live
+  ws-path: /8cda48b3
+- alterId: '0'
+  cipher: auto
+  name: 168_美国-1.74MB
+  network: ws
+  port: '8443'
+  server: 172.67.156.140
+  tls: 1
+  type: vmess
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  ws-headers:
+    host: US-42-153.shoptunnel.live
+  ws-path: /8cda48b3
+- alterId: '0'
+  cipher: auto
+  name: 169_美国-518.0KB
+  network: ws
+  port: '443'
+  server: news.microsoft.com
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 170_美国-263.8KB
+  network: ws
+  port: '443'
+  server: v2ray.online
+  tls: 1
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-headers:
+    host: Vienna.v2ray.online
+  ws-path: /speedtest
+- alterId: '0'
+  cipher: auto
+  name: 171_美国-2.13MB
+  network: ws
+  port: '443'
+  server: cf-lt-dns.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: de-1.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 172_美国-827.6KB
+  network: ws
+  port: '443'
+  server: cdn.xia.me
+  tls: 1
+  type: vmess
+  uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3
+  ws-headers:
+    host: us12.cachexy.ga
+  ws-path: /api
+- alterId: '0'
+  cipher: auto
+  name: 173_美国-1.99MB
+  network: ws
+  port: '131'
+  server: mg1.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: mg1.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 174_美国-2.71MB
+  network: ws
+  port: '443'
+  server: 172.64.153.155
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 175_美国-1.87MB
+  network: ws
+  port: '443'
+  server: 66.235.200.22
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 176_美国-1.23MB
+  network: ws
+  port: '80'
+  server: ovh-3.555530.xyz
+  tls: 0
+  type: vmess
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  ws-headers:
+    host: ovh-3.555530.xyz
+  ws-path: /happy
+- alterId: '0'
+  cipher: auto
+  name: 177_美国-4.34MB
+  network: ws
+  port: '443'
+  server: cf-lt.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: lu.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 178_美国-573.6KB
+  network: ws
+  port: '443'
+  server: 172.67.199.34
+  tls: 1
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: us-lb.sshkit.org
+  ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+- alterId: '0'
+  cipher: auto
+  name: 179_美国-5.25MB
+  network: ws
+  port: '443'
+  server: 66.235.200.21
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 180_美国-3.99MB
+  network: ws
+  port: '80'
+  server: get.tech
+  tls: 0
+  type: vmess
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  ws-headers:
+    host: lv.awsbest.com
+  ws-path: /shared
+- cipher: aes-256-cfb
+  name: 181_美国-176.0KB
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: '10002'
+  protocol: auth_chain_a
+  server: 185.199.225.45
+  type: ssr
+- cipher: aes-256-cfb
+  name: 182_新加坡-434.8KB
+  password: amazonskr05
+  port: '443'
+  server: 13.215.205.229
+  type: ss
+- cipher: aes-256-cfb
+  name: 183_日本-258.3KB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.82.53
+  type: ss
+- cipher: aes-256-cfb
+  name: 184_新加坡-329.8KB
+  password: amazonskr05
+  port: '443'
+  server: 13.215.173.114
+  type: ss
+- cipher: aes-256-cfb
+  name: 185_日本-702.0KB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.0.146
+  type: ss
+- cipher: aes-256-cfb
+  name: 186_新加坡-843.2KB
+  password: amazonskr05
+  port: '443'
+  server: 13.214.212.124
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 187_日本-1.60MB
+  password: 693175b2-ca0a-4c8d-9dc7-533465e580f6
+  port: '23234'
+  server: 3.113.248.102
+  type: ss
+- cipher: aes-256-cfb
+  name: 188_新加坡-3.36MB
+  password: amazonskr05
+  port: '443'
+  server: 13.215.49.89
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 189_拉脱维亚-1.45MB
+  network: ws
+  port: '80'
+  server: 45.142.213.51
+  tls: 0
+  type: vmess
+  uuid: b64efcc6-5392-429e-8da5-5fe9617deba2
+  ws-headers:
+    host: ''
+  ws-path: /sshocean
+- alterId: '0'
+  cipher: auto
+  name: 190_未知国家-2.56MB
+  network: ws
+  port: '443'
+  server: 141.101.115.30
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 191_未知国家-6.16MB
+  network: ws
+  port: '443'
+  server: 141.101.115.120
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 192_澳大利亚-520.3KB
+  network: ws
+  port: '443'
+  server: 45.32.190.114
+  tls: 0
+  type: vmess
+  uuid: 2ab56f70-39e3-4422-bb2e-dbfe59cb01f8
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 193_未知国家-6.15MB
+  network: ws
+  port: '443'
+  server: 162.159.137.2
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 194_荷兰-5.23MB
+  network: ws
+  port: '443'
+  server: 188.114.99.10
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 195_未知国家-3.30MB
+  network: ws
+  port: '443'
+  server: sg-04.cctvvip.ml
+  tls: 1
+  type: vmess
+  uuid: 44fda7b7-c6e9-4701-8c3c-c60f3482c3b7
+  ws-headers:
+    host: 21.hjdn.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 196_新加坡-5.40MB
+  network: tcp
+  port: '20127'
+  server: sg1.v2pn.live
+  tls: 1
+  type: vmess
+  uuid: a3f10ae5-dc1d-4537-8006-682f6f65cdba
+  ws-headers:
+    host: sg1.v2pn.live
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 197_新加坡-2.24MB
+  network: ws
+  port: '35264'
+  server: sg04.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 158ef6a5-3380-427a-ece4-609402653871
+  ws-headers:
+    host: sg04.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 198_未知国家-5.27MB
+  network: ws
+  port: '8443'
+  server: 198.41.200.200
+  tls: 1
+  type: vmess
+  uuid: bed5ab43-e8ba-4818-aab8-a047a6660b39
+  ws-headers:
+    host: guil.tk
+  ws-path: /dwujvws
+- alterId: '0'
+  cipher: auto
+  name: 199_罗马尼亚-2.99MB
+  network: ws
+  port: '18930'
+  server: ro01.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: dac6fc8b-42c4-4d95-b7b5-00c296885c7d
+  ws-headers:
+    host: ro01.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 200_罗马尼亚-1.42MB
+  network: ws
+  port: '8880'
+  server: ro02.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 7f579426-5a20-4cf6-cc54-943568ccf149
+  ws-headers:
+    host: ro02.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 201_越南-1008.6KB
+  network: ws
+  port: '80'
+  server: vn1.v2rayserv.com
+  tls: 0
+  type: vmess
+  uuid: a94966a1-2225-422b-b756-dd4b4d6b974b
+  ws-headers:
+    host: vn1.v2rayserv.com
+  ws-path: /sshocean
+- alterId: '0'
+  cipher: auto
+  name: 202_日本-9.59MB
+  network: tcp
+  port: '20127'
+  server: jp2.v2pn.live
+  tls: 1
+  type: vmess
+  uuid: a3f10ae5-dc1d-4537-8006-682f6f65cdba
+  ws-headers:
+    host: jp2.v2pn.live
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 203_土耳其-228.4KB
+  network: tcp
+  port: '20240'
+  server: tu01.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: d0491ebb-f705-4b8c-a074-607e0f800b22
+  ws-headers:
+    host: hk08.ssru4.fun
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 204_日本-312.7KB
+  network: tcp
+  port: '46019'
+  server: jp10.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: e0573e4c-2cd3-4cb1-81d5-8e7cf4d8e790
+  ws-headers:
+    host: hk08.ssru4.fun
+  ws-path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: 205_未知国家-983.1KB
+  network: ws
+  port: '80'
+  server: us-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: us-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 206_法国-1.12MB
+  network: ws
+  port: '23871'
+  server: uk03.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: ce183e4a-d8c3-4628-ae88-3904381321b2
+  ws-headers:
+    host: uk03.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 207_奥地利-2.01MB
+  network: ws
+  port: '36606'
+  server: uk06.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: fee0d9c2-e4ff-40a0-b615-32dcc2a2518b
+  ws-headers:
+    host: uk06.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 208_未知国家-2.41MB
+  network: ws
+  port: '2082'
+  server: 162.159.128.100
+  tls: 0
+  type: vmess
+  uuid: 8acf0ceb-510a-4f05-8175-f77c464d90ae
+  ws-headers:
+    host: kz.cloudflare.quest
+  ws-path: /aries
+- alterId: '0'
+  cipher: auto
+  name: 209_未知国家-2.33MB
+  network: ws
+  port: '80'
+  server: uicdn.cf
+  tls: 0
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-headers:
+    host: sg3-v2ray.sshkit.org
+  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+- alterId: '0'
+  cipher: auto
+  name: 210_法国-350.7KB
+  network: ws
+  port: '43432'
+  server: uk04.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: c61b99e7-af38-4074-fa26-4b984edae439
+  ws-headers:
+    host: uk04.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 211_日本-2.33MB
+  network: ws
+  port: '24429'
+  server: jp06.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72b
+  ws-headers:
+    host: jp06.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 212_日本-4.85MB
+  network: ws
+  port: '80'
+  server: jp04.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: a0733fc9-457e-498d-c363-9ec774a74947
+  ws-headers:
+    host: jp04.wxfz.ml
+  ws-path: /jun
+- alterId: '0'
+  cipher: auto
+  name: 213_日本-5.36MB
+  network: ws
+  port: '80'
+  server: jp05.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+  ws-headers:
+    host: qq.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 214_香港-240.9KB
+  network: ws
+  port: '80'
+  server: hk80.sanfen001.pics
+  tls: 0
+  type: vmess
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  ws-headers:
+    host: www.baidu.com
+  ws-path: /zh-cn/
+- alterId: '0'
+  cipher: auto
+  name: 215_韩国-575.6KB
+  network: ws
+  port: '35212'
+  server: jp02.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 5ab3f1a4-0793-4f2a-f14a-d427105aa99b
+  ws-headers:
+    host: jp02.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 216_瑞典-229.7KB
+  network: ws
+  port: '55872'
+  server: uk05.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: abf29848-6ff8-4a60-abe1-6e2266174dfd
+  ws-headers:
+    host: uk05.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 217_日本-3.04MB
+  network: ws
+  port: '3674'
+  server: 666.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 666.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 218_荷兰-3.92MB
+  network: tcp
+  port: '19389'
+  server: uk02.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 7564de07-a8de-4047-b635-8184cdd42a5e
+  ws-headers:
+    host: ie-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 219_德国-3.30MB
+  network: ws
+  port: '54458'
+  server: de03.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 31b022f2-5441-4e9a-ffe7-43fee7ab0688
+  ws-headers:
+    host: de03.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 220_德国-3.21MB
+  network: ws
+  port: '443'
+  server: bypasstdno.eu-ddskrfhnxrqp.ondoprax.com
+  tls: 1
+  type: vmess
+  uuid: b9d1903a-9bc1-4d5f-8044-4c65a3ef78ea
+  ws-headers:
+    host: bypasstdno.eu-ddskrfhnxrqp.ondoprax.com
+  ws-path: /b9d1903a-9bc1-4d5f-8044-4c65a3ef78ea-vm
+- alterId: '0'
+  cipher: auto
+  name: 221_伊朗-1.87MB
+  network: tcp
+  port: '35592'
+  server: 193.105.234.144
+  tls: 0
+  type: vmess
+  uuid: 9a431ed9-87ca-4251-9f43-ec50c5486977
+  ws-headers:
+    host: vau1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 222_新加坡-1.76MB
+  network: ws
+  port: '7204'
+  server: 172.104.167.240
+  tls: 0
+  type: vmess
+  uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+  ws-headers:
+    host: ''
+  ws-path: /sg1
+- alterId: '0'
+  cipher: auto
+  name: 223_泰国-316.0KB
+  network: tcp
+  port: '23956'
+  server: 45.91.135.234
+  tls: 0
+  type: vmess
+  uuid: 234f6c35-4e9f-4acc-aba3-52d32893e6b0
+  ws-headers:
+    host: ma.shitoudata.top
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 224_日本-5.50MB
+  network: ws
+  port: '80'
+  server: jp01.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: c287c071-d7f5-4f3a-db0e-0fb647186ae2
+  ws-headers:
+    host: jp01.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 225_日本-5.14MB
+  network: ws
+  port: '80'
+  server: jp03.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 8700cfbd-71dc-42b0-84f2-53cd7fe5645b
+  ws-headers:
+    host: jp03.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 226_伯利兹-5.36MB
+  network: ws
+  port: '443'
+  server: 203.30.191.9
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 227_新加坡-1.28MB
+  network: ws
+  port: '25932'
+  server: xjp2.wangjiaxin.xyz
+  tls: 1
+  type: vmess
+  uuid: 33a47ce6-5ea9-4d21-d3db-ce38421d2558
+  ws-headers:
+    host: xjp2.wangjiaxin.xyz
+  ws-path: /23423
+- alterId: '0'
+  cipher: auto
+  name: 228_未知国家-5.21MB
+  network: tcp
+  port: '44781'
+  server: jp12.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 5690cf21-77f8-44ab-b0c8-034fc3e9f147
+  ws-headers:
+    host: xjp2.wangjiaxin.xyz
+  ws-path: /23423
+- alterId: '0'
+  cipher: auto
+  name: 229_未知国家-4.42MB
+  network: ws
+  port: '443'
+  server: us2.sanfen001.pics
+  tls: 1
+  type: vmess
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  ws-headers:
+    host: us1.sanfen001.pics
+  ws-path: /zh-cn
+- alterId: '0'
+  cipher: auto
+  name: 230_未知国家-753.2KB
+  network: ws
+  port: '80'
+  server: jp-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: jp-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 231_日本-5.66MB
+  network: ws
+  port: '12345'
+  server: 152.69.197.74
+  tls: 0
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-headers:
+    host: ''
+  ws-path: /bb
+- alterId: '0'
+  cipher: auto
+  name: 232_日本-1.48MB
+  network: ws
+  port: '3544'
+  server: 777.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 777.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 233_伯利兹-2.26MB
+  network: ws
+  port: '443'
+  server: 203.30.188.121
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 234_阿联酋-1.82MB
+  network: ws
+  port: '11493'
+  server: vtors9.net2vip.com
+  tls: 0
+  type: vmess
+  uuid: 4a1fd09a-02b2-4a06-a2c5-39f1bd2ce8f9
+  ws-headers:
+    host: snapp.ir
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 235_香港-311.5KB
+  network: ws
+  port: '80'
+  server: s3-ap-northeast-hk2.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 4347248c-d6b2-4258-bc5b-4466203d3bb8
+  ws-headers:
+    host: fls-na.amazon.com
+  ws-path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: '0'
+  cipher: auto
+  name: 236_新加坡-531.0KB
+  network: ws
+  port: '443'
+  server: fls-na-sg5.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 4347248c-d6b2-4258-bc5b-4466203d3bb8
+  ws-headers:
+    host: fls-na.amazon.com
+  ws-path: /1/action-impressions/1/OE/aws-mktg/action/awsm_v2comp_video_VideoPlayerReady
+- alterId: '1'
+  cipher: auto
+  name: 237_土耳其-1.07MB
+  network: ws
+  port: '443'
+  server: tk02.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: tk02.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 238_拉脱维亚-2.82MB
+  network: ws
+  port: '22723'
+  server: 194.61.121.73
+  tls: 0
+  type: vmess
+  uuid: 55854c8a-a4bc-4ace-bf5d-8af75d774f0e
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 239_俄罗斯联邦-2.98MB
+  network: ws
+  port: '80'
+  server: 176.32.35.22
+  tls: 0
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-headers:
+    host: ''
+  ws-path: /fr-unlimitxxx
+- alterId: '0'
+  cipher: auto
+  name: 240_新加坡-530.8KB
+  network: ws
+  port: '80'
+  server: 18.143.123.35
+  tls: 0
+  type: vmess
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 241_香港-10.92MB
+  network: ws
+  port: '443'
+  server: petal.ga
+  tls: 1
+  type: vmess
+  uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+  ws-headers:
+    host: petal.ga
+  ws-path: /petalvws
+- alterId: '0'
+  cipher: auto
+  name: 242_俄罗斯联邦-819.5KB
+  network: ws
+  port: '80'
+  server: v10a.toddns.tk
+  tls: 0
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-headers:
+    host: v10a.toddns.tk
+  ws-path: /fr-unlimitxxx
+- alterId: '0'
+  cipher: auto
+  name: 243_加拿大-604.2KB
+  network: http
+  port: '28364'
+  server: 193.203.203.53
+  tls: 0
+  type: vmess
+  uuid: c14b9faa-b2ff-4f2b-80c5-499bbdb9b886
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 244_澳大利亚-2.34MB
+  network: ws
+  port: '64443'
+  server: au-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: au-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 245_俄罗斯联邦-345.5KB
+  network: ws
+  port: '80'
+  server: 45.136.244.181
+  tls: 0
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-headers:
+    host: ''
+  ws-path: /fr-unlimitxxx
+- alterId: '0'
+  cipher: auto
+  name: 246_未知国家-3.19MB
+  network: ws
+  port: '443'
+  server: juzius.nmsl.pics
+  tls: 1
+  type: vmess
+  uuid: 619db227-7616-409f-9ead-202ab41ff230
+  ws-headers:
+    host: juzius.nmsl.pics
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 247_未知国家-1.70MB
+  network: ws
+  port: '443'
+  server: cacerts.digicert.com
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 248_澳大利亚-1.64MB
+  network: tcp
+  port: '443'
+  server: au.yangon.club
+  tls: 1
+  type: vmess
+  uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f
+  ws-headers:
+    host: gb-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 249_未知国家-437.1KB
+  network: ws
+  port: '80'
+  server: au-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: au-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 250_越南-532.5KB
+  network: tcp
+  port: '41785'
+  server: 103.178.234.201
+  tls: 0
+  type: vmess
+  uuid: ce6e804e-3258-4cc1-a922-1c87a3886611
+  ws-headers:
+    host: au-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 251_越南-708.9KB
+  network: ws
+  port: '80'
+  server: vn-01.legeth.tk
+  tls: 0
+  type: vmess
+  uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+  ws-headers:
+    host: vn-01.legeth.tk
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 252_伊朗-1.04MB
+  network: http
+  port: '80'
+  server: 91.107.163.126
+  tls: 0
+  type: vmess
+  uuid: 907f29ff-8b59-4740-a743-2331bc6e374f
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 253_新加坡-201.0KB
+  network: ws
+  port: '443'
+  server: sgp.wyatt.cf
+  tls: 1
+  type: vmess
+  uuid: 9359a511-d5fb-4556-d4e0-9fbefc921102
+  ws-headers:
+    host: sgp.wyatt.cf
+  ws-path: /sg
+- alterId: '0'
+  cipher: auto
+  name: 254_香港-502.6KB
+  network: http
+  port: '33459'
+  server: 8.210.87.130
+  tls: 0
+  type: vmess
+  uuid: bc75a7aa-fbd0-4fc3-a08c-c21192cfca43
+  ws-headers:
+    host: 8.210.87.130
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 255_日本-878.8KB
+  network: ws
+  port: '443'
+  server: jp1.sanfen001.pics
+  tls: 1
+  type: vmess
+  uuid: b10abf21-761e-41bb-a45b-f07aea5101b9
+  ws-headers:
+    host: www.microsoft.com
+  ws-path: /zh-cn
+- alterId: '0'
+  cipher: auto
+  name: 256_日本-1.17MB
+  network: ws
+  port: '443'
+  server: vjp3.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vjp3.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 257_新加坡-539.3KB
+  network: ws
+  port: '80'
+  server: sg-lb.vhax.net
+  tls: 0
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: zoom.us
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- alterId: '0'
+  cipher: auto
+  name: 258_新加坡-1.75MB
+  network: ws
+  port: '2003'
+  server: sg1.sanfen001.pics
+  tls: 1
+  type: vmess
+  uuid: b10abf21-761e-41bb-a45b-f07aea5101b9
+  ws-headers:
+    host: aws.amazon.com
+  ws-path: /cn
+- alterId: '0'
+  cipher: auto
+  name: 259_新加坡-1.78MB
+  network: ws
+  port: '26827'
+  server: 172.104.34.50
+  tls: 0
+  type: vmess
+  uuid: 31aba36e-686d-48fd-9aa6-eaea763a4b46
+  ws-headers:
+    host: 172.104.34.50
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 260_未知国家-5.04MB
+  network: ws
+  port: '8443'
+  server: www.jingangjing.top
+  tls: 1
+  type: vmess
+  uuid: e5a54d64-da81-4089-a3c2-3eb73b541c4e
+  ws-headers:
+    host: www.jingangjing.top
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 261_澳大利亚-553.3KB
+  network: ws
+  port: '22199'
+  server: 45.76.114.115
+  tls: 0
+  type: vmess
+  uuid: 97f85dab-305c-4502-d084-63fc395172ae
+  ws-headers:
+    host: 45.76.114.115
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 262_伯利兹-6.84MB
+  network: ws
+  port: '443'
+  server: 203.30.191.4
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 263_印度-3.15MB
+  network: ws
+  port: '64443'
+  server: in-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: in-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 264_法国-3.91MB
+  network: ws
+  port: '40891'
+  server: 141.11.45.185
+  tls: 0
+  type: vmess
+  uuid: 59ee30af-bc97-4265-8c61-10ec22333881
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 265_德国-1.08MB
+  network: ws
+  port: '64443'
+  server: de-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: de-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 266_塞浦路斯-4.51MB
+  network: ws
+  port: '443'
+  server: 203.24.108.8
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 267_新加坡-1.93MB
+  network: ws
+  port: '443'
+  server: vsg1.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vsg1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 268_伯利兹-5.28MB
+  network: ws
+  port: '443'
+  server: 203.30.189.189
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 269_未知国家-5.12MB
+  network: ws
+  port: '2082'
+  server: 162.159.152.100
+  tls: 0
+  type: vmess
+  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
+  ws-headers:
+    host: UK.CLOUDFLARE.QUEST
+  ws-path: /aries
+- alterId: '0'
+  cipher: auto
+  name: 270_澳大利亚-2.31MB
+  network: ws
+  port: '80'
+  server: 3.24.103.195
+  tls: 0
+  type: vmess
+  uuid: aeaf057e-95d3-437a-ec94-307d1ad54c17
+  ws-headers:
+    host: 3.24.103.195
+  ws-path: /cek12
+- alterId: '0'
+  cipher: auto
+  name: 271_德国-1.71MB
+  network: http
+  port: '16998'
+  server: 79.132.134.56
+  tls: 0
+  type: vmess
+  uuid: 19c9e411-8707-4c01-fac0-8a60d9b19154
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 272_英国-3.56MB
+  network: ws
+  port: '443'
+  server: vuk2.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vuk2.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 273_巴拿马-335.4KB
+  network: ws
+  port: '443'
+  server: 185.143.220.25
+  tls: 1
+  type: vmess
+  uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
+  ws-headers:
+    host: dengxin.one
+  ws-path: /6e9EtZ2dL
+- alterId: '0'
+  cipher: auto
+  name: 274_新加坡-2.71MB
+  network: http
+  port: '43863'
+  server: 138.2.83.217
+  tls: 0
+  type: vmess
+  uuid: ca984457-b017-46e5-d973-42a3c3fdc292
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 275_英国-2.06MB
+  network: ws
+  port: '443'
+  server: vuk1.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vuk1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 276_伯利兹-2.37MB
+  network: ws
+  port: '443'
+  server: 203.30.188.120
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 277_日本-1.39MB
+  network: ws
+  port: '443'
+  server: 172.104.122.21
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: ''
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 278_荷兰-2.52MB
+  network: tcp
+  port: '19389'
+  server: 141.11.250.166
+  tls: 0
+  type: vmess
+  uuid: 7564de07-a8de-4047-b635-8184cdd42a5e
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 279_日本-3.84MB
+  network: ws
+  port: '80'
+  server: 138.2.39.67
+  tls: 0
+  type: vmess
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+  ws-headers:
+    host: 138.2.39.67
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 280_未知国家-4.14MB
+  network: ws
+  port: '443'
+  server: 190.93.245.170
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 281_日本-634.9KB
+  network: tcp
+  port: '4443'
+  server: jp17.baf1.sbs
+  tls: 1
+  type: vmess
+  uuid: 447ef855-b642-4157-a296-d797ef7508d4
+  ws-headers:
+    host: data-sg.amazonwebservicess.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 282_香港-494.9KB
+  network: http
+  port: '28182'
+  server: 8.210.34.104
+  tls: 0
+  type: vmess
+  uuid: e3c074dc-bcbb-45c2-bf58-96310ea4b999
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 283_未知国家-2.14MB
+  network: ws
+  port: '443'
+  server: cf-dx-dns.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: us-st-2.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 284_加拿大-1.95MB
+  network: ws
+  port: '443'
+  server: 23.227.38.21
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 285_伯利兹-1.50MB
+  network: ws
+  port: '443'
+  server: 203.30.191.3
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 286_未知国家-1.27MB
+  network: ws
+  port: '443'
+  server: cfus5.baf1.sbs
+  tls: 1
+  type: vmess
+  uuid: 447ef855-b642-4157-a296-d797ef7508d4
+  ws-headers:
+    host: cfus5.baf1.sbs
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 287_日本-1021.6KB
+  network: tcp
+  port: '10121'
+  server: jp25.baf1.sbs
+  tls: 1
+  type: vmess
+  uuid: 447ef855-b642-4157-a296-d797ef7508d4
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 288_加拿大-1.96MB
+  network: ws
+  port: '443'
+  server: 23.227.38.22
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 289_未知国家-628.6KB
+  network: ws
+  port: '443'
+  server: 141.101.114.111
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 290_未知国家-5.81MB
+  network: ws
+  port: '443'
+  server: 141.101.114.30
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 291_伯利兹-2.88MB
+  network: ws
+  port: '443'
+  server: 203.30.189.190
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 292_伯利兹-3.10MB
+  network: ws
+  port: '443'
+  server: 203.30.191.2
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 293_土耳其-886.8KB
+  network: http
+  port: '8080'
+  server: 80.253.246.179
+  tls: 0
+  type: vmess
+  uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 294_未知国家-5.92MB
+  network: ws
+  port: '443'
+  server: jp22.baf1.sbs
+  tls: 1
+  type: vmess
+  uuid: 447ef855-b642-4157-a296-d797ef7508d4
+  ws-headers:
+    host: jp22.baf1.sbs
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 295_新加坡-4.07MB
+  network: tcp
+  port: '21069'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 296_香港-18.81MB
+  network: ws
+  port: '443'
+  server: hkbn03.tizi1.net
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: hkbn03.tizi1.net
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 297_新加坡-3.39MB
+  network: ws
+  port: '80'
+  server: 15.235.147.186
+  tls: 0
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    host: 15.235.147.186
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- alterId: '0'
+  cipher: auto
+  name: 298_韩国-1.77MB
+  network: ws
+  port: '1235'
+  server: 1271.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 1271.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 299_未知国家-4.81MB
+  network: ws
+  port: '443'
+  server: fbi.gov
+  tls: 1
+  type: vmess
+  uuid: d5a38eaf-b723-45be-b7d2-3c4e45b29400
+  ws-headers:
+    host: hk12.targoocloud.live
+  ws-path: /videos
+- alterId: '0'
+  cipher: auto
+  name: 300_新加坡-3.64MB
+  network: tcp
+  port: '20379'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 301_未知国家-2.07MB
+  network: ws
+  port: '443'
+  server: investors.spotify.com
+  tls: 1
+  type: vmess
+  uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+  ws-headers:
+    host: lv.awsbest.com
+  ws-path: /shared
+- alterId: '0'
+  cipher: auto
+  name: 302_新加坡-4.05MB
+  network: tcp
+  port: '22082'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: iplc-sg.19991314.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 303_未知国家-3.31MB
+  network: ws
+  port: '443'
+  server: 198.41.212.12
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 304_未知国家-4.99MB
+  network: ws
+  port: '443'
+  server: hohm.microsoft.com
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 305_加拿大-4.63MB
+  network: ws
+  port: '443'
+  server: 23.227.38.39
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 306_未知国家-838.3KB
+  network: ws
+  port: '80'
+  server: 198.41.208.200
+  tls: 0
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-headers:
+    host: sg3-v2ray.sshkit.org
+  ws-path: /sshkit/1736960111/63b1af7a5f43f/
+- alterId: '0'
+  cipher: auto
+  name: 307_新加坡-3.23MB
+  network: tcp
+  port: '24625'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: iplc-sg.19991314.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 308_爱尔兰-382.5KB
+  network: ws
+  port: '22222'
+  server: 54.74.245.207
+  tls: 1
+  type: vmess
+  uuid: 9beef8ed-435e-47f1-b04b-172337a8a439
+  ws-headers:
+    host: trj.rollingnext.co.uk
+  ws-path: /bkibvws
+- alterId: '1'
+  cipher: auto
+  name: 309_英国-3.48MB
+  network: ws
+  port: '64443'
+  server: gb-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: gb-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 310_未知国家-1.59MB
+  network: ws
+  port: '443'
+  server: 141.101.115.134
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 311_未知国家-4.24MB
+  network: ws
+  port: '443'
+  server: cf-yd-dns.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: hk-gcore.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 312_未知国家-368.6KB
+  network: ws
+  port: '443'
+  server: 198.41.212.123
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 313_德国-3.22MB
+  network: tcp
+  port: '12429'
+  server: vtors21.net2vip.com
+  tls: 1
+  type: vmess
+  uuid: a48198a2-26f9-42f2-ac2a-6e15022bca70
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '1'
+  cipher: auto
+  name: 314_爱尔兰-2.40MB
+  network: ws
+  port: '64443'
+  server: ie-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: ie-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 315_土耳其-160.6KB
+  network: tcp
+  port: '28734'
+  server: tu-02.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 67234a82-bfbe-48a2-9ddd-ffa0b77c82d7
+  ws-headers:
+    host: niuniucloud.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 316_未知国家-3.23MB
+  network: ws
+  port: '2082'
+  server: 198.41.215.5
+  tls: 0
+  type: vmess
+  uuid: 8acf0ceb-510a-4f05-8175-f77c464d90ae
+  ws-headers:
+    host: kz.cloudflare.quest
+  ws-path: /aries
+- alterId: '0'
+  cipher: auto
+  name: 317_未知国家-598.4KB
+  network: ws
+  port: '443'
+  server: 190.93.246.4
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 318_巴西-1.10MB
+  network: ws
+  port: '7631'
+  server: 1272.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 1272.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 319_荷兰-2.10MB
+  network: ws
+  port: '443'
+  server: 188.114.99.11
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 320_未知国家-673.0KB
+  network: ws
+  port: '80'
+  server: cf.515188.xyz
+  tls: 0
+  type: vmess
+  uuid: 0b5e92df-5a8d-49ba-990d-4ae0c8fcf7cf
+  ws-headers:
+    host: 3woi.weigogogo.tk
+  ws-path: /ray
+- alterId: '0'
+  cipher: auto
+  name: 321_香港-2.23MB
+  network: ws
+  port: '3674'
+  server: 778.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: 666.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 322_未知国家-3.27MB
+  network: ws
+  port: '443'
+  server: 190.93.244.200
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 323_未知国家-3.55MB
+  network: ws
+  port: '443'
+  server: 190.93.245.2
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 324_未知国家-2.36MB
+  network: ws
+  port: '443'
+  server: 190.93.246.195
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 325_伯利兹-3.86MB
+  network: ws
+  port: '443'
+  server: 203.30.188.188
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 326_未知国家-2.66MB
+  network: ws
+  port: '443'
+  server: 190.93.246.3
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 327_加拿大-499.9KB
+  network: ws
+  port: '443'
+  server: 23.227.38.100
+  tls: 1
+  type: vmess
+  uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
+  ws-headers:
+    host: v2ray1.zhujicn2.org
+  ws-path: /UMW36262
+- alterId: '0'
+  cipher: auto
+  name: 328_韩国-17.93MB
+  network: ws
+  port: '15380'
+  server: 1.yueguang.group
+  tls: 1
+  type: vmess
+  uuid: 98ec93c7-fe53-4449-b397-aa1ff99dd33e
+  ws-headers:
+    host: 1.yueguang.group
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 329_伯利兹-6.10MB
+  network: ws
+  port: '443'
+  server: 203.30.191.191
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 330_伯利兹-5.75MB
+  network: ws
+  port: '443'
+  server: 203.30.190.190
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 331_澳大利亚-913.9KB
+  network: ws
+  port: '443'
+  server: vau1.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vau1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 332_韩国-1.95MB
+  network: ws
+  port: '8080'
+  server: kt.6577617.xyz
+  tls: 0
+  type: vmess
+  uuid: 37d20ed3-b4ee-4e45-b4d2-a7b94bef9e20
+  ws-headers:
+    host: kt.6577617.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 333_日本-720.3KB
+  network: tcp
+  port: '14039'
+  server: jp-11.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 410f7238-fddf-4092-9f8b-896bd5c7d5c9
+  ws-headers:
+    host: de-1.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 334_亚美尼亚-1.21MB
+  network: ws
+  port: '443'
+  server: 185.162.228.228
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 335_新加坡-1.94MB
+  network: tcp
+  port: '55051'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: vip.moonnas.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 336_韩国-3.27MB
+  network: ws
+  port: '8880'
+  server: kt3.6577617.xyz
+  tls: 0
+  type: vmess
+  uuid: f003fe1a-b4bd-4d13-b40e-5c735a7ed8f8
+  ws-headers:
+    host: api.cloud.189.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 337_未知国家-161.3KB
+  network: ws
+  port: '443'
+  server: 198.41.203.5
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 338_香港-3.95MB
+  network: ws
+  port: '3674'
+  server: xg1.htvviru.top
+  tls: 0
+  type: vmess
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  ws-headers:
+    host: xg1.htvviru.top
+  ws-path: /cctv13/hd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: 339_日本-450.8KB
+  network: ws
+  port: '80'
+  server: jp80-4.sanfen001.pics
+  tls: 0
+  type: vmess
+  uuid: 7cbe7e92-8647-4560-b658-b61a791ba8c1
+  ws-headers:
+    host: www.baidu.com
+  ws-path: /zh-cn
+- alterId: '0'
+  cipher: auto
+  name: 340_香港-366.2KB
+  network: tcp
+  port: '18001'
+  server: v1-hk.xtspeeder001.xyz
+  tls: 0
+  type: vmess
+  uuid: 26fe3b2c-1005-362b-9700-426961cbd50b
+  ws-headers:
+    host: v1-hk.xtspeeder001.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 341_未知国家-2.83MB
+  network: ws
+  port: '443'
+  server: 162.159.128.7
+  tls: 1
+  type: vmess
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  ws-headers:
+    host: xjp4h.mayaa.ml
+  ws-path: /dsadsa1dsadsa33434
+- alterId: '0'
+  cipher: auto
+  name: 342_未知国家-316.2KB
+  network: ws
+  port: '80'
+  server: 162.159.135.42
+  tls: 0
+  type: vmess
+  uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+  ws-headers:
+    host: la.awsbest.com
+  ws-path: /shares
+- alterId: '0'
+  cipher: auto
+  name: 343_新加坡-1.97MB
+  network: tcp
+  port: '18640'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: 65d4bf7f-1c82-45d9-ac9f-b4f3d5409948
+  ws-headers:
+    host: la.awsbest.com
+  ws-path: /shares
+- alterId: '0'
+  cipher: auto
+  name: 344_未知国家-1.99MB
+  network: ws
+  port: '443'
+  server: 162.159.135.42
+  tls: 1
+  type: vmess
+  uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+  ws-headers:
+    host: xjp4h.mayaa.ml
+  ws-path: /dsadsa1dsadsa33434
+- alterId: '0'
+  cipher: auto
+  name: 345_未知国家-1.59MB
+  network: ws
+  port: '443'
+  server: 198.41.203.6
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 346_台湾-4.35MB
+  network: ws
+  port: '443'
+  server: 104.29.64.6
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 347_台湾-1.08MB
+  network: http
+  port: '20715'
+  server: 45.121.51.103
+  tls: 0
+  type: vmess
+  uuid: f6406b6d-5487-46da-f793-46611269a306
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 348_未知国家-3.28MB
+  network: ws
+  port: '443'
+  server: 141.101.115.100
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 349_塞浦路斯-1.38MB
+  network: ws
+  port: '443'
+  server: 203.24.108.9
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 350_亚美尼亚-1.59MB
+  network: ws
+  port: '443'
+  server: 185.162.228.229
+  tls: 1
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-headers:
+    host: opfr1.v2rayfree1.xyz
+  ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 351_未知国家-1.48MB
+  network: ws
+  port: '443'
+  server: 190.93.245.4
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 352_亚美尼亚-391.4KB
+  network: ws
+  port: '443'
+  server: 185.162.228.110
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 353_台湾-804.0KB
+  network: ws
+  port: '443'
+  server: 104.29.64.36
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 354_伯利兹-1.96MB
+  network: ws
+  port: '443'
+  server: 203.30.191.193
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 355_伯利兹-1.57MB
+  network: ws
+  port: '443'
+  server: 203.30.189.191
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 356_未知国家-724.7KB
+  network: ws
+  port: '443'
+  server: 141.101.114.32
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 357_未知国家-1.08MB
+  network: ws
+  port: '443'
+  server: 141.101.115.32
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 358_加拿大-3.09MB
+  network: ws
+  port: '443'
+  server: 23.227.38.38
+  tls: 1
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-headers:
+    host: lg1.trump2023.us
+  ws-path: /ECTCJ0DF
+- alterId: '0'
+  cipher: auto
+  name: 359_伯利兹-819.1KB
+  network: ws
+  port: '443'
+  server: 203.30.188.190
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 360_加拿大-2.15MB
+  network: ws
+  port: '443'
+  server: 23.227.38.40
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 361_新加坡-2.58MB
+  network: ws
+  port: '80'
+  server: m.ftvpn.net
+  tls: 0
+  type: vmess
+  uuid: 57b474d4-390c-41a3-a413-d6dae5b54397
+  ws-headers:
+    host: m.ftvpn.net
+  ws-path: /vmess
+- alterId: '0'
+  cipher: auto
+  name: 362_加拿大-1.36MB
+  network: ws
+  port: '80'
+  server: SHOPIFY.COM
+  tls: 0
+  type: vmess
+  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
+  ws-headers:
+    host: yl.cachexy.ga
+  ws-path: /TxIq76mA/
+- alterId: '0'
+  cipher: auto
+  name: 363_印度-2.80MB
+  network: ws
+  port: '21194'
+  server: vip.moonnas.cn
+  tls: 1
+  type: vmess
+  uuid: 99bd585f-8360-40b0-d129-3e144b26d999
+  ws-headers:
+    host: vip.moonnas.cn
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 364_未知国家-6.89MB
+  network: ws
+  port: '443'
+  server: 141.101.115.155
+  tls: 1
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-headers:
+    host: clash6.ssr-free.xyz
+  ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 365_德国-3.45MB
+  network: http
+  port: '63456'
+  server: 167.235.28.157
+  tls: 0
+  type: vmess
+  uuid: 31f1f8ea-fd38-4e63-b818-a49d416820bd
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 366_台湾-6.02MB
+  network: ws
+  port: '443'
+  server: 104.29.64.37
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 367_伯利兹-4.22MB
+  network: ws
+  port: '443'
+  server: 203.30.190.192
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 368_未知国家-5.07MB
+  network: ws
+  port: '443'
+  server: 104.16.32.100
+  tls: 1
+  type: vmess
+  uuid: d5a38eaf-b723-45be-b7d2-3c4e45b29400
+  ws-headers:
+    host: hk12.targoocloud.live
+  ws-path: /videos
+- alterId: '0'
+  cipher: auto
+  name: 369_塞浦路斯-2.70MB
+  network: ws
+  port: '443'
+  server: 203.24.108.10
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 370_日本-4.14MB
+  network: ws
+  port: '80'
+  server: jp-04.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  ws-headers:
+    host: jp-04.wxfz.ml
+  ws-path: /jun
+- alterId: '1'
+  cipher: auto
+  name: 371_瑞典-1.56MB
+  network: ws
+  port: '64443'
+  server: se-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: se-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '1'
+  cipher: auto
+  name: 372_加拿大-3.85MB
+  network: ws
+  port: '64443'
+  server: ca-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: ca-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 373_亚美尼亚-4.79MB
+  network: ws
+  port: '443'
+  server: 185.162.228.230
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 374_未知国家-1.17MB
+  network: ws
+  port: '443'
+  server: 141.101.115.111
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 375_伯利兹-5.28MB
+  network: ws
+  port: '443'
+  server: 203.30.191.192
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 376_未知国家-6.31MB
+  network: ws
+  port: '443'
+  server: oplg1.zhujicn2.com
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 377_(已存活1天)未知国家-4.63MB
+  network: ws
+  port: '80'
+  server: www.qatar2022.qa
+  tls: 0
+  type: vmess
+  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
+  ws-headers:
+    host: yl.cachexy.ga
+  ws-path: /TxIq76mA/
+- alterId: '0'
+  cipher: auto
+  name: 378_未知国家-2.58MB
+  network: ws
+  port: '443'
+  server: 190.93.244.4
+  tls: 1
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-headers:
+    host: lg10.cfcdn1.xyz
+  ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 379_未知国家-3.57MB
+  network: ws
+  port: '443'
+  server: mncc.cf
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: mncc.cf
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 380_印度-3.14MB
+  network: ws
+  port: '443'
+  server: vin1.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vin1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 381_日本-5.85MB
+  network: ws
+  port: '443'
+  server: vjp1.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vjp1.0bad.com
+  ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 382_法国-3.83MB
+  network: ws
+  port: '64443'
+  server: fr-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: fr-ls03.nb1.fr
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 383_未知国家-4.67MB
+  network: ws
+  port: '443'
+  server: 141.101.114.110
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 384_伯利兹-6.54MB
+  network: ws
+  port: '443'
+  server: 203.30.188.189
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 385_伯利兹-4.60MB
+  network: ws
+  port: '443'
+  server: 203.30.191.10
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 386_未知国家-5.21MB
+  network: ws
+  port: '443'
+  server: 104.18.3.33
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 387_未知国家-4.23MB
+  network: ws
+  port: '443'
+  server: 198.41.212.122
+  tls: 1
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  ws-headers:
+    host: fr1.trump2023.org
+  ws-path: /9JZFDTKE
+- alterId: '0'
+  cipher: auto
+  name: 388_伯利兹-6.56MB
+  network: ws
+  port: '443'
+  server: 203.30.191.8
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 389_日本-19.28MB
+  network: tcp
+  port: '33421'
+  server: www.kuromi.eu.org
+  tls: 0
+  type: vmess
+  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+  ws-headers:
+    host: trxjp.ballistics.top
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 390_未知国家-1.18MB
+  network: ws
+  port: '443'
+  server: cvywfavasdc.cymlr.xyz
+  tls: 1
+  type: vmess
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  ws-headers:
+    host: cvywfavasdc.cymlr.xyz
+  ws-path: /ksebupo
+- alterId: '0'
+  cipher: auto
+  name: 391_伯利兹-4.93MB
+  network: ws
+  port: '443'
+  server: 203.30.190.191
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 392_韩国-3.51MB
+  network: tcp
+  port: '28911'
+  server: 43.201.9.82
+  tls: 0
+  type: vmess
+  uuid: 0ff592be-108b-4918-c1c2-ca73cf710700
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
+- alterId: '0'
+  cipher: auto
+  name: 393_未知国家-3.92MB
+  network: ws
+  port: '443'
+  server: oplg1.cfcdn2.xyz
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 394_台湾-5.78MB
+  network: ws
+  port: '443'
+  server: 104.29.64.4
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
+- alterId: '0'
+  cipher: auto
+  name: 395_保加利亚-228.8KB
+  network: http
+  port: '11000'
+  server: 195.123.225.170
+  tls: 0
+  type: vmess
+  uuid: b1d602c5-5680-4a51-c066-79798fd7099e
+  ws-headers:
+    host: 195.123.225.170
+  ws-path: /
+proxy-groups:
+- interval: 3600
+  name: 自动选择
+  proxies:
+  - 1_中国-2.89MB
+  - 2_中国-359.2KB
+  - 3_中国-425.7KB
+  - 4_中国-359.5KB
+  - 5_中国-364.6KB
+  - 6_中国-2.63MB
+  - 7_中国-1.72MB
+  - 8_中国-5.30MB
+  - 9_中国-2.11MB
+  - 10_中国-16.32MB
+  - 11_中国-163.9KB
+  - 12_中国-2.12MB
+  - 13_中国-19.38MB
+  - 14_中国-222.3KB
+  - 15_中国-5.62MB
+  - 16_中国-191.8KB
+  - 17_中国-171.9KB
+  - 18_中国-9.99MB
+  - 19_中国-641.2KB
+  - 20_中国-169.2KB
+  - 21_中国-12.70MB
+  - 22_中国-4.61MB
+  - 23_中国-1.68MB
+  - 24_中国-9.50MB
+  - 25_中国-9.79MB
+  - 26_中国-441.9KB
+  - 27_中国-3.92MB
+  - 28_中国-1.46MB
+  - 29_中国-1.70MB
+  - 30_中国-2.17MB
+  - 31_中国-3.98MB
+  - 32_中国-2.32MB
+  - 33_中国-2.52MB
+  - 34_中国-318.2KB
+  - 35_中国-1.26MB
+  - 36_中国-385.0KB
+  - 37_中国-8.76MB
+  - 38_中国-1.31MB
+  - 39_中国-8.15MB
+  - 40_中国-847.6KB
+  - 41_中国-6.78MB
+  - 42_中国-2.38MB
+  - 43_中国-4.19MB
+  - 44_中国-8.78MB
+  - 45_中国-6.31MB
+  - 46_中国-6.41MB
+  - 47_中国-1.53MB
+  - 48_中国-4.25MB
+  - 49_中国-4.54MB
+  - 50_中国-1.38MB
+  - 51_(已存活1天)中国-312.7KB
+  - 52_中国-4.02MB
+  - 53_中国-761.4KB
+  - 54_中国-5.56MB
+  - 55_中国-16.72MB
+  - 56_中国-13.66MB
+  - 57_中国-14.78MB
+  - 58_中国-3.22MB
+  - 59_中国-3.73MB
+  - 60_中国-13.99MB
+  - 61_中国-3.22MB
+  - 62_中国-6.92MB
+  - 63_中国-210.7KB
+  - 64_中国-3.11MB
+  - 65_中国-2.79MB
+  - 66_中国-1.42MB
+  - 67_中国-4.65MB
+  - 68_中国-321.3KB
+  - 69_中国-415.6KB
+  - 70_中国-328.8KB
+  - 71_中国-325.0KB
+  - 72_中国-10.72MB
+  - 73_中国-333.0KB
+  - 74_中国-377.0KB
+  - 75_中国-6.57MB
+  - 76_中国-5.05MB
+  - 77_中国-735.7KB
+  - 78_中国-5.13MB
+  - 79_中国-355.4KB
+  - 80_中国-2.82MB
+  - 81_中国-7.65MB
+  - 82_中国-12.45MB
+  - 83_中国-10.50MB
+  - 84_中国-10.79MB
+  - 85_中国-1.33MB
+  - 86_中国-15.58MB
+  - 87_中国-7.11MB
+  - 88_中国-2.60MB
+  - 89_中国-7.70MB
+  - 90_中国-2.26MB
+  - 91_中国-333.0KB
+  - 92_中国-432.4KB
+  - 93_中国-20.68MB
+  - 94_中国-781.2KB
+  - 95_中国-3.61MB
+  - 96_中国-7.00MB
+  - 97_中国-882.6KB
+  - 98_中国-7.82MB
+  - 99_中国-4.47MB
+  - 100_中国-9.80MB
+  - 101_中国-8.30MB
+  - 102_中国-5.25MB
+  - 103_中国-7.69MB
+  - 104_中国-5.63MB
+  - 105_中国-1.00MB
+  - 106_中国-517.6KB
+  - 107_中国-853.0KB
+  - 108_中国-12.32MB
+  - 109_美国-771.5KB
+  - 110_美国-1.34MB
+  - 111_美国-1.20MB
+  - 112_美国-898.1KB
+  - 113_美国-747.4KB
+  - 114_美国-4.48MB
+  - 115_美国-2.48MB
+  - 116_美国-5.74MB
+  - 117_美国-4.28MB
+  - 118_美国-812.1KB
+  - 119_美国-856.6KB
+  - 120_美国-3.49MB
+  - 121_美国-1.03MB
+  - 122_美国-341.5KB
+  - 123_美国-2.75MB
+  - 124_美国-388.0KB
+  - 125_美国-2.59MB
+  - 126_美国-3.20MB
+  - 127_美国-840.3KB
+  - 128_美国-2.96MB
+  - 129_美国-6.17MB
+  - 130_美国-5.58MB
+  - 131_美国-6.29MB
+  - 132_美国-3.52MB
+  - 133_美国-5.13MB
+  - 134_美国-1.81MB
+  - 135_美国-1.34MB
+  - 136_美国-1.52MB
+  - 137_美国-2.03MB
+  - 138_美国-5.27MB
+  - 139_美国-5.28MB
+  - 140_美国-5.98MB
+  - 141_美国-5.67MB
+  - 142_美国-247.7KB
+  - 143_美国-6.53MB
+  - 144_美国-6.10MB
+  - 145_美国-2.45MB
+  - 146_美国-2.08MB
+  - 147_美国-346.0KB
+  - 148_美国-2.95MB
+  - 149_美国-4.28MB
+  - 150_美国-5.24MB
+  - 151_美国-3.05MB
+  - 152_美国-456.4KB
+  - 153_美国-2.66MB
+  - 154_美国-1.48MB
+  - 155_美国-263.8KB
+  - 156_美国-1.12MB
+  - 157_美国-1.68MB
+  - 158_美国-1.73MB
+  - 159_美国-1.92MB
+  - 160_美国-662.3KB
+  - 161_美国-5.52MB
+  - 162_美国-3.13MB
+  - 163_美国-2.89MB
+  - 164_美国-1.80MB
+  - 165_美国-2.29MB
+  - 166_美国-2.04MB
+  - 167_美国-3.30MB
+  - 168_美国-1.74MB
+  - 169_美国-518.0KB
+  - 170_美国-263.8KB
+  - 171_美国-2.13MB
+  - 172_美国-827.6KB
+  - 173_美国-1.99MB
+  - 174_美国-2.71MB
+  - 175_美国-1.87MB
+  - 176_美国-1.23MB
+  - 177_美国-4.34MB
+  - 178_美国-573.6KB
+  - 179_美国-5.25MB
+  - 180_美国-3.99MB
+  - 181_美国-176.0KB
+  - 182_新加坡-434.8KB
+  - 183_日本-258.3KB
+  - 184_新加坡-329.8KB
+  - 185_日本-702.0KB
+  - 186_新加坡-843.2KB
+  - 187_日本-1.60MB
+  - 188_新加坡-3.36MB
+  - 189_拉脱维亚-1.45MB
+  - 190_未知国家-2.56MB
+  - 191_未知国家-6.16MB
+  - 192_澳大利亚-520.3KB
+  - 193_未知国家-6.15MB
+  - 194_荷兰-5.23MB
+  - 195_未知国家-3.30MB
+  - 196_新加坡-5.40MB
+  - 197_新加坡-2.24MB
+  - 198_未知国家-5.27MB
+  - 199_罗马尼亚-2.99MB
+  - 200_罗马尼亚-1.42MB
+  - 201_越南-1008.6KB
+  - 202_日本-9.59MB
+  - 203_土耳其-228.4KB
+  - 204_日本-312.7KB
+  - 205_未知国家-983.1KB
+  - 206_法国-1.12MB
+  - 207_奥地利-2.01MB
+  - 208_未知国家-2.41MB
+  - 209_未知国家-2.33MB
+  - 210_法国-350.7KB
+  - 211_日本-2.33MB
+  - 212_日本-4.85MB
+  - 213_日本-5.36MB
+  - 214_香港-240.9KB
+  - 215_韩国-575.6KB
+  - 216_瑞典-229.7KB
+  - 217_日本-3.04MB
+  - 218_荷兰-3.92MB
+  - 219_德国-3.30MB
+  - 220_德国-3.21MB
+  - 221_伊朗-1.87MB
+  - 222_新加坡-1.76MB
+  - 223_泰国-316.0KB
+  - 224_日本-5.50MB
+  - 225_日本-5.14MB
+  - 226_伯利兹-5.36MB
+  - 227_新加坡-1.28MB
+  - 228_未知国家-5.21MB
+  - 229_未知国家-4.42MB
+  - 230_未知国家-753.2KB
+  - 231_日本-5.66MB
+  - 232_日本-1.48MB
+  - 233_伯利兹-2.26MB
+  - 234_阿联酋-1.82MB
+  - 235_香港-311.5KB
+  - 236_新加坡-531.0KB
+  - 237_土耳其-1.07MB
+  - 238_拉脱维亚-2.82MB
+  - 239_俄罗斯联邦-2.98MB
+  - 240_新加坡-530.8KB
+  - 241_香港-10.92MB
+  - 242_俄罗斯联邦-819.5KB
+  - 243_加拿大-604.2KB
+  - 244_澳大利亚-2.34MB
+  - 245_俄罗斯联邦-345.5KB
+  - 246_未知国家-3.19MB
+  - 247_未知国家-1.70MB
+  - 248_澳大利亚-1.64MB
+  - 249_未知国家-437.1KB
+  - 250_越南-532.5KB
+  - 251_越南-708.9KB
+  - 252_伊朗-1.04MB
+  - 253_新加坡-201.0KB
+  - 254_香港-502.6KB
+  - 255_日本-878.8KB
+  - 256_日本-1.17MB
+  - 257_新加坡-539.3KB
+  - 258_新加坡-1.75MB
+  - 259_新加坡-1.78MB
+  - 260_未知国家-5.04MB
+  - 261_澳大利亚-553.3KB
+  - 262_伯利兹-6.84MB
+  - 263_印度-3.15MB
+  - 264_法国-3.91MB
+  - 265_德国-1.08MB
+  - 266_塞浦路斯-4.51MB
+  - 267_新加坡-1.93MB
+  - 268_伯利兹-5.28MB
+  - 269_未知国家-5.12MB
+  - 270_澳大利亚-2.31MB
+  - 271_德国-1.71MB
+  - 272_英国-3.56MB
+  - 273_巴拿马-335.4KB
+  - 274_新加坡-2.71MB
+  - 275_英国-2.06MB
+  - 276_伯利兹-2.37MB
+  - 277_日本-1.39MB
+  - 278_荷兰-2.52MB
+  - 279_日本-3.84MB
+  - 280_未知国家-4.14MB
+  - 281_日本-634.9KB
+  - 282_香港-494.9KB
+  - 283_未知国家-2.14MB
+  - 284_加拿大-1.95MB
+  - 285_伯利兹-1.50MB
+  - 286_未知国家-1.27MB
+  - 287_日本-1021.6KB
+  - 288_加拿大-1.96MB
+  - 289_未知国家-628.6KB
+  - 290_未知国家-5.81MB
+  - 291_伯利兹-2.88MB
+  - 292_伯利兹-3.10MB
+  - 293_土耳其-886.8KB
+  - 294_未知国家-5.92MB
+  - 295_新加坡-4.07MB
+  - 296_香港-18.81MB
+  - 297_新加坡-3.39MB
+  - 298_韩国-1.77MB
+  - 299_未知国家-4.81MB
+  - 300_新加坡-3.64MB
+  - 301_未知国家-2.07MB
+  - 302_新加坡-4.05MB
+  - 303_未知国家-3.31MB
+  - 304_未知国家-4.99MB
+  - 305_加拿大-4.63MB
+  - 306_未知国家-838.3KB
+  - 307_新加坡-3.23MB
+  - 308_爱尔兰-382.5KB
+  - 309_英国-3.48MB
+  - 310_未知国家-1.59MB
+  - 311_未知国家-4.24MB
+  - 312_未知国家-368.6KB
+  - 313_德国-3.22MB
+  - 314_爱尔兰-2.40MB
+  - 315_土耳其-160.6KB
+  - 316_未知国家-3.23MB
+  - 317_未知国家-598.4KB
+  - 318_巴西-1.10MB
+  - 319_荷兰-2.10MB
+  - 320_未知国家-673.0KB
+  - 321_香港-2.23MB
+  - 322_未知国家-3.27MB
+  - 323_未知国家-3.55MB
+  - 324_未知国家-2.36MB
+  - 325_伯利兹-3.86MB
+  - 326_未知国家-2.66MB
+  - 327_加拿大-499.9KB
+  - 328_韩国-17.93MB
+  - 329_伯利兹-6.10MB
+  - 330_伯利兹-5.75MB
+  - 331_澳大利亚-913.9KB
+  - 332_韩国-1.95MB
+  - 333_日本-720.3KB
+  - 334_亚美尼亚-1.21MB
+  - 335_新加坡-1.94MB
+  - 336_韩国-3.27MB
+  - 337_未知国家-161.3KB
+  - 338_香港-3.95MB
+  - 339_日本-450.8KB
+  - 340_香港-366.2KB
+  - 341_未知国家-2.83MB
+  - 342_未知国家-316.2KB
+  - 343_新加坡-1.97MB
+  - 344_未知国家-1.99MB
+  - 345_未知国家-1.59MB
+  - 346_台湾-4.35MB
+  - 347_台湾-1.08MB
+  - 348_未知国家-3.28MB
+  - 349_塞浦路斯-1.38MB
+  - 350_亚美尼亚-1.59MB
+  - 351_未知国家-1.48MB
+  - 352_亚美尼亚-391.4KB
+  - 353_台湾-804.0KB
+  - 354_伯利兹-1.96MB
+  - 355_伯利兹-1.57MB
+  - 356_未知国家-724.7KB
+  - 357_未知国家-1.08MB
+  - 358_加拿大-3.09MB
+  - 359_伯利兹-819.1KB
+  - 360_加拿大-2.15MB
+  - 361_新加坡-2.58MB
+  - 362_加拿大-1.36MB
+  - 363_印度-2.80MB
+  - 364_未知国家-6.89MB
+  - 365_德国-3.45MB
+  - 366_台湾-6.02MB
+  - 367_伯利兹-4.22MB
+  - 368_未知国家-5.07MB
+  - 369_塞浦路斯-2.70MB
+  - 370_日本-4.14MB
+  - 371_瑞典-1.56MB
+  - 372_加拿大-3.85MB
+  - 373_亚美尼亚-4.79MB
+  - 374_未知国家-1.17MB
+  - 375_伯利兹-5.28MB
+  - 376_未知国家-6.31MB
+  - 377_(已存活1天)未知国家-4.63MB
+  - 378_未知国家-2.58MB
+  - 379_未知国家-3.57MB
+  - 380_印度-3.14MB
+  - 381_日本-5.85MB
+  - 382_法国-3.83MB
+  - 383_未知国家-4.67MB
+  - 384_伯利兹-6.54MB
+  - 385_伯利兹-4.60MB
+  - 386_未知国家-5.21MB
+  - 387_未知国家-4.23MB
+  - 388_伯利兹-6.56MB
+  - 389_日本-19.28MB
+  - 390_未知国家-1.18MB
+  - 391_伯利兹-4.93MB
+  - 392_韩国-3.51MB
+  - 393_未知国家-3.92MB
+  - 394_台湾-5.78MB
+  - 395_保加利亚-228.8KB
+  type: url-test
+  url: https://www.google.com/
+- name: PROXY
+  proxies:
+  - 自动选择
+  - 1_中国-2.89MB
+  - 2_中国-359.2KB
+  - 3_中国-425.7KB
+  - 4_中国-359.5KB
+  - 5_中国-364.6KB
+  - 6_中国-2.63MB
+  - 7_中国-1.72MB
+  - 8_中国-5.30MB
+  - 9_中国-2.11MB
+  - 10_中国-16.32MB
+  - 11_中国-163.9KB
+  - 12_中国-2.12MB
+  - 13_中国-19.38MB
+  - 14_中国-222.3KB
+  - 15_中国-5.62MB
+  - 16_中国-191.8KB
+  - 17_中国-171.9KB
+  - 18_中国-9.99MB
+  - 19_中国-641.2KB
+  - 20_中国-169.2KB
+  - 21_中国-12.70MB
+  - 22_中国-4.61MB
+  - 23_中国-1.68MB
+  - 24_中国-9.50MB
+  - 25_中国-9.79MB
+  - 26_中国-441.9KB
+  - 27_中国-3.92MB
+  - 28_中国-1.46MB
+  - 29_中国-1.70MB
+  - 30_中国-2.17MB
+  - 31_中国-3.98MB
+  - 32_中国-2.32MB
+  - 33_中国-2.52MB
+  - 34_中国-318.2KB
+  - 35_中国-1.26MB
+  - 36_中国-385.0KB
+  - 37_中国-8.76MB
+  - 38_中国-1.31MB
+  - 39_中国-8.15MB
+  - 40_中国-847.6KB
+  - 41_中国-6.78MB
+  - 42_中国-2.38MB
+  - 43_中国-4.19MB
+  - 44_中国-8.78MB
+  - 45_中国-6.31MB
+  - 46_中国-6.41MB
+  - 47_中国-1.53MB
+  - 48_中国-4.25MB
+  - 49_中国-4.54MB
+  - 50_中国-1.38MB
+  - 51_(已存活1天)中国-312.7KB
+  - 52_中国-4.02MB
+  - 53_中国-761.4KB
+  - 54_中国-5.56MB
+  - 55_中国-16.72MB
+  - 56_中国-13.66MB
+  - 57_中国-14.78MB
+  - 58_中国-3.22MB
+  - 59_中国-3.73MB
+  - 60_中国-13.99MB
+  - 61_中国-3.22MB
+  - 62_中国-6.92MB
+  - 63_中国-210.7KB
+  - 64_中国-3.11MB
+  - 65_中国-2.79MB
+  - 66_中国-1.42MB
+  - 67_中国-4.65MB
+  - 68_中国-321.3KB
+  - 69_中国-415.6KB
+  - 70_中国-328.8KB
+  - 71_中国-325.0KB
+  - 72_中国-10.72MB
+  - 73_中国-333.0KB
+  - 74_中国-377.0KB
+  - 75_中国-6.57MB
+  - 76_中国-5.05MB
+  - 77_中国-735.7KB
+  - 78_中国-5.13MB
+  - 79_中国-355.4KB
+  - 80_中国-2.82MB
+  - 81_中国-7.65MB
+  - 82_中国-12.45MB
+  - 83_中国-10.50MB
+  - 84_中国-10.79MB
+  - 85_中国-1.33MB
+  - 86_中国-15.58MB
+  - 87_中国-7.11MB
+  - 88_中国-2.60MB
+  - 89_中国-7.70MB
+  - 90_中国-2.26MB
+  - 91_中国-333.0KB
+  - 92_中国-432.4KB
+  - 93_中国-20.68MB
+  - 94_中国-781.2KB
+  - 95_中国-3.61MB
+  - 96_中国-7.00MB
+  - 97_中国-882.6KB
+  - 98_中国-7.82MB
+  - 99_中国-4.47MB
+  - 100_中国-9.80MB
+  - 101_中国-8.30MB
+  - 102_中国-5.25MB
+  - 103_中国-7.69MB
+  - 104_中国-5.63MB
+  - 105_中国-1.00MB
+  - 106_中国-517.6KB
+  - 107_中国-853.0KB
+  - 108_中国-12.32MB
+  - 109_美国-771.5KB
+  - 110_美国-1.34MB
+  - 111_美国-1.20MB
+  - 112_美国-898.1KB
+  - 113_美国-747.4KB
+  - 114_美国-4.48MB
+  - 115_美国-2.48MB
+  - 116_美国-5.74MB
+  - 117_美国-4.28MB
+  - 118_美国-812.1KB
+  - 119_美国-856.6KB
+  - 120_美国-3.49MB
+  - 121_美国-1.03MB
+  - 122_美国-341.5KB
+  - 123_美国-2.75MB
+  - 124_美国-388.0KB
+  - 125_美国-2.59MB
+  - 126_美国-3.20MB
+  - 127_美国-840.3KB
+  - 128_美国-2.96MB
+  - 129_美国-6.17MB
+  - 130_美国-5.58MB
+  - 131_美国-6.29MB
+  - 132_美国-3.52MB
+  - 133_美国-5.13MB
+  - 134_美国-1.81MB
+  - 135_美国-1.34MB
+  - 136_美国-1.52MB
+  - 137_美国-2.03MB
+  - 138_美国-5.27MB
+  - 139_美国-5.28MB
+  - 140_美国-5.98MB
+  - 141_美国-5.67MB
+  - 142_美国-247.7KB
+  - 143_美国-6.53MB
+  - 144_美国-6.10MB
+  - 145_美国-2.45MB
+  - 146_美国-2.08MB
+  - 147_美国-346.0KB
+  - 148_美国-2.95MB
+  - 149_美国-4.28MB
+  - 150_美国-5.24MB
+  - 151_美国-3.05MB
+  - 152_美国-456.4KB
+  - 153_美国-2.66MB
+  - 154_美国-1.48MB
+  - 155_美国-263.8KB
+  - 156_美国-1.12MB
+  - 157_美国-1.68MB
+  - 158_美国-1.73MB
+  - 159_美国-1.92MB
+  - 160_美国-662.3KB
+  - 161_美国-5.52MB
+  - 162_美国-3.13MB
+  - 163_美国-2.89MB
+  - 164_美国-1.80MB
+  - 165_美国-2.29MB
+  - 166_美国-2.04MB
+  - 167_美国-3.30MB
+  - 168_美国-1.74MB
+  - 169_美国-518.0KB
+  - 170_美国-263.8KB
+  - 171_美国-2.13MB
+  - 172_美国-827.6KB
+  - 173_美国-1.99MB
+  - 174_美国-2.71MB
+  - 175_美国-1.87MB
+  - 176_美国-1.23MB
+  - 177_美国-4.34MB
+  - 178_美国-573.6KB
+  - 179_美国-5.25MB
+  - 180_美国-3.99MB
+  - 181_美国-176.0KB
+  - 182_新加坡-434.8KB
+  - 183_日本-258.3KB
+  - 184_新加坡-329.8KB
+  - 185_日本-702.0KB
+  - 186_新加坡-843.2KB
+  - 187_日本-1.60MB
+  - 188_新加坡-3.36MB
+  - 189_拉脱维亚-1.45MB
+  - 190_未知国家-2.56MB
+  - 191_未知国家-6.16MB
+  - 192_澳大利亚-520.3KB
+  - 193_未知国家-6.15MB
+  - 194_荷兰-5.23MB
+  - 195_未知国家-3.30MB
+  - 196_新加坡-5.40MB
+  - 197_新加坡-2.24MB
+  - 198_未知国家-5.27MB
+  - 199_罗马尼亚-2.99MB
+  - 200_罗马尼亚-1.42MB
+  - 201_越南-1008.6KB
+  - 202_日本-9.59MB
+  - 203_土耳其-228.4KB
+  - 204_日本-312.7KB
+  - 205_未知国家-983.1KB
+  - 206_法国-1.12MB
+  - 207_奥地利-2.01MB
+  - 208_未知国家-2.41MB
+  - 209_未知国家-2.33MB
+  - 210_法国-350.7KB
+  - 211_日本-2.33MB
+  - 212_日本-4.85MB
+  - 213_日本-5.36MB
+  - 214_香港-240.9KB
+  - 215_韩国-575.6KB
+  - 216_瑞典-229.7KB
+  - 217_日本-3.04MB
+  - 218_荷兰-3.92MB
+  - 219_德国-3.30MB
+  - 220_德国-3.21MB
+  - 221_伊朗-1.87MB
+  - 222_新加坡-1.76MB
+  - 223_泰国-316.0KB
+  - 224_日本-5.50MB
+  - 225_日本-5.14MB
+  - 226_伯利兹-5.36MB
+  - 227_新加坡-1.28MB
+  - 228_未知国家-5.21MB
+  - 229_未知国家-4.42MB
+  - 230_未知国家-753.2KB
+  - 231_日本-5.66MB
+  - 232_日本-1.48MB
+  - 233_伯利兹-2.26MB
+  - 234_阿联酋-1.82MB
+  - 235_香港-311.5KB
+  - 236_新加坡-531.0KB
+  - 237_土耳其-1.07MB
+  - 238_拉脱维亚-2.82MB
+  - 239_俄罗斯联邦-2.98MB
+  - 240_新加坡-530.8KB
+  - 241_香港-10.92MB
+  - 242_俄罗斯联邦-819.5KB
+  - 243_加拿大-604.2KB
+  - 244_澳大利亚-2.34MB
+  - 245_俄罗斯联邦-345.5KB
+  - 246_未知国家-3.19MB
+  - 247_未知国家-1.70MB
+  - 248_澳大利亚-1.64MB
+  - 249_未知国家-437.1KB
+  - 250_越南-532.5KB
+  - 251_越南-708.9KB
+  - 252_伊朗-1.04MB
+  - 253_新加坡-201.0KB
+  - 254_香港-502.6KB
+  - 255_日本-878.8KB
+  - 256_日本-1.17MB
+  - 257_新加坡-539.3KB
+  - 258_新加坡-1.75MB
+  - 259_新加坡-1.78MB
+  - 260_未知国家-5.04MB
+  - 261_澳大利亚-553.3KB
+  - 262_伯利兹-6.84MB
+  - 263_印度-3.15MB
+  - 264_法国-3.91MB
+  - 265_德国-1.08MB
+  - 266_塞浦路斯-4.51MB
+  - 267_新加坡-1.93MB
+  - 268_伯利兹-5.28MB
+  - 269_未知国家-5.12MB
+  - 270_澳大利亚-2.31MB
+  - 271_德国-1.71MB
+  - 272_英国-3.56MB
+  - 273_巴拿马-335.4KB
+  - 274_新加坡-2.71MB
+  - 275_英国-2.06MB
+  - 276_伯利兹-2.37MB
+  - 277_日本-1.39MB
+  - 278_荷兰-2.52MB
+  - 279_日本-3.84MB
+  - 280_未知国家-4.14MB
+  - 281_日本-634.9KB
+  - 282_香港-494.9KB
+  - 283_未知国家-2.14MB
+  - 284_加拿大-1.95MB
+  - 285_伯利兹-1.50MB
+  - 286_未知国家-1.27MB
+  - 287_日本-1021.6KB
+  - 288_加拿大-1.96MB
+  - 289_未知国家-628.6KB
+  - 290_未知国家-5.81MB
+  - 291_伯利兹-2.88MB
+  - 292_伯利兹-3.10MB
+  - 293_土耳其-886.8KB
+  - 294_未知国家-5.92MB
+  - 295_新加坡-4.07MB
+  - 296_香港-18.81MB
+  - 297_新加坡-3.39MB
+  - 298_韩国-1.77MB
+  - 299_未知国家-4.81MB
+  - 300_新加坡-3.64MB
+  - 301_未知国家-2.07MB
+  - 302_新加坡-4.05MB
+  - 303_未知国家-3.31MB
+  - 304_未知国家-4.99MB
+  - 305_加拿大-4.63MB
+  - 306_未知国家-838.3KB
+  - 307_新加坡-3.23MB
+  - 308_爱尔兰-382.5KB
+  - 309_英国-3.48MB
+  - 310_未知国家-1.59MB
+  - 311_未知国家-4.24MB
+  - 312_未知国家-368.6KB
+  - 313_德国-3.22MB
+  - 314_爱尔兰-2.40MB
+  - 315_土耳其-160.6KB
+  - 316_未知国家-3.23MB
+  - 317_未知国家-598.4KB
+  - 318_巴西-1.10MB
+  - 319_荷兰-2.10MB
+  - 320_未知国家-673.0KB
+  - 321_香港-2.23MB
+  - 322_未知国家-3.27MB
+  - 323_未知国家-3.55MB
+  - 324_未知国家-2.36MB
+  - 325_伯利兹-3.86MB
+  - 326_未知国家-2.66MB
+  - 327_加拿大-499.9KB
+  - 328_韩国-17.93MB
+  - 329_伯利兹-6.10MB
+  - 330_伯利兹-5.75MB
+  - 331_澳大利亚-913.9KB
+  - 332_韩国-1.95MB
+  - 333_日本-720.3KB
+  - 334_亚美尼亚-1.21MB
+  - 335_新加坡-1.94MB
+  - 336_韩国-3.27MB
+  - 337_未知国家-161.3KB
+  - 338_香港-3.95MB
+  - 339_日本-450.8KB
+  - 340_香港-366.2KB
+  - 341_未知国家-2.83MB
+  - 342_未知国家-316.2KB
+  - 343_新加坡-1.97MB
+  - 344_未知国家-1.99MB
+  - 345_未知国家-1.59MB
+  - 346_台湾-4.35MB
+  - 347_台湾-1.08MB
+  - 348_未知国家-3.28MB
+  - 349_塞浦路斯-1.38MB
+  - 350_亚美尼亚-1.59MB
+  - 351_未知国家-1.48MB
+  - 352_亚美尼亚-391.4KB
+  - 353_台湾-804.0KB
+  - 354_伯利兹-1.96MB
+  - 355_伯利兹-1.57MB
+  - 356_未知国家-724.7KB
+  - 357_未知国家-1.08MB
+  - 358_加拿大-3.09MB
+  - 359_伯利兹-819.1KB
+  - 360_加拿大-2.15MB
+  - 361_新加坡-2.58MB
+  - 362_加拿大-1.36MB
+  - 363_印度-2.80MB
+  - 364_未知国家-6.89MB
+  - 365_德国-3.45MB
+  - 366_台湾-6.02MB
+  - 367_伯利兹-4.22MB
+  - 368_未知国家-5.07MB
+  - 369_塞浦路斯-2.70MB
+  - 370_日本-4.14MB
+  - 371_瑞典-1.56MB
+  - 372_加拿大-3.85MB
+  - 373_亚美尼亚-4.79MB
+  - 374_未知国家-1.17MB
+  - 375_伯利兹-5.28MB
+  - 376_未知国家-6.31MB
+  - 377_(已存活1天)未知国家-4.63MB
+  - 378_未知国家-2.58MB
+  - 379_未知国家-3.57MB
+  - 380_印度-3.14MB
+  - 381_日本-5.85MB
+  - 382_法国-3.83MB
+  - 383_未知国家-4.67MB
+  - 384_伯利兹-6.54MB
+  - 385_伯利兹-4.60MB
+  - 386_未知国家-5.21MB
+  - 387_未知国家-4.23MB
+  - 388_伯利兹-6.56MB
+  - 389_日本-19.28MB
+  - 390_未知国家-1.18MB
+  - 391_伯利兹-4.93MB
+  - 392_韩国-3.51MB
+  - 393_未知国家-3.92MB
+  - 394_台湾-5.78MB
+  - 395_保加利亚-228.8KB
+  type: select
+- name: Final
+  proxies:
+  - DIRECT
+  - PROXY
+  type: select
+- name: Apple
+  proxies:
+  - DIRECT
+  - PROXY
+  type: select
+- name: GlobalMedia
+  proxies:
+  - PROXY
+  - 1_中国-2.89MB
+  - 2_中国-359.2KB
+  - 3_中国-425.7KB
+  - 4_中国-359.5KB
+  - 5_中国-364.6KB
+  - 6_中国-2.63MB
+  - 7_中国-1.72MB
+  - 8_中国-5.30MB
+  - 9_中国-2.11MB
+  - 10_中国-16.32MB
+  - 11_中国-163.9KB
+  - 12_中国-2.12MB
+  - 13_中国-19.38MB
+  - 14_中国-222.3KB
+  - 15_中国-5.62MB
+  - 16_中国-191.8KB
+  - 17_中国-171.9KB
+  - 18_中国-9.99MB
+  - 19_中国-641.2KB
+  - 20_中国-169.2KB
+  - 21_中国-12.70MB
+  - 22_中国-4.61MB
+  - 23_中国-1.68MB
+  - 24_中国-9.50MB
+  - 25_中国-9.79MB
+  - 26_中国-441.9KB
+  - 27_中国-3.92MB
+  - 28_中国-1.46MB
+  - 29_中国-1.70MB
+  - 30_中国-2.17MB
+  - 31_中国-3.98MB
+  - 32_中国-2.32MB
+  - 33_中国-2.52MB
+  - 34_中国-318.2KB
+  - 35_中国-1.26MB
+  - 36_中国-385.0KB
+  - 37_中国-8.76MB
+  - 38_中国-1.31MB
+  - 39_中国-8.15MB
+  - 40_中国-847.6KB
+  - 41_中国-6.78MB
+  - 42_中国-2.38MB
+  - 43_中国-4.19MB
+  - 44_中国-8.78MB
+  - 45_中国-6.31MB
+  - 46_中国-6.41MB
+  - 47_中国-1.53MB
+  - 48_中国-4.25MB
+  - 49_中国-4.54MB
+  - 50_中国-1.38MB
+  - 51_(已存活1天)中国-312.7KB
+  - 52_中国-4.02MB
+  - 53_中国-761.4KB
+  - 54_中国-5.56MB
+  - 55_中国-16.72MB
+  - 56_中国-13.66MB
+  - 57_中国-14.78MB
+  - 58_中国-3.22MB
+  - 59_中国-3.73MB
+  - 60_中国-13.99MB
+  - 61_中国-3.22MB
+  - 62_中国-6.92MB
+  - 63_中国-210.7KB
+  - 64_中国-3.11MB
+  - 65_中国-2.79MB
+  - 66_中国-1.42MB
+  - 67_中国-4.65MB
+  - 68_中国-321.3KB
+  - 69_中国-415.6KB
+  - 70_中国-328.8KB
+  - 71_中国-325.0KB
+  - 72_中国-10.72MB
+  - 73_中国-333.0KB
+  - 74_中国-377.0KB
+  - 75_中国-6.57MB
+  - 76_中国-5.05MB
+  - 77_中国-735.7KB
+  - 78_中国-5.13MB
+  - 79_中国-355.4KB
+  - 80_中国-2.82MB
+  - 81_中国-7.65MB
+  - 82_中国-12.45MB
+  - 83_中国-10.50MB
+  - 84_中国-10.79MB
+  - 85_中国-1.33MB
+  - 86_中国-15.58MB
+  - 87_中国-7.11MB
+  - 88_中国-2.60MB
+  - 89_中国-7.70MB
+  - 90_中国-2.26MB
+  - 91_中国-333.0KB
+  - 92_中国-432.4KB
+  - 93_中国-20.68MB
+  - 94_中国-781.2KB
+  - 95_中国-3.61MB
+  - 96_中国-7.00MB
+  - 97_中国-882.6KB
+  - 98_中国-7.82MB
+  - 99_中国-4.47MB
+  - 100_中国-9.80MB
+  - 101_中国-8.30MB
+  - 102_中国-5.25MB
+  - 103_中国-7.69MB
+  - 104_中国-5.63MB
+  - 105_中国-1.00MB
+  - 106_中国-517.6KB
+  - 107_中国-853.0KB
+  - 108_中国-12.32MB
+  - 109_美国-771.5KB
+  - 110_美国-1.34MB
+  - 111_美国-1.20MB
+  - 112_美国-898.1KB
+  - 113_美国-747.4KB
+  - 114_美国-4.48MB
+  - 115_美国-2.48MB
+  - 116_美国-5.74MB
+  - 117_美国-4.28MB
+  - 118_美国-812.1KB
+  - 119_美国-856.6KB
+  - 120_美国-3.49MB
+  - 121_美国-1.03MB
+  - 122_美国-341.5KB
+  - 123_美国-2.75MB
+  - 124_美国-388.0KB
+  - 125_美国-2.59MB
+  - 126_美国-3.20MB
+  - 127_美国-840.3KB
+  - 128_美国-2.96MB
+  - 129_美国-6.17MB
+  - 130_美国-5.58MB
+  - 131_美国-6.29MB
+  - 132_美国-3.52MB
+  - 133_美国-5.13MB
+  - 134_美国-1.81MB
+  - 135_美国-1.34MB
+  - 136_美国-1.52MB
+  - 137_美国-2.03MB
+  - 138_美国-5.27MB
+  - 139_美国-5.28MB
+  - 140_美国-5.98MB
+  - 141_美国-5.67MB
+  - 142_美国-247.7KB
+  - 143_美国-6.53MB
+  - 144_美国-6.10MB
+  - 145_美国-2.45MB
+  - 146_美国-2.08MB
+  - 147_美国-346.0KB
+  - 148_美国-2.95MB
+  - 149_美国-4.28MB
+  - 150_美国-5.24MB
+  - 151_美国-3.05MB
+  - 152_美国-456.4KB
+  - 153_美国-2.66MB
+  - 154_美国-1.48MB
+  - 155_美国-263.8KB
+  - 156_美国-1.12MB
+  - 157_美国-1.68MB
+  - 158_美国-1.73MB
+  - 159_美国-1.92MB
+  - 160_美国-662.3KB
+  - 161_美国-5.52MB
+  - 162_美国-3.13MB
+  - 163_美国-2.89MB
+  - 164_美国-1.80MB
+  - 165_美国-2.29MB
+  - 166_美国-2.04MB
+  - 167_美国-3.30MB
+  - 168_美国-1.74MB
+  - 169_美国-518.0KB
+  - 170_美国-263.8KB
+  - 171_美国-2.13MB
+  - 172_美国-827.6KB
+  - 173_美国-1.99MB
+  - 174_美国-2.71MB
+  - 175_美国-1.87MB
+  - 176_美国-1.23MB
+  - 177_美国-4.34MB
+  - 178_美国-573.6KB
+  - 179_美国-5.25MB
+  - 180_美国-3.99MB
+  - 181_美国-176.0KB
+  - 182_新加坡-434.8KB
+  - 183_日本-258.3KB
+  - 184_新加坡-329.8KB
+  - 185_日本-702.0KB
+  - 186_新加坡-843.2KB
+  - 187_日本-1.60MB
+  - 188_新加坡-3.36MB
+  - 189_拉脱维亚-1.45MB
+  - 190_未知国家-2.56MB
+  - 191_未知国家-6.16MB
+  - 192_澳大利亚-520.3KB
+  - 193_未知国家-6.15MB
+  - 194_荷兰-5.23MB
+  - 195_未知国家-3.30MB
+  - 196_新加坡-5.40MB
+  - 197_新加坡-2.24MB
+  - 198_未知国家-5.27MB
+  - 199_罗马尼亚-2.99MB
+  - 200_罗马尼亚-1.42MB
+  - 201_越南-1008.6KB
+  - 202_日本-9.59MB
+  - 203_土耳其-228.4KB
+  - 204_日本-312.7KB
+  - 205_未知国家-983.1KB
+  - 206_法国-1.12MB
+  - 207_奥地利-2.01MB
+  - 208_未知国家-2.41MB
+  - 209_未知国家-2.33MB
+  - 210_法国-350.7KB
+  - 211_日本-2.33MB
+  - 212_日本-4.85MB
+  - 213_日本-5.36MB
+  - 214_香港-240.9KB
+  - 215_韩国-575.6KB
+  - 216_瑞典-229.7KB
+  - 217_日本-3.04MB
+  - 218_荷兰-3.92MB
+  - 219_德国-3.30MB
+  - 220_德国-3.21MB
+  - 221_伊朗-1.87MB
+  - 222_新加坡-1.76MB
+  - 223_泰国-316.0KB
+  - 224_日本-5.50MB
+  - 225_日本-5.14MB
+  - 226_伯利兹-5.36MB
+  - 227_新加坡-1.28MB
+  - 228_未知国家-5.21MB
+  - 229_未知国家-4.42MB
+  - 230_未知国家-753.2KB
+  - 231_日本-5.66MB
+  - 232_日本-1.48MB
+  - 233_伯利兹-2.26MB
+  - 234_阿联酋-1.82MB
+  - 235_香港-311.5KB
+  - 236_新加坡-531.0KB
+  - 237_土耳其-1.07MB
+  - 238_拉脱维亚-2.82MB
+  - 239_俄罗斯联邦-2.98MB
+  - 240_新加坡-530.8KB
+  - 241_香港-10.92MB
+  - 242_俄罗斯联邦-819.5KB
+  - 243_加拿大-604.2KB
+  - 244_澳大利亚-2.34MB
+  - 245_俄罗斯联邦-345.5KB
+  - 246_未知国家-3.19MB
+  - 247_未知国家-1.70MB
+  - 248_澳大利亚-1.64MB
+  - 249_未知国家-437.1KB
+  - 250_越南-532.5KB
+  - 251_越南-708.9KB
+  - 252_伊朗-1.04MB
+  - 253_新加坡-201.0KB
+  - 254_香港-502.6KB
+  - 255_日本-878.8KB
+  - 256_日本-1.17MB
+  - 257_新加坡-539.3KB
+  - 258_新加坡-1.75MB
+  - 259_新加坡-1.78MB
+  - 260_未知国家-5.04MB
+  - 261_澳大利亚-553.3KB
+  - 262_伯利兹-6.84MB
+  - 263_印度-3.15MB
+  - 264_法国-3.91MB
+  - 265_德国-1.08MB
+  - 266_塞浦路斯-4.51MB
+  - 267_新加坡-1.93MB
+  - 268_伯利兹-5.28MB
+  - 269_未知国家-5.12MB
+  - 270_澳大利亚-2.31MB
+  - 271_德国-1.71MB
+  - 272_英国-3.56MB
+  - 273_巴拿马-335.4KB
+  - 274_新加坡-2.71MB
+  - 275_英国-2.06MB
+  - 276_伯利兹-2.37MB
+  - 277_日本-1.39MB
+  - 278_荷兰-2.52MB
+  - 279_日本-3.84MB
+  - 280_未知国家-4.14MB
+  - 281_日本-634.9KB
+  - 282_香港-494.9KB
+  - 283_未知国家-2.14MB
+  - 284_加拿大-1.95MB
+  - 285_伯利兹-1.50MB
+  - 286_未知国家-1.27MB
+  - 287_日本-1021.6KB
+  - 288_加拿大-1.96MB
+  - 289_未知国家-628.6KB
+  - 290_未知国家-5.81MB
+  - 291_伯利兹-2.88MB
+  - 292_伯利兹-3.10MB
+  - 293_土耳其-886.8KB
+  - 294_未知国家-5.92MB
+  - 295_新加坡-4.07MB
+  - 296_香港-18.81MB
+  - 297_新加坡-3.39MB
+  - 298_韩国-1.77MB
+  - 299_未知国家-4.81MB
+  - 300_新加坡-3.64MB
+  - 301_未知国家-2.07MB
+  - 302_新加坡-4.05MB
+  - 303_未知国家-3.31MB
+  - 304_未知国家-4.99MB
+  - 305_加拿大-4.63MB
+  - 306_未知国家-838.3KB
+  - 307_新加坡-3.23MB
+  - 308_爱尔兰-382.5KB
+  - 309_英国-3.48MB
+  - 310_未知国家-1.59MB
+  - 311_未知国家-4.24MB
+  - 312_未知国家-368.6KB
+  - 313_德国-3.22MB
+  - 314_爱尔兰-2.40MB
+  - 315_土耳其-160.6KB
+  - 316_未知国家-3.23MB
+  - 317_未知国家-598.4KB
+  - 318_巴西-1.10MB
+  - 319_荷兰-2.10MB
+  - 320_未知国家-673.0KB
+  - 321_香港-2.23MB
+  - 322_未知国家-3.27MB
+  - 323_未知国家-3.55MB
+  - 324_未知国家-2.36MB
+  - 325_伯利兹-3.86MB
+  - 326_未知国家-2.66MB
+  - 327_加拿大-499.9KB
+  - 328_韩国-17.93MB
+  - 329_伯利兹-6.10MB
+  - 330_伯利兹-5.75MB
+  - 331_澳大利亚-913.9KB
+  - 332_韩国-1.95MB
+  - 333_日本-720.3KB
+  - 334_亚美尼亚-1.21MB
+  - 335_新加坡-1.94MB
+  - 336_韩国-3.27MB
+  - 337_未知国家-161.3KB
+  - 338_香港-3.95MB
+  - 339_日本-450.8KB
+  - 340_香港-366.2KB
+  - 341_未知国家-2.83MB
+  - 342_未知国家-316.2KB
+  - 343_新加坡-1.97MB
+  - 344_未知国家-1.99MB
+  - 345_未知国家-1.59MB
+  - 346_台湾-4.35MB
+  - 347_台湾-1.08MB
+  - 348_未知国家-3.28MB
+  - 349_塞浦路斯-1.38MB
+  - 350_亚美尼亚-1.59MB
+  - 351_未知国家-1.48MB
+  - 352_亚美尼亚-391.4KB
+  - 353_台湾-804.0KB
+  - 354_伯利兹-1.96MB
+  - 355_伯利兹-1.57MB
+  - 356_未知国家-724.7KB
+  - 357_未知国家-1.08MB
+  - 358_加拿大-3.09MB
+  - 359_伯利兹-819.1KB
+  - 360_加拿大-2.15MB
+  - 361_新加坡-2.58MB
+  - 362_加拿大-1.36MB
+  - 363_印度-2.80MB
+  - 364_未知国家-6.89MB
+  - 365_德国-3.45MB
+  - 366_台湾-6.02MB
+  - 367_伯利兹-4.22MB
+  - 368_未知国家-5.07MB
+  - 369_塞浦路斯-2.70MB
+  - 370_日本-4.14MB
+  - 371_瑞典-1.56MB
+  - 372_加拿大-3.85MB
+  - 373_亚美尼亚-4.79MB
+  - 374_未知国家-1.17MB
+  - 375_伯利兹-5.28MB
+  - 376_未知国家-6.31MB
+  - 377_(已存活1天)未知国家-4.63MB
+  - 378_未知国家-2.58MB
+  - 379_未知国家-3.57MB
+  - 380_印度-3.14MB
+  - 381_日本-5.85MB
+  - 382_法国-3.83MB
+  - 383_未知国家-4.67MB
+  - 384_伯利兹-6.54MB
+  - 385_伯利兹-4.60MB
+  - 386_未知国家-5.21MB
+  - 387_未知国家-4.23MB
+  - 388_伯利兹-6.56MB
+  - 389_日本-19.28MB
+  - 390_未知国家-1.18MB
+  - 391_伯利兹-4.93MB
+  - 392_韩国-3.51MB
+  - 393_未知国家-3.92MB
+  - 394_台湾-5.78MB
+  - 395_保加利亚-228.8KB
+  type: select
+- name: HKMTMedia
+  proxies:
+  - DIRECT
+  - 1_中国-2.89MB
+  - 2_中国-359.2KB
+  - 3_中国-425.7KB
+  - 4_中国-359.5KB
+  - 5_中国-364.6KB
+  - 6_中国-2.63MB
+  - 7_中国-1.72MB
+  - 8_中国-5.30MB
+  - 9_中国-2.11MB
+  - 10_中国-16.32MB
+  - 11_中国-163.9KB
+  - 12_中国-2.12MB
+  - 13_中国-19.38MB
+  - 14_中国-222.3KB
+  - 15_中国-5.62MB
+  - 16_中国-191.8KB
+  - 17_中国-171.9KB
+  - 18_中国-9.99MB
+  - 19_中国-641.2KB
+  - 20_中国-169.2KB
+  - 21_中国-12.70MB
+  - 22_中国-4.61MB
+  - 23_中国-1.68MB
+  - 24_中国-9.50MB
+  - 25_中国-9.79MB
+  - 26_中国-441.9KB
+  - 27_中国-3.92MB
+  - 28_中国-1.46MB
+  - 29_中国-1.70MB
+  - 30_中国-2.17MB
+  - 31_中国-3.98MB
+  - 32_中国-2.32MB
+  - 33_中国-2.52MB
+  - 34_中国-318.2KB
+  - 35_中国-1.26MB
+  - 36_中国-385.0KB
+  - 37_中国-8.76MB
+  - 38_中国-1.31MB
+  - 39_中国-8.15MB
+  - 40_中国-847.6KB
+  - 41_中国-6.78MB
+  - 42_中国-2.38MB
+  - 43_中国-4.19MB
+  - 44_中国-8.78MB
+  - 45_中国-6.31MB
+  - 46_中国-6.41MB
+  - 47_中国-1.53MB
+  - 48_中国-4.25MB
+  - 49_中国-4.54MB
+  - 50_中国-1.38MB
+  - 51_(已存活1天)中国-312.7KB
+  - 52_中国-4.02MB
+  - 53_中国-761.4KB
+  - 54_中国-5.56MB
+  - 55_中国-16.72MB
+  - 56_中国-13.66MB
+  - 57_中国-14.78MB
+  - 58_中国-3.22MB
+  - 59_中国-3.73MB
+  - 60_中国-13.99MB
+  - 61_中国-3.22MB
+  - 62_中国-6.92MB
+  - 63_中国-210.7KB
+  - 64_中国-3.11MB
+  - 65_中国-2.79MB
+  - 66_中国-1.42MB
+  - 67_中国-4.65MB
+  - 68_中国-321.3KB
+  - 69_中国-415.6KB
+  - 70_中国-328.8KB
+  - 71_中国-325.0KB
+  - 72_中国-10.72MB
+  - 73_中国-333.0KB
+  - 74_中国-377.0KB
+  - 75_中国-6.57MB
+  - 76_中国-5.05MB
+  - 77_中国-735.7KB
+  - 78_中国-5.13MB
+  - 79_中国-355.4KB
+  - 80_中国-2.82MB
+  - 81_中国-7.65MB
+  - 82_中国-12.45MB
+  - 83_中国-10.50MB
+  - 84_中国-10.79MB
+  - 85_中国-1.33MB
+  - 86_中国-15.58MB
+  - 87_中国-7.11MB
+  - 88_中国-2.60MB
+  - 89_中国-7.70MB
+  - 90_中国-2.26MB
+  - 91_中国-333.0KB
+  - 92_中国-432.4KB
+  - 93_中国-20.68MB
+  - 94_中国-781.2KB
+  - 95_中国-3.61MB
+  - 96_中国-7.00MB
+  - 97_中国-882.6KB
+  - 98_中国-7.82MB
+  - 99_中国-4.47MB
+  - 100_中国-9.80MB
+  - 101_中国-8.30MB
+  - 102_中国-5.25MB
+  - 103_中国-7.69MB
+  - 104_中国-5.63MB
+  - 105_中国-1.00MB
+  - 106_中国-517.6KB
+  - 107_中国-853.0KB
+  - 108_中国-12.32MB
+  - 109_美国-771.5KB
+  - 110_美国-1.34MB
+  - 111_美国-1.20MB
+  - 112_美国-898.1KB
+  - 113_美国-747.4KB
+  - 114_美国-4.48MB
+  - 115_美国-2.48MB
+  - 116_美国-5.74MB
+  - 117_美国-4.28MB
+  - 118_美国-812.1KB
+  - 119_美国-856.6KB
+  - 120_美国-3.49MB
+  - 121_美国-1.03MB
+  - 122_美国-341.5KB
+  - 123_美国-2.75MB
+  - 124_美国-388.0KB
+  - 125_美国-2.59MB
+  - 126_美国-3.20MB
+  - 127_美国-840.3KB
+  - 128_美国-2.96MB
+  - 129_美国-6.17MB
+  - 130_美国-5.58MB
+  - 131_美国-6.29MB
+  - 132_美国-3.52MB
+  - 133_美国-5.13MB
+  - 134_美国-1.81MB
+  - 135_美国-1.34MB
+  - 136_美国-1.52MB
+  - 137_美国-2.03MB
+  - 138_美国-5.27MB
+  - 139_美国-5.28MB
+  - 140_美国-5.98MB
+  - 141_美国-5.67MB
+  - 142_美国-247.7KB
+  - 143_美国-6.53MB
+  - 144_美国-6.10MB
+  - 145_美国-2.45MB
+  - 146_美国-2.08MB
+  - 147_美国-346.0KB
+  - 148_美国-2.95MB
+  - 149_美国-4.28MB
+  - 150_美国-5.24MB
+  - 151_美国-3.05MB
+  - 152_美国-456.4KB
+  - 153_美国-2.66MB
+  - 154_美国-1.48MB
+  - 155_美国-263.8KB
+  - 156_美国-1.12MB
+  - 157_美国-1.68MB
+  - 158_美国-1.73MB
+  - 159_美国-1.92MB
+  - 160_美国-662.3KB
+  - 161_美国-5.52MB
+  - 162_美国-3.13MB
+  - 163_美国-2.89MB
+  - 164_美国-1.80MB
+  - 165_美国-2.29MB
+  - 166_美国-2.04MB
+  - 167_美国-3.30MB
+  - 168_美国-1.74MB
+  - 169_美国-518.0KB
+  - 170_美国-263.8KB
+  - 171_美国-2.13MB
+  - 172_美国-827.6KB
+  - 173_美国-1.99MB
+  - 174_美国-2.71MB
+  - 175_美国-1.87MB
+  - 176_美国-1.23MB
+  - 177_美国-4.34MB
+  - 178_美国-573.6KB
+  - 179_美国-5.25MB
+  - 180_美国-3.99MB
+  - 181_美国-176.0KB
+  - 182_新加坡-434.8KB
+  - 183_日本-258.3KB
+  - 184_新加坡-329.8KB
+  - 185_日本-702.0KB
+  - 186_新加坡-843.2KB
+  - 187_日本-1.60MB
+  - 188_新加坡-3.36MB
+  - 189_拉脱维亚-1.45MB
+  - 190_未知国家-2.56MB
+  - 191_未知国家-6.16MB
+  - 192_澳大利亚-520.3KB
+  - 193_未知国家-6.15MB
+  - 194_荷兰-5.23MB
+  - 195_未知国家-3.30MB
+  - 196_新加坡-5.40MB
+  - 197_新加坡-2.24MB
+  - 198_未知国家-5.27MB
+  - 199_罗马尼亚-2.99MB
+  - 200_罗马尼亚-1.42MB
+  - 201_越南-1008.6KB
+  - 202_日本-9.59MB
+  - 203_土耳其-228.4KB
+  - 204_日本-312.7KB
+  - 205_未知国家-983.1KB
+  - 206_法国-1.12MB
+  - 207_奥地利-2.01MB
+  - 208_未知国家-2.41MB
+  - 209_未知国家-2.33MB
+  - 210_法国-350.7KB
+  - 211_日本-2.33MB
+  - 212_日本-4.85MB
+  - 213_日本-5.36MB
+  - 214_香港-240.9KB
+  - 215_韩国-575.6KB
+  - 216_瑞典-229.7KB
+  - 217_日本-3.04MB
+  - 218_荷兰-3.92MB
+  - 219_德国-3.30MB
+  - 220_德国-3.21MB
+  - 221_伊朗-1.87MB
+  - 222_新加坡-1.76MB
+  - 223_泰国-316.0KB
+  - 224_日本-5.50MB
+  - 225_日本-5.14MB
+  - 226_伯利兹-5.36MB
+  - 227_新加坡-1.28MB
+  - 228_未知国家-5.21MB
+  - 229_未知国家-4.42MB
+  - 230_未知国家-753.2KB
+  - 231_日本-5.66MB
+  - 232_日本-1.48MB
+  - 233_伯利兹-2.26MB
+  - 234_阿联酋-1.82MB
+  - 235_香港-311.5KB
+  - 236_新加坡-531.0KB
+  - 237_土耳其-1.07MB
+  - 238_拉脱维亚-2.82MB
+  - 239_俄罗斯联邦-2.98MB
+  - 240_新加坡-530.8KB
+  - 241_香港-10.92MB
+  - 242_俄罗斯联邦-819.5KB
+  - 243_加拿大-604.2KB
+  - 244_澳大利亚-2.34MB
+  - 245_俄罗斯联邦-345.5KB
+  - 246_未知国家-3.19MB
+  - 247_未知国家-1.70MB
+  - 248_澳大利亚-1.64MB
+  - 249_未知国家-437.1KB
+  - 250_越南-532.5KB
+  - 251_越南-708.9KB
+  - 252_伊朗-1.04MB
+  - 253_新加坡-201.0KB
+  - 254_香港-502.6KB
+  - 255_日本-878.8KB
+  - 256_日本-1.17MB
+  - 257_新加坡-539.3KB
+  - 258_新加坡-1.75MB
+  - 259_新加坡-1.78MB
+  - 260_未知国家-5.04MB
+  - 261_澳大利亚-553.3KB
+  - 262_伯利兹-6.84MB
+  - 263_印度-3.15MB
+  - 264_法国-3.91MB
+  - 265_德国-1.08MB
+  - 266_塞浦路斯-4.51MB
+  - 267_新加坡-1.93MB
+  - 268_伯利兹-5.28MB
+  - 269_未知国家-5.12MB
+  - 270_澳大利亚-2.31MB
+  - 271_德国-1.71MB
+  - 272_英国-3.56MB
+  - 273_巴拿马-335.4KB
+  - 274_新加坡-2.71MB
+  - 275_英国-2.06MB
+  - 276_伯利兹-2.37MB
+  - 277_日本-1.39MB
+  - 278_荷兰-2.52MB
+  - 279_日本-3.84MB
+  - 280_未知国家-4.14MB
+  - 281_日本-634.9KB
+  - 282_香港-494.9KB
+  - 283_未知国家-2.14MB
+  - 284_加拿大-1.95MB
+  - 285_伯利兹-1.50MB
+  - 286_未知国家-1.27MB
+  - 287_日本-1021.6KB
+  - 288_加拿大-1.96MB
+  - 289_未知国家-628.6KB
+  - 290_未知国家-5.81MB
+  - 291_伯利兹-2.88MB
+  - 292_伯利兹-3.10MB
+  - 293_土耳其-886.8KB
+  - 294_未知国家-5.92MB
+  - 295_新加坡-4.07MB
+  - 296_香港-18.81MB
+  - 297_新加坡-3.39MB
+  - 298_韩国-1.77MB
+  - 299_未知国家-4.81MB
+  - 300_新加坡-3.64MB
+  - 301_未知国家-2.07MB
+  - 302_新加坡-4.05MB
+  - 303_未知国家-3.31MB
+  - 304_未知国家-4.99MB
+  - 305_加拿大-4.63MB
+  - 306_未知国家-838.3KB
+  - 307_新加坡-3.23MB
+  - 308_爱尔兰-382.5KB
+  - 309_英国-3.48MB
+  - 310_未知国家-1.59MB
+  - 311_未知国家-4.24MB
+  - 312_未知国家-368.6KB
+  - 313_德国-3.22MB
+  - 314_爱尔兰-2.40MB
+  - 315_土耳其-160.6KB
+  - 316_未知国家-3.23MB
+  - 317_未知国家-598.4KB
+  - 318_巴西-1.10MB
+  - 319_荷兰-2.10MB
+  - 320_未知国家-673.0KB
+  - 321_香港-2.23MB
+  - 322_未知国家-3.27MB
+  - 323_未知国家-3.55MB
+  - 324_未知国家-2.36MB
+  - 325_伯利兹-3.86MB
+  - 326_未知国家-2.66MB
+  - 327_加拿大-499.9KB
+  - 328_韩国-17.93MB
+  - 329_伯利兹-6.10MB
+  - 330_伯利兹-5.75MB
+  - 331_澳大利亚-913.9KB
+  - 332_韩国-1.95MB
+  - 333_日本-720.3KB
+  - 334_亚美尼亚-1.21MB
+  - 335_新加坡-1.94MB
+  - 336_韩国-3.27MB
+  - 337_未知国家-161.3KB
+  - 338_香港-3.95MB
+  - 339_日本-450.8KB
+  - 340_香港-366.2KB
+  - 341_未知国家-2.83MB
+  - 342_未知国家-316.2KB
+  - 343_新加坡-1.97MB
+  - 344_未知国家-1.99MB
+  - 345_未知国家-1.59MB
+  - 346_台湾-4.35MB
+  - 347_台湾-1.08MB
+  - 348_未知国家-3.28MB
+  - 349_塞浦路斯-1.38MB
+  - 350_亚美尼亚-1.59MB
+  - 351_未知国家-1.48MB
+  - 352_亚美尼亚-391.4KB
+  - 353_台湾-804.0KB
+  - 354_伯利兹-1.96MB
+  - 355_伯利兹-1.57MB
+  - 356_未知国家-724.7KB
+  - 357_未知国家-1.08MB
+  - 358_加拿大-3.09MB
+  - 359_伯利兹-819.1KB
+  - 360_加拿大-2.15MB
+  - 361_新加坡-2.58MB
+  - 362_加拿大-1.36MB
+  - 363_印度-2.80MB
+  - 364_未知国家-6.89MB
+  - 365_德国-3.45MB
+  - 366_台湾-6.02MB
+  - 367_伯利兹-4.22MB
+  - 368_未知国家-5.07MB
+  - 369_塞浦路斯-2.70MB
+  - 370_日本-4.14MB
+  - 371_瑞典-1.56MB
+  - 372_加拿大-3.85MB
+  - 373_亚美尼亚-4.79MB
+  - 374_未知国家-1.17MB
+  - 375_伯利兹-5.28MB
+  - 376_未知国家-6.31MB
+  - 377_(已存活1天)未知国家-4.63MB
+  - 378_未知国家-2.58MB
+  - 379_未知国家-3.57MB
+  - 380_印度-3.14MB
+  - 381_日本-5.85MB
+  - 382_法国-3.83MB
+  - 383_未知国家-4.67MB
+  - 384_伯利兹-6.54MB
+  - 385_伯利兹-4.60MB
+  - 386_未知国家-5.21MB
+  - 387_未知国家-4.23MB
+  - 388_伯利兹-6.56MB
+  - 389_日本-19.28MB
+  - 390_未知国家-1.18MB
+  - 391_伯利兹-4.93MB
+  - 392_韩国-3.51MB
+  - 393_未知国家-3.92MB
+  - 394_台湾-5.78MB
+  - 395_保加利亚-228.8KB
+  type: select
+rules:
+- DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
+- DOMAIN,dl.google.com,DIRECT
+- DOMAIN,mtalk.google.com,DIRECT
+- DOMAIN-SUFFIX,17gouwuba.com,REJECT
+- DOMAIN-SUFFIX,186078.com,REJECT
+- DOMAIN-SUFFIX,189zj.cn,REJECT
+- DOMAIN-SUFFIX,285680.com,REJECT
+- DOMAIN-SUFFIX,3721zh.com,REJECT
+- DOMAIN-SUFFIX,4336wang.cn,REJECT
+- DOMAIN-SUFFIX,51chumoping.com,REJECT
+- DOMAIN-SUFFIX,51mld.cn,REJECT
+- DOMAIN-SUFFIX,51mypc.cn,REJECT
+- DOMAIN-SUFFIX,58mingri.cn,REJECT
+- DOMAIN-SUFFIX,58mingtian.cn,REJECT
+- DOMAIN-SUFFIX,5vl58stm.com,REJECT
+- DOMAIN-SUFFIX,6d63d3.com,REJECT
+- DOMAIN-SUFFIX,7gg.cc,REJECT
+- DOMAIN-SUFFIX,91veg.com,REJECT
+- DOMAIN-SUFFIX,9s6q.cn,REJECT
+- DOMAIN-SUFFIX,adsame.com,REJECT
+- DOMAIN-SUFFIX,aiclk.com,REJECT
+- DOMAIN-SUFFIX,akuai.top,REJECT
+- DOMAIN-SUFFIX,atplay.cn,REJECT
+- DOMAIN-SUFFIX,baiwanchuangyi.com,REJECT
+- DOMAIN-SUFFIX,beerto.cn,REJECT
+- DOMAIN-SUFFIX,beilamusi.com,REJECT
+- DOMAIN-SUFFIX,benshiw.net,REJECT
+- DOMAIN-SUFFIX,bianxianmao.com,REJECT
+- DOMAIN-SUFFIX,bryonypie.com,REJECT
+- DOMAIN-SUFFIX,cishantao.com,REJECT
+- DOMAIN-SUFFIX,cszlks.com,REJECT
+- DOMAIN-SUFFIX,cudaojia.com,REJECT
+- DOMAIN-SUFFIX,dafapromo.com,REJECT
+- DOMAIN-SUFFIX,daitdai.com,REJECT
+- DOMAIN-SUFFIX,dsaeerf.com,REJECT
+- DOMAIN-SUFFIX,dugesheying.com,REJECT
+- DOMAIN-SUFFIX,dv8c1t.cn,REJECT
+- DOMAIN-SUFFIX,echatu.com,REJECT
+- DOMAIN-SUFFIX,erdoscs.com,REJECT
+- DOMAIN-SUFFIX,fan-yong.com,REJECT
+- DOMAIN-SUFFIX,feih.com.cn,REJECT
+- DOMAIN-SUFFIX,fjlqqc.com,REJECT
+- DOMAIN-SUFFIX,fkku194.com,REJECT
+- DOMAIN-SUFFIX,freedrive.cn,REJECT
+- DOMAIN-SUFFIX,gclick.cn,REJECT
+- DOMAIN-SUFFIX,goufanli100.com,REJECT
+- DOMAIN-SUFFIX,goupaoerdai.com,REJECT
+- DOMAIN-SUFFIX,gouwubang.com,REJECT
+- DOMAIN-SUFFIX,gzxnlk.com,REJECT
+- DOMAIN-SUFFIX,haoshengtoys.com,REJECT
+- DOMAIN-SUFFIX,hyunke.com,REJECT
+- DOMAIN-SUFFIX,ichaosheng.com,REJECT
+- DOMAIN-SUFFIX,ishop789.com,REJECT
+- DOMAIN-SUFFIX,jdkic.com,REJECT
+- DOMAIN-SUFFIX,jiubuhua.com,REJECT
+- DOMAIN-SUFFIX,jsncke.com,REJECT
+- DOMAIN-SUFFIX,junkucm.com,REJECT
+- DOMAIN-SUFFIX,jwg365.cn,REJECT
+- DOMAIN-SUFFIX,kawo77.com,REJECT
+- DOMAIN-SUFFIX,kualianyingxiao.cn,REJECT
+- DOMAIN-SUFFIX,kumihua.com,REJECT
+- DOMAIN-SUFFIX,ltheanine.cn,REJECT
+- DOMAIN-SUFFIX,maipinshangmao.com,REJECT
+- DOMAIN-SUFFIX,minisplat.cn,REJECT
+- DOMAIN-SUFFIX,mkitgfs.com,REJECT
+- DOMAIN-SUFFIX,mlnbike.com,REJECT
+- DOMAIN-SUFFIX,mobjump.com,REJECT
+- DOMAIN-SUFFIX,nbkbgd.cn,REJECT
+- DOMAIN-SUFFIX,newapi.com,REJECT
+- DOMAIN-SUFFIX,pinzhitmall.com,REJECT
+- DOMAIN-SUFFIX,poppyta.com,REJECT
+- DOMAIN-SUFFIX,qianchuanghr.com,REJECT
+- DOMAIN-SUFFIX,qichexin.com,REJECT
+- DOMAIN-SUFFIX,qinchugudao.com,REJECT
+- DOMAIN-SUFFIX,quanliyouxi.cn,REJECT
+- DOMAIN-SUFFIX,qutaobi.com,REJECT
+- DOMAIN-SUFFIX,ry51w.cn,REJECT
+- DOMAIN-SUFFIX,sg536.cn,REJECT
+- DOMAIN-SUFFIX,sifubo.cn,REJECT
+- DOMAIN-SUFFIX,sifuce.cn,REJECT
+- DOMAIN-SUFFIX,sifuda.cn,REJECT
+- DOMAIN-SUFFIX,sifufu.cn,REJECT
+- DOMAIN-SUFFIX,sifuge.cn,REJECT
+- DOMAIN-SUFFIX,sifugu.cn,REJECT
+- DOMAIN-SUFFIX,sifuhe.cn,REJECT
+- DOMAIN-SUFFIX,sifuhu.cn,REJECT
+- DOMAIN-SUFFIX,sifuji.cn,REJECT
+- DOMAIN-SUFFIX,sifuka.cn,REJECT
+- DOMAIN-SUFFIX,smgru.net,REJECT
+- DOMAIN-SUFFIX,taoggou.com,REJECT
+- DOMAIN-SUFFIX,tcxshop.com,REJECT
+- DOMAIN-SUFFIX,tjqonline.cn,REJECT
+- DOMAIN-SUFFIX,topitme.com,REJECT
+- DOMAIN-SUFFIX,tt3sm4.cn,REJECT
+- DOMAIN-SUFFIX,tuia.cn,REJECT
+- DOMAIN-SUFFIX,tuipenguin.com,REJECT
+- DOMAIN-SUFFIX,tuitiger.com,REJECT
+- DOMAIN-SUFFIX,websd8.com,REJECT
+- DOMAIN-SUFFIX,wsgblw.com,REJECT
+- DOMAIN-SUFFIX,wx16999.com,REJECT
+- DOMAIN-SUFFIX,xchmai.com,REJECT
+- DOMAIN-SUFFIX,xiaohuau.xyz,REJECT
+- DOMAIN-SUFFIX,ygyzx.cn,REJECT
+- DOMAIN-SUFFIX,yinmong.com,REJECT
+- DOMAIN-SUFFIX,yitaopt.com,REJECT
+- DOMAIN-SUFFIX,yjqiqi.com,REJECT
+- DOMAIN-SUFFIX,yukhj.com,REJECT
+- DOMAIN-SUFFIX,zhaozecheng.cn,REJECT
+- DOMAIN-SUFFIX,zhenxinet.com,REJECT
+- DOMAIN-SUFFIX,zlne800.com,REJECT
+- DOMAIN-SUFFIX,zunmi.cn,REJECT
+- DOMAIN-SUFFIX,zzd6.com,REJECT
+- IP-CIDR,39.107.15.115/32,REJECT,no-resolve
+- IP-CIDR,47.89.59.182/32,REJECT,no-resolve
+- IP-CIDR,103.49.209.27/32,REJECT,no-resolve
+- IP-CIDR,123.56.152.96/32,REJECT,no-resolve
+- IP-CIDR,61.160.200.223/32,REJECT,no-resolve
+- IP-CIDR,61.160.200.242/32,REJECT,no-resolve
+- IP-CIDR,61.160.200.252/32,REJECT,no-resolve
+- IP-CIDR,61.174.50.214/32,REJECT,no-resolve
+- IP-CIDR,111.175.220.163/32,REJECT,no-resolve
+- IP-CIDR,111.175.220.164/32,REJECT,no-resolve
+- IP-CIDR,122.229.8.47/32,REJECT,no-resolve
+- IP-CIDR,122.229.29.89/32,REJECT,no-resolve
+- IP-CIDR,124.232.160.178/32,REJECT,no-resolve
+- IP-CIDR,175.6.223.15/32,REJECT,no-resolve
+- IP-CIDR,183.59.53.237/32,REJECT,no-resolve
+- IP-CIDR,218.93.127.37/32,REJECT,no-resolve
+- IP-CIDR,221.228.17.152/32,REJECT,no-resolve
+- IP-CIDR,221.231.6.79/32,REJECT,no-resolve
+- IP-CIDR,222.186.61.91/32,REJECT,no-resolve
+- IP-CIDR,222.186.61.95/32,REJECT,no-resolve
+- IP-CIDR,222.186.61.96/32,REJECT,no-resolve
+- IP-CIDR,222.186.61.97/32,REJECT,no-resolve
+- IP-CIDR,106.75.231.48/32,REJECT,no-resolve
+- IP-CIDR,119.4.249.166/32,REJECT,no-resolve
+- IP-CIDR,220.196.52.141/32,REJECT,no-resolve
+- IP-CIDR,221.6.4.148/32,REJECT,no-resolve
+- IP-CIDR,114.247.28.96/32,REJECT,no-resolve
+- IP-CIDR,221.179.131.72/32,REJECT,no-resolve
+- IP-CIDR,221.179.140.145/32,REJECT,no-resolve
+- IP-CIDR,115.182.16.79/32,REJECT,no-resolve
+- IP-CIDR,118.144.88.126/32,REJECT,no-resolve
+- IP-CIDR,118.144.88.215/32,REJECT,no-resolve
+- IP-CIDR,118.144.88.216/32,REJECT,no-resolve
+- IP-CIDR,120.76.189.132/32,REJECT,no-resolve
+- IP-CIDR,124.14.21.147/32,REJECT,no-resolve
+- IP-CIDR,124.14.21.151/32,REJECT,no-resolve
+- IP-CIDR,180.166.52.24/32,REJECT,no-resolve
+- IP-CIDR,211.161.101.106/32,REJECT,no-resolve
+- IP-CIDR,220.115.251.25/32,REJECT,no-resolve
+- IP-CIDR,222.73.156.235/32,REJECT,no-resolve
+- DOMAIN-SUFFIX,kuaizip.com,REJECT
+- DOMAIN-SUFFIX,mackeeper.com,REJECT
+- DOMAIN-SUFFIX,zryydi.com,REJECT
+- DOMAIN-SUFFIX,flash.cn,REJECT
+- DOMAIN,geo2.adobe.com,REJECT
+- DOMAIN-SUFFIX,4009997658.com,REJECT
+- DOMAIN-SUFFIX,abbyychina.com,REJECT
+- DOMAIN-SUFFIX,bartender.cc,REJECT
+- DOMAIN-SUFFIX,betterzip.net,REJECT
+- DOMAIN-SUFFIX,betterzipcn.com,REJECT
+- DOMAIN-SUFFIX,beyondcompare.cc,REJECT
+- DOMAIN-SUFFIX,bingdianhuanyuan.cn,REJECT
+- DOMAIN-SUFFIX,chemdraw.com.cn,REJECT
+- DOMAIN-SUFFIX,cjmakeding.com,REJECT
+- DOMAIN-SUFFIX,cjmkt.com,REJECT
+- DOMAIN-SUFFIX,codesoftchina.com,REJECT
+- DOMAIN-SUFFIX,coreldrawchina.com,REJECT
+- DOMAIN-SUFFIX,crossoverchina.com,REJECT
+- DOMAIN-SUFFIX,dongmansoft.com,REJECT
+- DOMAIN-SUFFIX,earmasterchina.cn,REJECT
+- DOMAIN-SUFFIX,easyrecoverychina.com,REJECT
+- DOMAIN-SUFFIX,ediuschina.com,REJECT
+- DOMAIN-SUFFIX,flstudiochina.com,REJECT
+- DOMAIN-SUFFIX,formysql.com,REJECT
+- DOMAIN-SUFFIX,guitarpro.cc,REJECT
+- DOMAIN-SUFFIX,huishenghuiying.com.cn,REJECT
+- DOMAIN-SUFFIX,hypersnap.net,REJECT
+- DOMAIN-SUFFIX,iconworkshop.cn,REJECT
+- DOMAIN-SUFFIX,imindmap.cc,REJECT
+- DOMAIN-SUFFIX,jihehuaban.com.cn,REJECT
+- DOMAIN-SUFFIX,keyshot.cc,REJECT
+- DOMAIN-SUFFIX,kingdeecn.cn,REJECT
+- DOMAIN-SUFFIX,logoshejishi.com,REJECT
+- DOMAIN-SUFFIX,luping.net.cn,REJECT
+- DOMAIN-SUFFIX,mairuan.cn,REJECT
+- DOMAIN-SUFFIX,mairuan.com,REJECT
+- DOMAIN-SUFFIX,mairuan.com.cn,REJECT
+- DOMAIN-SUFFIX,mairuan.net,REJECT
+- DOMAIN-SUFFIX,mairuanwang.com,REJECT
+- DOMAIN-SUFFIX,makeding.com,REJECT
+- DOMAIN-SUFFIX,mathtype.cn,REJECT
+- DOMAIN-SUFFIX,mindmanager.cc,REJECT
+- DOMAIN-SUFFIX,mindmanager.cn,REJECT
+- DOMAIN-SUFFIX,mindmapper.cc,REJECT
+- DOMAIN-SUFFIX,mycleanmymac.com,REJECT
+- DOMAIN-SUFFIX,nicelabel.cc,REJECT
+- DOMAIN-SUFFIX,ntfsformac.cc,REJECT
+- DOMAIN-SUFFIX,ntfsformac.cn,REJECT
+- DOMAIN-SUFFIX,overturechina.com,REJECT
+- DOMAIN-SUFFIX,passwordrecovery.cn,REJECT
+- DOMAIN-SUFFIX,pdfexpert.cc,REJECT
+- DOMAIN-SUFFIX,photozoomchina.com,REJECT
+- DOMAIN-SUFFIX,shankejingling.com,REJECT
+- DOMAIN-SUFFIX,ultraiso.net,REJECT
+- DOMAIN-SUFFIX,vegaschina.cn,REJECT
+- DOMAIN-SUFFIX,xmindchina.net,REJECT
+- DOMAIN-SUFFIX,xshellcn.com,REJECT
+- DOMAIN-SUFFIX,yihuifu.cn,REJECT
+- DOMAIN-SUFFIX,yuanchengxiezuo.com,REJECT
+- DOMAIN-SUFFIX,zbrushcn.com,REJECT
+- DOMAIN-SUFFIX,zhzzx.com,REJECT
+- DOMAIN-SUFFIX,deezer.com,GlobalMedia
+- DOMAIN-SUFFIX,dzcdn.net,GlobalMedia
+- DOMAIN-SUFFIX,kkbox.com,GlobalMedia
+- DOMAIN-SUFFIX,kkbox.com.tw,GlobalMedia
+- DOMAIN-SUFFIX,kfs.io,GlobalMedia
+- DOMAIN-SUFFIX,joox.com,GlobalMedia
+- DOMAIN-SUFFIX,pandora.com,GlobalMedia
+- DOMAIN-SUFFIX,p-cdn.us,GlobalMedia
+- DOMAIN-SUFFIX,sndcdn.com,GlobalMedia
+- DOMAIN-SUFFIX,soundcloud.com,GlobalMedia
+- DOMAIN-SUFFIX,pscdn.co,GlobalMedia
+- DOMAIN-SUFFIX,scdn.co,GlobalMedia
+- DOMAIN-SUFFIX,spotify.com,GlobalMedia
+- DOMAIN-SUFFIX,spoti.fi,GlobalMedia
+- DOMAIN-KEYWORD,spotify.com,GlobalMedia
+- DOMAIN-KEYWORD,-spotify-com,GlobalMedia
+- DOMAIN-SUFFIX,tidal.com,GlobalMedia
+- DOMAIN-SUFFIX,c4assets.com,GlobalMedia
+- DOMAIN-SUFFIX,channel4.com,GlobalMedia
+- DOMAIN-SUFFIX,abema.io,GlobalMedia
+- DOMAIN-SUFFIX,ameba.jp,GlobalMedia
+- DOMAIN-SUFFIX,abema.tv,GlobalMedia
+- DOMAIN-SUFFIX,hayabusa.io,GlobalMedia
+- DOMAIN,abematv.akamaized.net,GlobalMedia
+- DOMAIN,ds-linear-abematv.akamaized.net,GlobalMedia
+- DOMAIN,ds-vod-abematv.akamaized.net,GlobalMedia
+- DOMAIN,linear-abematv.akamaized.net,GlobalMedia
+- DOMAIN-SUFFIX,aiv-cdn.net,GlobalMedia
+- DOMAIN-SUFFIX,aiv-delivery.net,GlobalMedia
+- DOMAIN-SUFFIX,amazonvideo.com,GlobalMedia
+- DOMAIN-SUFFIX,primevideo.com,GlobalMedia
+- DOMAIN,avodmp4s3ww-a.akamaihd.net,GlobalMedia
+- DOMAIN,d25xi40x97liuc.cloudfront.net,GlobalMedia
+- DOMAIN,dmqdd6hw24ucf.cloudfront.net,GlobalMedia
+- DOMAIN,d22qjgkvxw22r6.cloudfront.net,GlobalMedia
+- DOMAIN,d1v5ir2lpwr8os.cloudfront.net,GlobalMedia
+- DOMAIN-KEYWORD,avoddashs,GlobalMedia
+- DOMAIN-SUFFIX,bahamut.com.tw,GlobalMedia
+- DOMAIN-SUFFIX,gamer.com.tw,GlobalMedia
+- DOMAIN,gamer-cds.cdn.hinet.net,GlobalMedia
+- DOMAIN,gamer2-cds.cdn.hinet.net,GlobalMedia
+- DOMAIN-SUFFIX,bbc.co.uk,GlobalMedia
+- DOMAIN-SUFFIX,bbci.co.uk,GlobalMedia
+- DOMAIN-KEYWORD,bbcfmt,GlobalMedia
+- DOMAIN-KEYWORD,uk-live,GlobalMedia
+- DOMAIN-SUFFIX,dazn.com,GlobalMedia
+- DOMAIN-SUFFIX,dazn-api.com,GlobalMedia
+- DOMAIN,d151l6v8er5bdm.cloudfront.net,GlobalMedia
+- DOMAIN-KEYWORD,voddazn,GlobalMedia
+- DOMAIN-SUFFIX,bamgrid.com,GlobalMedia
+- DOMAIN-SUFFIX,disney-plus.net,GlobalMedia
+- DOMAIN-SUFFIX,disneyplus.com,GlobalMedia
+- DOMAIN-SUFFIX,dssott.com,GlobalMedia
+- DOMAIN,cdn.registerdisney.go.com,GlobalMedia
+- DOMAIN-SUFFIX,encoretvb.com,GlobalMedia
+- DOMAIN,edge.api.brightcove.com,GlobalMedia
+- DOMAIN,bcbolt446c5271-a.akamaihd.net,GlobalMedia
+- DOMAIN-SUFFIX,fox.com,GlobalMedia
+- DOMAIN-SUFFIX,foxdcg.com,GlobalMedia
+- DOMAIN-SUFFIX,theplatform.com,GlobalMedia
+- DOMAIN-SUFFIX,uplynk.com,GlobalMedia
+- DOMAIN-SUFFIX,hbo.com,GlobalMedia
+- DOMAIN-SUFFIX,hbogo.com,GlobalMedia
+- DOMAIN-SUFFIX,hbonow.com,GlobalMedia
+- DOMAIN-SUFFIX,hbogoasia.com,GlobalMedia
+- DOMAIN-SUFFIX,hbogoasia.hk,GlobalMedia
+- DOMAIN,bcbolthboa-a.akamaihd.net,GlobalMedia
+- DOMAIN,players.brightcove.net,GlobalMedia
+- DOMAIN,s3-ap-southeast-1.amazonaws.com,GlobalMedia
+- DOMAIN,dai3fd1oh325y.cloudfront.net,GlobalMedia
+- DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,GlobalMedia
+- DOMAIN,hboasia1-i.akamaihd.net,GlobalMedia
+- DOMAIN,hboasia2-i.akamaihd.net,GlobalMedia
+- DOMAIN,hboasia3-i.akamaihd.net,GlobalMedia
+- DOMAIN,hboasia4-i.akamaihd.net,GlobalMedia
+- DOMAIN,hboasia5-i.akamaihd.net,GlobalMedia
+- DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,GlobalMedia
+- DOMAIN-SUFFIX,5itv.tv,GlobalMedia
+- DOMAIN-SUFFIX,ocnttv.com,GlobalMedia
+- DOMAIN-SUFFIX,hulu.com,GlobalMedia
+- DOMAIN-SUFFIX,huluim.com,GlobalMedia
+- DOMAIN-SUFFIX,hulustream.com,GlobalMedia
+- DOMAIN-SUFFIX,happyon.jp,GlobalMedia
+- DOMAIN-SUFFIX,hulu.jp,GlobalMedia
+- DOMAIN-SUFFIX,itv.com,GlobalMedia
+- DOMAIN-SUFFIX,itvstatic.com,GlobalMedia
+- DOMAIN,itvpnpmobile-a.akamaihd.net,GlobalMedia
+- DOMAIN-SUFFIX,kktv.com.tw,GlobalMedia
+- DOMAIN-SUFFIX,kktv.me,GlobalMedia
+- DOMAIN,kktv-theater.kk.stream,GlobalMedia
+- DOMAIN-SUFFIX,linetv.tw,GlobalMedia
+- DOMAIN,d3c7rimkq79yfu.cloudfront.net,GlobalMedia
+- DOMAIN-SUFFIX,litv.tv,GlobalMedia
+- DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,GlobalMedia
+- DOMAIN-SUFFIX,channel5.com,GlobalMedia
+- DOMAIN-SUFFIX,my5.tv,GlobalMedia
+- DOMAIN,d349g9zuie06uo.cloudfront.net,GlobalMedia
+- DOMAIN-SUFFIX,mytvsuper.com,GlobalMedia
+- DOMAIN-SUFFIX,tvb.com,GlobalMedia
+- DOMAIN-SUFFIX,fast.com,GlobalMedia
+- DOMAIN-SUFFIX,netflix.com,GlobalMedia
+- DOMAIN-SUFFIX,netflix.net,GlobalMedia
+- DOMAIN-SUFFIX,nflxext.com,GlobalMedia
+- DOMAIN-SUFFIX,nflximg.com,GlobalMedia
+- DOMAIN-SUFFIX,nflximg.net,GlobalMedia
+- DOMAIN-SUFFIX,nflxso.net,GlobalMedia
+- DOMAIN-SUFFIX,nflxvideo.net,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest0.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest1.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest2.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest3.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest4.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest5.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest6.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest7.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest8.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest9.com,GlobalMedia
+- IP-CIDR,23.246.0.0/18,GlobalMedia,no-resolve
+- IP-CIDR,37.77.184.0/21,GlobalMedia,no-resolve
+- IP-CIDR,45.57.0.0/17,GlobalMedia,no-resolve
+- IP-CIDR,64.120.128.0/17,GlobalMedia,no-resolve
+- IP-CIDR,66.197.128.0/17,GlobalMedia,no-resolve
+- IP-CIDR,108.175.32.0/20,GlobalMedia,no-resolve
+- IP-CIDR,192.173.64.0/18,GlobalMedia,no-resolve
+- IP-CIDR,198.38.96.0/19,GlobalMedia,no-resolve
+- IP-CIDR,198.45.48.0/20,GlobalMedia,no-resolve
+- DOMAIN-SUFFIX,dmc.nico,GlobalMedia
+- DOMAIN-SUFFIX,nicovideo.jp,GlobalMedia
+- DOMAIN-SUFFIX,nimg.jp,GlobalMedia
+- DOMAIN-SUFFIX,socdm.com,GlobalMedia
+- DOMAIN-SUFFIX,pbs.org,GlobalMedia
+- DOMAIN-SUFFIX,phncdn.com,GlobalMedia
+- DOMAIN-SUFFIX,phprcdn.com,GlobalMedia
+- DOMAIN-SUFFIX,pornhub.com,GlobalMedia
+- DOMAIN-SUFFIX,pornhubpremium.com,GlobalMedia
+- DOMAIN-SUFFIX,skyking.com.tw,GlobalMedia
+- DOMAIN,hamifans.emome.net,GlobalMedia
+- DOMAIN-SUFFIX,twitch.tv,GlobalMedia
+- DOMAIN-SUFFIX,twitchcdn.net,GlobalMedia
+- DOMAIN-SUFFIX,ttvnw.net,GlobalMedia
+- DOMAIN-SUFFIX,jtvnw.net,GlobalMedia
+- DOMAIN-SUFFIX,viu.com,GlobalMedia
+- DOMAIN-SUFFIX,viu.tv,GlobalMedia
+- DOMAIN,api.viu.now.com,GlobalMedia
+- DOMAIN,d1k2us671qcoau.cloudfront.net,GlobalMedia
+- DOMAIN,d2anahhhmp1ffz.cloudfront.net,GlobalMedia
+- DOMAIN,dfp6rglgjqszk.cloudfront.net,GlobalMedia
+- DOMAIN-SUFFIX,googlevideo.com,GlobalMedia
+- DOMAIN-SUFFIX,youtube.com,GlobalMedia
+- DOMAIN,youtubei.googleapis.com,GlobalMedia
+- DOMAIN,cache.video.iqiyi.com,HKMTMedia
+- DOMAIN-SUFFIX,bilibili.com,HKMTMedia
+- DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia
+- DOMAIN-SUFFIX,ampproject.org,PROXY
+- DOMAIN-SUFFIX,appspot.com,PROXY
+- DOMAIN-SUFFIX,blogger.com,PROXY
+- DOMAIN-SUFFIX,getoutline.org,PROXY
+- DOMAIN-SUFFIX,gvt0.com,PROXY
+- DOMAIN-SUFFIX,gvt1.com,PROXY
+- DOMAIN-SUFFIX,gvt3.com,PROXY
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
+- DOMAIN-KEYWORD,google,PROXY
+- DOMAIN-KEYWORD,blogspot,PROXY
+- DOMAIN-SUFFIX,onedrive.live.com,PROXY
+- DOMAIN-SUFFIX,xboxlive.com,PROXY
+- DOMAIN-SUFFIX,v2raytech.com,PROXY
+- DOMAIN-SUFFIX,hijk.art,PROXY
+- DOMAIN-SUFFIX,hijk.pw,PROXY
+- DOMAIN-SUFFIX,hijk.pp.ua,PROXY
+- DOMAIN-SUFFIX,cdninstagram.com,PROXY
+- DOMAIN-SUFFIX,fb.com,PROXY
+- DOMAIN-SUFFIX,fb.me,PROXY
+- DOMAIN-SUFFIX,fbaddins.com,PROXY
+- DOMAIN-SUFFIX,fbcdn.net,PROXY
+- DOMAIN-SUFFIX,fbsbx.com,PROXY
+- DOMAIN-SUFFIX,fbworkmail.com,PROXY
+- DOMAIN-SUFFIX,instagram.com,PROXY
+- DOMAIN-SUFFIX,m.me,PROXY
+- DOMAIN-SUFFIX,messenger.com,PROXY
+- DOMAIN-SUFFIX,oculus.com,PROXY
+- DOMAIN-SUFFIX,oculuscdn.com,PROXY
+- DOMAIN-SUFFIX,rocksdb.org,PROXY
+- DOMAIN-SUFFIX,whatsapp.com,PROXY
+- DOMAIN-SUFFIX,whatsapp.net,PROXY
+- DOMAIN-KEYWORD,facebook,PROXY
+- IP-CIDR,3.123.36.126/32,PROXY,no-resolve
+- IP-CIDR,35.157.215.84/32,PROXY,no-resolve
+- IP-CIDR,35.157.217.255/32,PROXY,no-resolve
+- IP-CIDR,52.58.209.134/32,PROXY,no-resolve
+- IP-CIDR,54.93.124.31/32,PROXY,no-resolve
+- IP-CIDR,54.162.243.80/32,PROXY,no-resolve
+- IP-CIDR,54.173.34.141/32,PROXY,no-resolve
+- IP-CIDR,54.235.23.242/32,PROXY,no-resolve
+- IP-CIDR,169.45.248.118/32,PROXY,no-resolve
+- DOMAIN-SUFFIX,pscp.tv,PROXY
+- DOMAIN-SUFFIX,periscope.tv,PROXY
+- DOMAIN-SUFFIX,t.co,PROXY
+- DOMAIN-SUFFIX,twimg.co,PROXY
+- DOMAIN-SUFFIX,twimg.com,PROXY
+- DOMAIN-SUFFIX,twitpic.com,PROXY
+- DOMAIN-SUFFIX,vine.co,PROXY
+- DOMAIN-KEYWORD,twitter,PROXY
+- DOMAIN-SUFFIX,t.me,PROXY
+- DOMAIN-SUFFIX,tlanyan.me,PROXY
+- DOMAIN-SUFFIX,tdesktop.com,PROXY
+- DOMAIN-SUFFIX,telegra.ph,PROXY
+- DOMAIN-SUFFIX,telegram.me,PROXY
+- DOMAIN-SUFFIX,telegram.org,PROXY
+- DOMAIN-SUFFIX,telesco.pe,PROXY
+- IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+- IP-CIDR,91.108.8.0/22,PROXY,no-resolve
+- IP-CIDR,91.108.12.0/22,PROXY,no-resolve
+- IP-CIDR,91.108.16.0/22,PROXY,no-resolve
+- IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+- IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+- IP-CIDR,2001:b28:f23d::/48,PROXY,no-resolve
+- IP-CIDR,2001:b28:f23f::/48,PROXY,no-resolve
+- IP-CIDR,2001:67c:4e8::/48,PROXY,no-resolve
+- DOMAIN-SUFFIX,line.me,PROXY
+- DOMAIN-SUFFIX,line-apps.com,PROXY
+- DOMAIN-SUFFIX,line-scdn.net,PROXY
+- DOMAIN-SUFFIX,naver.jp,PROXY
+- IP-CIDR,103.2.30.0/23,PROXY,no-resolve
+- IP-CIDR,125.209.208.0/20,PROXY,no-resolve
+- IP-CIDR,147.92.128.0/17,PROXY,no-resolve
+- IP-CIDR,203.104.144.0/21,PROXY,no-resolve
+- DOMAIN-SUFFIX,4shared.com,PROXY
+- DOMAIN-SUFFIX,520cc.cc,PROXY
+- DOMAIN-SUFFIX,881903.com,PROXY
+- DOMAIN-SUFFIX,9cache.com,PROXY
+- DOMAIN-SUFFIX,9gag.com,PROXY
+- DOMAIN-SUFFIX,abc.com,PROXY
+- DOMAIN-SUFFIX,abc.net.au,PROXY
+- DOMAIN-SUFFIX,abebooks.com,PROXY
+- DOMAIN-SUFFIX,amazon.co.jp,PROXY
+- DOMAIN-SUFFIX,apigee.com,PROXY
+- DOMAIN-SUFFIX,apk-dl.com,PROXY
+- DOMAIN-SUFFIX,apkfind.com,PROXY
+- DOMAIN-SUFFIX,apkmirror.com,PROXY
+- DOMAIN-SUFFIX,apkmonk.com,PROXY
+- DOMAIN-SUFFIX,apkpure.com,PROXY
+- DOMAIN-SUFFIX,aptoide.com,PROXY
+- DOMAIN-SUFFIX,archive.is,PROXY
+- DOMAIN-SUFFIX,archive.org,PROXY
+- DOMAIN-SUFFIX,arte.tv,PROXY
+- DOMAIN-SUFFIX,artstation.com,PROXY
+- DOMAIN-SUFFIX,arukas.io,PROXY
+- DOMAIN-SUFFIX,ask.com,PROXY
+- DOMAIN-SUFFIX,avg.com,PROXY
+- DOMAIN-SUFFIX,avgle.com,PROXY
+- DOMAIN-SUFFIX,badoo.com,PROXY
+- DOMAIN-SUFFIX,bandwagonhost.com,PROXY
+- DOMAIN-SUFFIX,bbc.com,PROXY
+- DOMAIN-SUFFIX,behance.net,PROXY
+- DOMAIN-SUFFIX,bibox.com,PROXY
+- DOMAIN-SUFFIX,biggo.com.tw,PROXY
+- DOMAIN-SUFFIX,binance.com,PROXY
+- DOMAIN-SUFFIX,bitcointalk.org,PROXY
+- DOMAIN-SUFFIX,bitfinex.com,PROXY
+- DOMAIN-SUFFIX,bitmex.com,PROXY
+- DOMAIN-SUFFIX,bit-z.com,PROXY
+- DOMAIN-SUFFIX,bloglovin.com,PROXY
+- DOMAIN-SUFFIX,bloomberg.cn,PROXY
+- DOMAIN-SUFFIX,bloomberg.com,PROXY
+- DOMAIN-SUFFIX,blubrry.com,PROXY
+- DOMAIN-SUFFIX,book.com.tw,PROXY
+- DOMAIN-SUFFIX,booklive.jp,PROXY
+- DOMAIN-SUFFIX,books.com.tw,PROXY
+- DOMAIN-SUFFIX,boslife.net,PROXY
+- DOMAIN-SUFFIX,box.com,PROXY
+- DOMAIN-SUFFIX,businessinsider.com,PROXY
+- DOMAIN-SUFFIX,bwh1.net,PROXY
+- DOMAIN-SUFFIX,castbox.fm,PROXY
+- DOMAIN-SUFFIX,cbc.ca,PROXY
+- DOMAIN-SUFFIX,cdw.com,PROXY
+- DOMAIN-SUFFIX,change.org,PROXY
+- DOMAIN-SUFFIX,channelnewsasia.com,PROXY
+- DOMAIN-SUFFIX,ck101.com,PROXY
+- DOMAIN-SUFFIX,clarionproject.org,PROXY
+- DOMAIN-SUFFIX,clyp.it,PROXY
+- DOMAIN-SUFFIX,cna.com.tw,PROXY
+- DOMAIN-SUFFIX,comparitech.com,PROXY
+- DOMAIN-SUFFIX,conoha.jp,PROXY
+- DOMAIN-SUFFIX,crucial.com,PROXY
+- DOMAIN-SUFFIX,cts.com.tw,PROXY
+- DOMAIN-SUFFIX,cw.com.tw,PROXY
+- DOMAIN-SUFFIX,cyberctm.com,PROXY
+- DOMAIN-SUFFIX,dailymotion.com,PROXY
+- DOMAIN-SUFFIX,dailyview.tw,PROXY
+- DOMAIN-SUFFIX,daum.net,PROXY
+- DOMAIN-SUFFIX,daumcdn.net,PROXY
+- DOMAIN-SUFFIX,dcard.tw,PROXY
+- DOMAIN-SUFFIX,deepdiscount.com,PROXY
+- DOMAIN-SUFFIX,depositphotos.com,PROXY
+- DOMAIN-SUFFIX,deviantart.com,PROXY
+- DOMAIN-SUFFIX,disconnect.me,PROXY
+- DOMAIN-SUFFIX,discordapp.com,PROXY
+- DOMAIN-SUFFIX,discordapp.net,PROXY
+- DOMAIN-SUFFIX,disqus.com,PROXY
+- DOMAIN-SUFFIX,dlercloud.com,PROXY
+- DOMAIN-SUFFIX,dns2go.com,PROXY
+- DOMAIN-SUFFIX,dowjones.com,PROXY
+- DOMAIN-SUFFIX,dropbox.com,PROXY
+- DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
+- DOMAIN-SUFFIX,duckduckgo.com,PROXY
+- DOMAIN-SUFFIX,dw.com,PROXY
+- DOMAIN-SUFFIX,dynu.com,PROXY
+- DOMAIN-SUFFIX,earthcam.com,PROXY
+- DOMAIN-SUFFIX,ebookservice.tw,PROXY
+- DOMAIN-SUFFIX,economist.com,PROXY
+- DOMAIN-SUFFIX,edgecastcdn.net,PROXY
+- DOMAIN-SUFFIX,edu,PROXY
+- DOMAIN-SUFFIX,elpais.com,PROXY
+- DOMAIN-SUFFIX,enanyang.my,PROXY
+- DOMAIN-SUFFIX,encyclopedia.com,PROXY
+- DOMAIN-SUFFIX,esoir.be,PROXY
+- DOMAIN-SUFFIX,etherscan.io,PROXY
+- DOMAIN-SUFFIX,euronews.com,PROXY
+- DOMAIN-SUFFIX,evozi.com,PROXY
+- DOMAIN-SUFFIX,feedly.com,PROXY
+- DOMAIN-SUFFIX,firech.at,PROXY
+- DOMAIN-SUFFIX,flickr.com,PROXY
+- DOMAIN-SUFFIX,flitto.com,PROXY
+- DOMAIN-SUFFIX,foreignpolicy.com,PROXY
+- DOMAIN-SUFFIX,freebrowser.org,PROXY
+- DOMAIN-SUFFIX,freewechat.com,PROXY
+- DOMAIN-SUFFIX,freeweibo.com,PROXY
+- DOMAIN-SUFFIX,friday.tw,PROXY
+- DOMAIN-SUFFIX,ftchinese.com,PROXY
+- DOMAIN-SUFFIX,ftimg.net,PROXY
+- DOMAIN-SUFFIX,gate.io,PROXY
+- DOMAIN-SUFFIX,getlantern.org,PROXY
+- DOMAIN-SUFFIX,getsync.com,PROXY
+- DOMAIN-SUFFIX,globalvoices.org,PROXY
+- DOMAIN-SUFFIX,goo.ne.jp,PROXY
+- DOMAIN-SUFFIX,goodreads.com,PROXY
+- DOMAIN-SUFFIX,gov,PROXY
+- DOMAIN-SUFFIX,gov.tw,PROXY
+- DOMAIN-SUFFIX,greatfire.org,PROXY
+- DOMAIN-SUFFIX,gumroad.com,PROXY
+- DOMAIN-SUFFIX,hbg.com,PROXY
+- DOMAIN-SUFFIX,heroku.com,PROXY
+- DOMAIN-SUFFIX,hightail.com,PROXY
+- DOMAIN-SUFFIX,hk01.com,PROXY
+- DOMAIN-SUFFIX,hkbf.org,PROXY
+- DOMAIN-SUFFIX,hkbookcity.com,PROXY
+- DOMAIN-SUFFIX,hkej.com,PROXY
+- DOMAIN-SUFFIX,hket.com,PROXY
+- DOMAIN-SUFFIX,hkgolden.com,PROXY
+- DOMAIN-SUFFIX,hootsuite.com,PROXY
+- DOMAIN-SUFFIX,hudson.org,PROXY
+- DOMAIN-SUFFIX,hyread.com.tw,PROXY
+- DOMAIN-SUFFIX,ibtimes.com,PROXY
+- DOMAIN-SUFFIX,i-cable.com,PROXY
+- DOMAIN-SUFFIX,icij.org,PROXY
+- DOMAIN-SUFFIX,icoco.com,PROXY
+- DOMAIN-SUFFIX,imgur.com,PROXY
+- DOMAIN-SUFFIX,initiummall.com,PROXY
+- DOMAIN-SUFFIX,insecam.org,PROXY
+- DOMAIN-SUFFIX,ipfs.io,PROXY
+- DOMAIN-SUFFIX,issuu.com,PROXY
+- DOMAIN-SUFFIX,istockphoto.com,PROXY
+- DOMAIN-SUFFIX,japantimes.co.jp,PROXY
+- DOMAIN-SUFFIX,jiji.com,PROXY
+- DOMAIN-SUFFIX,jinx.com,PROXY
+- DOMAIN-SUFFIX,jkforum.net,PROXY
+- DOMAIN-SUFFIX,joinmastodon.org,PROXY
+- DOMAIN-SUFFIX,justmysocks.net,PROXY
+- DOMAIN-SUFFIX,justpaste.it,PROXY
+- DOMAIN-SUFFIX,kakao.com,PROXY
+- DOMAIN-SUFFIX,kakaocorp.com,PROXY
+- DOMAIN-SUFFIX,kik.com,PROXY
+- DOMAIN-SUFFIX,kobo.com,PROXY
+- DOMAIN-SUFFIX,kobobooks.com,PROXY
+- DOMAIN-SUFFIX,kodingen.com,PROXY
+- DOMAIN-SUFFIX,lemonde.fr,PROXY
+- DOMAIN-SUFFIX,lepoint.fr,PROXY
+- DOMAIN-SUFFIX,lihkg.com,PROXY
+- DOMAIN-SUFFIX,listennotes.com,PROXY
+- DOMAIN-SUFFIX,livestream.com,PROXY
+- DOMAIN-SUFFIX,logmein.com,PROXY
+- DOMAIN-SUFFIX,mail.ru,PROXY
+- DOMAIN-SUFFIX,mailchimp.com,PROXY
+- DOMAIN-SUFFIX,marc.info,PROXY
+- DOMAIN-SUFFIX,matters.news,PROXY
+- DOMAIN-SUFFIX,maying.co,PROXY
+- DOMAIN-SUFFIX,medium.com,PROXY
+- DOMAIN-SUFFIX,mega.nz,PROXY
+- DOMAIN-SUFFIX,mil,PROXY
+- DOMAIN-SUFFIX,mingpao.com,PROXY
+- DOMAIN-SUFFIX,mobile01.com,PROXY
+- DOMAIN-SUFFIX,myspace.com,PROXY
+- DOMAIN-SUFFIX,myspacecdn.com,PROXY
+- DOMAIN-SUFFIX,nanyang.com,PROXY
+- DOMAIN-SUFFIX,naver.com,PROXY
+- DOMAIN-SUFFIX,neowin.net,PROXY
+- DOMAIN-SUFFIX,newstapa.org,PROXY
+- DOMAIN-SUFFIX,nexitally.com,PROXY
+- DOMAIN-SUFFIX,nhk.or.jp,PROXY
+- DOMAIN-SUFFIX,nicovideo.jp,PROXY
+- DOMAIN-SUFFIX,nii.ac.jp,PROXY
+- DOMAIN-SUFFIX,nikkei.com,PROXY
+- DOMAIN-SUFFIX,nofile.io,PROXY
+- DOMAIN-SUFFIX,now.com,PROXY
+- DOMAIN-SUFFIX,nrk.no,PROXY
+- DOMAIN-SUFFIX,nyt.com,PROXY
+- DOMAIN-SUFFIX,nytchina.com,PROXY
+- DOMAIN-SUFFIX,nytcn.me,PROXY
+- DOMAIN-SUFFIX,nytco.com,PROXY
+- DOMAIN-SUFFIX,nytimes.com,PROXY
+- DOMAIN-SUFFIX,nytimg.com,PROXY
+- DOMAIN-SUFFIX,nytlog.com,PROXY
+- DOMAIN-SUFFIX,nytstyle.com,PROXY
+- DOMAIN-SUFFIX,ok.ru,PROXY
+- DOMAIN-SUFFIX,okex.com,PROXY
+- DOMAIN-SUFFIX,on.cc,PROXY
+- DOMAIN-SUFFIX,orientaldaily.com.my,PROXY
+- DOMAIN-SUFFIX,overcast.fm,PROXY
+- DOMAIN-SUFFIX,paltalk.com,PROXY
+- DOMAIN-SUFFIX,pao-pao.net,PROXY
+- DOMAIN-SUFFIX,parsevideo.com,PROXY
+- DOMAIN-SUFFIX,pbxes.com,PROXY
+- DOMAIN-SUFFIX,pcdvd.com.tw,PROXY
+- DOMAIN-SUFFIX,pchome.com.tw,PROXY
+- DOMAIN-SUFFIX,pcloud.com,PROXY
+- DOMAIN-SUFFIX,picacomic.com,PROXY
+- DOMAIN-SUFFIX,pinimg.com,PROXY
+- DOMAIN-SUFFIX,pixiv.net,PROXY
+- DOMAIN-SUFFIX,player.fm,PROXY
+- DOMAIN-SUFFIX,plurk.com,PROXY
+- DOMAIN-SUFFIX,po18.tw,PROXY
+- DOMAIN-SUFFIX,potato.im,PROXY
+- DOMAIN-SUFFIX,potatso.com,PROXY
+- DOMAIN-SUFFIX,prism-break.org,PROXY
+- DOMAIN-SUFFIX,proxifier.com,PROXY
+- DOMAIN-SUFFIX,pt.im,PROXY
+- DOMAIN-SUFFIX,pts.org.tw,PROXY
+- DOMAIN-SUFFIX,pubu.com.tw,PROXY
+- DOMAIN-SUFFIX,pubu.tw,PROXY
+- DOMAIN-SUFFIX,pureapk.com,PROXY
+- DOMAIN-SUFFIX,quora.com,PROXY
+- DOMAIN-SUFFIX,quoracdn.net,PROXY
+- DOMAIN-SUFFIX,rakuten.co.jp,PROXY
+- DOMAIN-SUFFIX,readingtimes.com.tw,PROXY
+- DOMAIN-SUFFIX,readmoo.com,PROXY
+- DOMAIN-SUFFIX,redbubble.com,PROXY
+- DOMAIN-SUFFIX,reddit.com,PROXY
+- DOMAIN-SUFFIX,redd.it,PROXY
+- DOMAIN-SUFFIX,redditmedia.com,PROXY
+- DOMAIN-SUFFIX,redditstatic.com,PROXY
+- DOMAIN-SUFFIX,resilio.com,PROXY
+- DOMAIN-SUFFIX,reuters.com,PROXY
+- DOMAIN-SUFFIX,reutersmedia.net,PROXY
+- DOMAIN-SUFFIX,rfi.fr,PROXY
+- DOMAIN-SUFFIX,rixcloud.com,PROXY
+- DOMAIN-SUFFIX,roadshow.hk,PROXY
+- DOMAIN-SUFFIX,scmp.com,PROXY
+- DOMAIN-SUFFIX,scribd.com,PROXY
+- DOMAIN-SUFFIX,seatguru.com,PROXY
+- DOMAIN-SUFFIX,shadowsocks.org,PROXY
+- DOMAIN-SUFFIX,shopee.tw,PROXY
+- DOMAIN-SUFFIX,slideshare.net,PROXY
+- DOMAIN-SUFFIX,softfamous.com,PROXY
+- DOMAIN-SUFFIX,soundcloud.com,PROXY
+- DOMAIN-SUFFIX,ssrcloud.org,PROXY
+- DOMAIN-SUFFIX,startpage.com,PROXY
+- DOMAIN-SUFFIX,steamcommunity.com,PROXY
+- DOMAIN-SUFFIX,steemit.com,PROXY
+- DOMAIN-SUFFIX,steemitwallet.com,PROXY
+- DOMAIN-SUFFIX,t66y.com,PROXY
+- DOMAIN-SUFFIX,tapatalk.com,PROXY
+- DOMAIN-SUFFIX,teco-hk.org,PROXY
+- DOMAIN-SUFFIX,teco-mo.org,PROXY
+- DOMAIN-SUFFIX,teddysun.com,PROXY
+- DOMAIN-SUFFIX,textnow.me,PROXY
+- DOMAIN-SUFFIX,theguardian.com,PROXY
+- DOMAIN-SUFFIX,theinitium.com,PROXY
+- DOMAIN-SUFFIX,thetvdb.com,PROXY
+- DOMAIN-SUFFIX,tineye.com,PROXY
+- DOMAIN-SUFFIX,torproject.org,PROXY
+- DOMAIN-SUFFIX,tumblr.com,PROXY
+- DOMAIN-SUFFIX,turbobit.net,PROXY
+- DOMAIN-SUFFIX,tutanota.com,PROXY
+- DOMAIN-SUFFIX,tvboxnow.com,PROXY
+- DOMAIN-SUFFIX,udn.com,PROXY
+- DOMAIN-SUFFIX,unseen.is,PROXY
+- DOMAIN-SUFFIX,upmedia.mg,PROXY
+- DOMAIN-SUFFIX,uptodown.com,PROXY
+- DOMAIN-SUFFIX,urbandictionary.com,PROXY
+- DOMAIN-SUFFIX,ustream.tv,PROXY
+- DOMAIN-SUFFIX,uwants.com,PROXY
+- DOMAIN-SUFFIX,v2ray.com,PROXY
+- DOMAIN-SUFFIX,viber.com,PROXY
+- DOMAIN-SUFFIX,videopress.com,PROXY
+- DOMAIN-SUFFIX,vimeo.com,PROXY
+- DOMAIN-SUFFIX,voachinese.com,PROXY
+- DOMAIN-SUFFIX,voanews.com,PROXY
+- DOMAIN-SUFFIX,voxer.com,PROXY
+- DOMAIN-SUFFIX,vzw.com,PROXY
+- DOMAIN-SUFFIX,w3schools.com,PROXY
+- DOMAIN-SUFFIX,washingtonpost.com,PROXY
+- DOMAIN-SUFFIX,wattpad.com,PROXY
+- DOMAIN-SUFFIX,whoer.net,PROXY
+- DOMAIN-SUFFIX,wikimapia.org,PROXY
+- DOMAIN-SUFFIX,wikimedia.org,PROXY
+- DOMAIN-SUFFIX,wikipedia.org,PROXY
+- DOMAIN-SUFFIX,wikiquote.org,PROXY
+- DOMAIN-SUFFIX,wikiwand.com,PROXY
+- DOMAIN-SUFFIX,winudf.com,PROXY
+- DOMAIN-SUFFIX,wire.com,PROXY
+- DOMAIN-SUFFIX,wordpress.com,PROXY
+- DOMAIN-SUFFIX,workflow.is,PROXY
+- DOMAIN-SUFFIX,worldcat.org,PROXY
+- DOMAIN-SUFFIX,wsj.com,PROXY
+- DOMAIN-SUFFIX,wsj.net,PROXY
+- DOMAIN-SUFFIX,xhamster.com,PROXY
+- DOMAIN-SUFFIX,xn--90wwvt03e.com,PROXY
+- DOMAIN-SUFFIX,xn--i2ru8q2qg.com,PROXY
+- DOMAIN-SUFFIX,xnxx.com,PROXY
+- DOMAIN-SUFFIX,xvideos.com,PROXY
+- DOMAIN-SUFFIX,yahoo.com,PROXY
+- DOMAIN-SUFFIX,yandex.ru,PROXY
+- DOMAIN-SUFFIX,ycombinator.com,PROXY
+- DOMAIN-SUFFIX,yesasia.com,PROXY
+- DOMAIN-SUFFIX,yes-news.com,PROXY
+- DOMAIN-SUFFIX,yomiuri.co.jp,PROXY
+- DOMAIN-SUFFIX,you-get.org,PROXY
+- DOMAIN-SUFFIX,zaobao.com,PROXY
+- DOMAIN-SUFFIX,zb.com,PROXY
+- DOMAIN-SUFFIX,zello.com,PROXY
+- DOMAIN-SUFFIX,zeronet.io,PROXY
+- DOMAIN-SUFFIX,zoom.us,PROXY
+- DOMAIN-KEYWORD,github,PROXY
+- DOMAIN-KEYWORD,jav,PROXY
+- DOMAIN-KEYWORD,pinterest,PROXY
+- DOMAIN-KEYWORD,porn,PROXY
+- DOMAIN-KEYWORD,wikileaks,PROXY
+- DOMAIN-SUFFIX,apartmentratings.com,PROXY
+- DOMAIN-SUFFIX,apartments.com,PROXY
+- DOMAIN-SUFFIX,bankmobilevibe.com,PROXY
+- DOMAIN-SUFFIX,bing.com,PROXY
+- DOMAIN-SUFFIX,booktopia.com.au,PROXY
+- DOMAIN-SUFFIX,cccat.io,PROXY
+- DOMAIN-SUFFIX,centauro.com.br,PROXY
+- DOMAIN-SUFFIX,clearsurance.com,PROXY
+- DOMAIN-SUFFIX,costco.com,PROXY
+- DOMAIN-SUFFIX,crackle.com,PROXY
+- DOMAIN-SUFFIX,depositphotos.cn,PROXY
+- DOMAIN-SUFFIX,dish.com,PROXY
+- DOMAIN-SUFFIX,dmm.co.jp,PROXY
+- DOMAIN-SUFFIX,dmm.com,PROXY
+- DOMAIN-SUFFIX,dnvod.tv,PROXY
+- DOMAIN-SUFFIX,esurance.com,PROXY
+- DOMAIN-SUFFIX,extmatrix.com,PROXY
+- DOMAIN-SUFFIX,fastpic.ru,PROXY
+- DOMAIN-SUFFIX,flipboard.com,PROXY
+- DOMAIN-SUFFIX,fnac.be,PROXY
+- DOMAIN-SUFFIX,fnac.com,PROXY
+- DOMAIN-SUFFIX,funkyimg.com,PROXY
+- DOMAIN-SUFFIX,fxnetworks.com,PROXY
+- DOMAIN-SUFFIX,gettyimages.com,PROXY
+- DOMAIN-SUFFIX,go.com,PROXY
+- DOMAIN-SUFFIX,here.com,PROXY
+- DOMAIN-SUFFIX,jcpenney.com,PROXY
+- DOMAIN-SUFFIX,jiehua.tv,PROXY
+- DOMAIN-SUFFIX,mailfence.com,PROXY
+- DOMAIN-SUFFIX,nationwide.com,PROXY
+- DOMAIN-SUFFIX,nbc.com,PROXY
+- DOMAIN-SUFFIX,nexon.com,PROXY
+- DOMAIN-SUFFIX,nordstrom.com,PROXY
+- DOMAIN-SUFFIX,nordstromimage.com,PROXY
+- DOMAIN-SUFFIX,nordstromrack.com,PROXY
+- DOMAIN-SUFFIX,superpages.com,PROXY
+- DOMAIN-SUFFIX,target.com,PROXY
+- DOMAIN-SUFFIX,thinkgeek.com,PROXY
+- DOMAIN-SUFFIX,tracfone.com,PROXY
+- DOMAIN-SUFFIX,unity3d.com,PROXY
+- DOMAIN-SUFFIX,uploader.jp,PROXY
+- DOMAIN-SUFFIX,vevo.com,PROXY
+- DOMAIN-SUFFIX,viu.tv,PROXY
+- DOMAIN-SUFFIX,vk.com,PROXY
+- DOMAIN-SUFFIX,vsco.co,PROXY
+- DOMAIN-SUFFIX,xfinity.com,PROXY
+- DOMAIN-SUFFIX,zattoo.com,PROXY
+- DOMAIN-SUFFIX,zhongzilou.com,PROXY
+- DOMAIN-SUFFIX,mega.nz,PROXY
+- DOMAIN-SUFFIX,mega.io,PROXY
+- DOMAIN-SUFFIX,co.nz,PROXY
+- DOMAIN-SUFFIX,gofile.io,PROXY
+- DOMAIN-SUFFIX,qwe77.com,PROXY
+- DOMAIN-SUFFIX,oracle.com,PROXY
+- DOMAIN-SUFFIX,turnkeylinux.org,DIRECT
+- DOMAIN-SUFFIX,installlion.com,PROXY
+- IP-CIDR,118.193.38.103/21,PROXY,no-resolve
+- DOMAIN-SUFFIX,zhenbuka3.com,DIRECT
+- DOMAIN-SUFFIX,zhenbuka5.com,DIRECT
+- DOMAIN-SUFFIX,mofuncafe.com,DIRECT
+- DOMAIN-SUFFIX,755hunqing.com,DIRECT
+- DOMAIN-SUFFIX,dianyinggou.com,DIRECT
+- DOMAIN-SUFFIX,thepiratebay.org,PROXY
+- DOMAIN-SUFFIX,megasearch.co,PROXY
+- DOMAIN-SUFFIX,swying.com,PROXY,no-resolve
+- DOMAIN-SUFFIX,tlbbqq.com,PROXY,no-resolve
+- IP-CIDR,172.67.220.109/32,PROXY,no-resolve
+- DOMAIN-SUFFIX,kxdw.com,PROXY
+- DOMAIN,testflight.apple.com,PROXY
+- DOMAIN-SUFFIX,appsto.re,PROXY
+- DOMAIN,books.itunes.apple.com,PROXY
+- DOMAIN,hls.itunes.apple.com,PROXY
+- DOMAIN,apps.apple.com,PROXY
+- DOMAIN,itunes.apple.com,PROXY
+- DOMAIN,api-glb-sea.smoot.apple.com,PROXY
+- DOMAIN,lookup-api.apple.com,PROXY
+- DOMAIN-SUFFIX,abc.xyz,PROXY
+- DOMAIN-SUFFIX,android.com,PROXY
+- DOMAIN-SUFFIX,androidify.com,PROXY
+- DOMAIN-SUFFIX,dialogflow.com,PROXY
+- DOMAIN-SUFFIX,autodraw.com,PROXY
+- DOMAIN-SUFFIX,capitalg.com,PROXY
+- DOMAIN-SUFFIX,certificate-transparency.org,PROXY
+- DOMAIN-SUFFIX,chrome.com,PROXY
+- DOMAIN-SUFFIX,chromeexperiments.com,PROXY
+- DOMAIN-SUFFIX,chromestatus.com,PROXY
+- DOMAIN-SUFFIX,chromium.org,PROXY
+- DOMAIN-SUFFIX,creativelab5.com,PROXY
+- DOMAIN-SUFFIX,debug.com,PROXY
+- DOMAIN-SUFFIX,deepmind.com,PROXY
+- DOMAIN-SUFFIX,firebaseio.com,PROXY
+- DOMAIN-SUFFIX,getmdl.io,PROXY
+- DOMAIN-SUFFIX,ggpht.com,PROXY
+- DOMAIN-SUFFIX,gmail.com,PROXY
+- DOMAIN-SUFFIX,gmodules.com,PROXY
+- DOMAIN-SUFFIX,godoc.org,PROXY
+- DOMAIN-SUFFIX,golang.org,PROXY
+- DOMAIN-SUFFIX,gstatic.com,PROXY
+- DOMAIN-SUFFIX,gv.com,PROXY
+- DOMAIN-SUFFIX,gwtproject.org,PROXY
+- DOMAIN-SUFFIX,itasoftware.com,PROXY
+- DOMAIN-SUFFIX,madewithcode.com,PROXY
+- DOMAIN-SUFFIX,material.io,PROXY
+- DOMAIN-SUFFIX,polymer-project.org,PROXY
+- DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
+- DOMAIN-SUFFIX,recaptcha.net,PROXY
+- DOMAIN-SUFFIX,shattered.io,PROXY
+- DOMAIN-SUFFIX,synergyse.com,PROXY
+- DOMAIN-SUFFIX,telephony.goog,PROXY
+- DOMAIN-SUFFIX,tensorflow.org,PROXY
+- DOMAIN-SUFFIX,tfhub.dev,PROXY
+- DOMAIN-SUFFIX,tiltbrush.com,PROXY
+- DOMAIN-SUFFIX,waveprotocol.org,PROXY
+- DOMAIN-SUFFIX,waymo.com,PROXY
+- DOMAIN-SUFFIX,webmproject.org,PROXY
+- DOMAIN-SUFFIX,webrtc.org,PROXY
+- DOMAIN-SUFFIX,whatbrowser.org,PROXY
+- DOMAIN-SUFFIX,widevine.com,PROXY
+- DOMAIN-SUFFIX,x.company,PROXY
+- DOMAIN-SUFFIX,youtu.be,PROXY
+- DOMAIN-SUFFIX,yt.be,PROXY
+- DOMAIN-SUFFIX,ytimg.com,PROXY
+- DOMAIN-SUFFIX,1drv.com,PROXY
+- DOMAIN-SUFFIX,1drv.ms,PROXY
+- DOMAIN-SUFFIX,blob.core.windows.net,PROXY
+- DOMAIN-SUFFIX,livefilestore.com,PROXY
+- DOMAIN-SUFFIX,onedrive.com,PROXY
+- DOMAIN-SUFFIX,storage.live.com,PROXY
+- DOMAIN-SUFFIX,storage.msn.com,PROXY
+- DOMAIN,oneclient.sfx.ms,PROXY
+- DOMAIN-SUFFIX,0rz.tw,PROXY
+- DOMAIN-SUFFIX,4bluestones.biz,PROXY
+- DOMAIN-SUFFIX,9bis.net,PROXY
+- DOMAIN-SUFFIX,allconnected.co,PROXY
+- DOMAIN-SUFFIX,aol.com,PROXY
+- DOMAIN-SUFFIX,bcc.com.tw,PROXY
+- DOMAIN-SUFFIX,bit.ly,PROXY
+- DOMAIN-SUFFIX,bitshare.com,PROXY
+- DOMAIN-SUFFIX,blog.jp,PROXY
+- DOMAIN-SUFFIX,blogimg.jp,PROXY
+- DOMAIN-SUFFIX,blogtd.org,PROXY
+- DOMAIN-SUFFIX,broadcast.co.nz,PROXY
+- DOMAIN-SUFFIX,camfrog.com,PROXY
+- DOMAIN-SUFFIX,cfos.de,PROXY
+- DOMAIN-SUFFIX,citypopulation.de,PROXY
+- DOMAIN-SUFFIX,cloudfront.net,PROXY
+- DOMAIN-SUFFIX,ctitv.com.tw,PROXY
+- DOMAIN-SUFFIX,cuhk.edu.hk,PROXY
+- DOMAIN-SUFFIX,cusu.hk,PROXY
+- DOMAIN-SUFFIX,discord.gg,PROXY
+- DOMAIN-SUFFIX,discuss.com.hk,PROXY
+- DOMAIN-SUFFIX,dropboxapi.com,PROXY
+- DOMAIN-SUFFIX,duolingo.cn,PROXY
+- DOMAIN-SUFFIX,edditstatic.com,PROXY
+- DOMAIN-SUFFIX,flickriver.com,PROXY
+- DOMAIN-SUFFIX,focustaiwan.tw,PROXY
+- DOMAIN-SUFFIX,free.fr,PROXY
+- DOMAIN-SUFFIX,gigacircle.com,PROXY
+- DOMAIN-SUFFIX,hk-pub.com,PROXY
+- DOMAIN-SUFFIX,hosting.co.uk,PROXY
+- DOMAIN-SUFFIX,hwcdn.net,PROXY
+- DOMAIN-SUFFIX,ifixit.com,PROXY
+- DOMAIN-SUFFIX,iphone4hongkong.com,PROXY
+- DOMAIN-SUFFIX,iphonetaiwan.org,PROXY
+- DOMAIN-SUFFIX,iptvbin.com,PROXY
+- DOMAIN-SUFFIX,linksalpha.com,PROXY
+- DOMAIN-SUFFIX,manyvids.com,PROXY
+- DOMAIN-SUFFIX,myactimes.com,PROXY
+- DOMAIN-SUFFIX,newsblur.com,PROXY
+- DOMAIN-SUFFIX,now.im,PROXY
+- DOMAIN-SUFFIX,nowe.com,PROXY
+- DOMAIN-SUFFIX,redditlist.com,PROXY
+- DOMAIN-SUFFIX,s3.amazonaws.com,PROXY
+- DOMAIN-SUFFIX,signal.org,PROXY
+- DOMAIN-SUFFIX,smartmailcloud.com,PROXY
+- DOMAIN-SUFFIX,sparknotes.com,PROXY
+- DOMAIN-SUFFIX,streetvoice.com,PROXY
+- DOMAIN-SUFFIX,supertop.co,PROXY
+- DOMAIN-SUFFIX,tv.com,PROXY
+- DOMAIN-SUFFIX,typepad.com,PROXY
+- DOMAIN-SUFFIX,udnbkk.com,PROXY
+- DOMAIN-SUFFIX,urbanairship.com,PROXY
+- DOMAIN-SUFFIX,whispersystems.org,PROXY
+- DOMAIN-SUFFIX,wikia.com,PROXY
+- DOMAIN-SUFFIX,wn.com,PROXY
+- DOMAIN-SUFFIX,wolframalpha.com,PROXY
+- DOMAIN-SUFFIX,x-art.com,PROXY
+- DOMAIN-SUFFIX,yimg.com,PROXY
+- DOMAIN,api.steampowered.com,PROXY
+- DOMAIN,store.steampowered.com,PROXY
+- DOMAIN,gcr.io,PROXY
+- DOMAIN-SUFFIX,qhres.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,alibaba.com,DIRECT
+- DOMAIN-SUFFIX,alicdn.com,DIRECT
+- DOMAIN-SUFFIX,alikunlun.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-SUFFIX,dingtalk.com,DIRECT
+- DOMAIN-SUFFIX,mxhichina.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tmall.hk,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,baidu.com,DIRECT
+- DOMAIN-SUFFIX,baidubcr.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
+- DOMAIN-SUFFIX,acgvideo.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.net,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,blizzard.com,DIRECT
+- DOMAIN-SUFFIX,battle.net,DIRECT
+- DOMAIN,blzddist1-a.akamaihd.net,DIRECT
+- DOMAIN-SUFFIX,feiliao.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,snssdk.com,DIRECT
+- DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+- DOMAIN-SUFFIX,toutiao.com,DIRECT
+- DOMAIN-SUFFIX,cctv.com,DIRECT
+- DOMAIN-SUFFIX,cctvpic.com,DIRECT
+- DOMAIN-SUFFIX,livechina.com,DIRECT
+- DOMAIN-SUFFIX,didialift.com,DIRECT
+- DOMAIN-SUFFIX,didiglobal.com,DIRECT
+- DOMAIN-SUFFIX,udache.com,DIRECT
+- DOMAIN-SUFFIX,343480.com,DIRECT
+- DOMAIN-SUFFIX,baduziyuan.com,DIRECT
+- DOMAIN-SUFFIX,com-hs-hkdy.com,DIRECT
+- DOMAIN-SUFFIX,czybjz.com,DIRECT
+- DOMAIN-SUFFIX,dandanzan.com,DIRECT
+- DOMAIN-SUFFIX,fjhps.com,DIRECT
+- DOMAIN-SUFFIX,kuyunbo.club,DIRECT
+- DOMAIN-SUFFIX,21cn.com,DIRECT
+- DOMAIN-SUFFIX,hitv.com,DIRECT
+- DOMAIN-SUFFIX,mgtv.com,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+- DOMAIN-SUFFIX,71.am.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jd.hk,DIRECT
+- DOMAIN-SUFFIX,jdpay.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ksosoft.com,DIRECT
+- DOMAIN-SUFFIX,meitu.com,DIRECT
+- DOMAIN-SUFFIX,meitudata.com,DIRECT
+- DOMAIN-SUFFIX,meitustat.com,DIRECT
+- DOMAIN-SUFFIX,meipai.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,mi-img.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,xiaomi.com,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,msecnd.net,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-SUFFIX,outlook.com,DIRECT
+- DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+- DOMAIN-SUFFIX,visualstudio.com,DIRECT
+- DOMAIN-SUFFIX,windows.com,DIRECT
+- DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+- DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163yun.com,DIRECT
+- DOMAIN-SUFFIX,lofter.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,ydstatic.com,DIRECT
+- DOMAIN-SUFFIX,sina.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,weibocdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,sohucs.com,DIRECT
+- DOMAIN-SUFFIX,sohu-inc.com,DIRECT
+- DOMAIN-SUFFIX,v-56.com,DIRECT
+- DOMAIN-SUFFIX,sogo.com,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,steampowered.com,DIRECT
+- DOMAIN-SUFFIX,steam-chat.com,DIRECT
+- DOMAIN-SUFFIX,steamgames.com,DIRECT
+- DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+- DOMAIN-SUFFIX,steamcontent.com,DIRECT
+- DOMAIN-SUFFIX,steamstatic.com,DIRECT
+- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+- DOMAIN-SUFFIX,steamstat.us,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN-SUFFIX,idqqimg.com,DIRECT
+- DOMAIN-SUFFIX,igamecj.com,DIRECT
+- DOMAIN-SUFFIX,myapp.com,DIRECT
+- DOMAIN-SUFFIX,myqcloud.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,servicewechat.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN,file-igamecj.akamaized.net,DIRECT
+- IP-CIDR,182.254.116.0/24,DIRECT
+- IP-CIDR,203.205.252.0/23,DIRECT
+- IP-CIDR,203.205.254.0/23,DIRECT
+- DOMAIN-SUFFIX,jstucdn.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.io,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SUFFIX,zmz2019.com,DIRECT
+- DOMAIN-SUFFIX,zmzapi.com,DIRECT
+- DOMAIN-SUFFIX,zmzapi.net,DIRECT
+- DOMAIN-SUFFIX,zmzfile.com,DIRECT
+- DOMAIN-SUFFIX,ccgslb.com,DIRECT
+- DOMAIN-SUFFIX,ccgslb.net,DIRECT
+- DOMAIN-SUFFIX,chinanetcenter.com,DIRECT
+- DOMAIN-SUFFIX,meixincdn.com,DIRECT
+- DOMAIN-SUFFIX,ourdvs.com,DIRECT
+- DOMAIN-SUFFIX,staticdn.net,DIRECT
+- DOMAIN-SUFFIX,wangsu.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,ip.la,DIRECT
+- DOMAIN-SUFFIX,ip-cdn.com,DIRECT
+- DOMAIN-SUFFIX,ipv6-test.com,DIRECT
+- DOMAIN-SUFFIX,test-ipv6.com,DIRECT
+- DOMAIN-SUFFIX,whatismyip.com,DIRECT
+- DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
+- DOMAIN,speedtest.macpaw.com,DIRECT
+- DOMAIN-SUFFIX,awesome-hd.me,DIRECT
+- DOMAIN-SUFFIX,broadcasthe.net,DIRECT
+- DOMAIN-SUFFIX,chdbits.co,DIRECT
+- DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
+- DOMAIN-SUFFIX,empornium.me,DIRECT
+- DOMAIN-SUFFIX,gazellegames.net,DIRECT
+- DOMAIN-SUFFIX,hdchina.org,DIRECT
+- DOMAIN-SUFFIX,hdsky.me,DIRECT
+- DOMAIN-SUFFIX,icetorrent.org,DIRECT
+- DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
+- DOMAIN-SUFFIX,keepfrds.com,DIRECT
+- DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+- DOMAIN-SUFFIX,m-team.cc,DIRECT
+- DOMAIN-SUFFIX,nanyangpt.com,DIRECT
+- DOMAIN-SUFFIX,ncore.cc,DIRECT
+- DOMAIN-SUFFIX,open.cd,DIRECT
+- DOMAIN-SUFFIX,ourbits.club,DIRECT
+- DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
+- DOMAIN-SUFFIX,privatehd.to,DIRECT
+- DOMAIN-SUFFIX,redacted.ch,DIRECT
+- DOMAIN-SUFFIX,springsunday.net,DIRECT
+- DOMAIN-SUFFIX,tjupt.org,DIRECT
+- DOMAIN-SUFFIX,totheglory.im,DIRECT
+- DOMAIN-SUFFIX,acm.org,DIRECT
+- DOMAIN-SUFFIX,acs.org,DIRECT
+- DOMAIN-SUFFIX,aip.org,DIRECT
+- DOMAIN-SUFFIX,ams.org,DIRECT
+- DOMAIN-SUFFIX,annualreviews.org,DIRECT
+- DOMAIN-SUFFIX,aps.org,DIRECT
+- DOMAIN-SUFFIX,ascelibrary.org,DIRECT
+- DOMAIN-SUFFIX,asm.org,DIRECT
+- DOMAIN-SUFFIX,asme.org,DIRECT
+- DOMAIN-SUFFIX,astm.org,DIRECT
+- DOMAIN-SUFFIX,bmj.com,DIRECT
+- DOMAIN-SUFFIX,cambridge.org,DIRECT
+- DOMAIN-SUFFIX,cas.org,DIRECT
+- DOMAIN-SUFFIX,clarivate.com,DIRECT
+- DOMAIN-SUFFIX,ebscohost.com,DIRECT
+- DOMAIN-SUFFIX,emerald.com,DIRECT
+- DOMAIN-SUFFIX,engineeringvillage.com,DIRECT
+- DOMAIN-SUFFIX,icevirtuallibrary.com,DIRECT
+- DOMAIN-SUFFIX,ieee.org,DIRECT
+- DOMAIN-SUFFIX,imf.org,DIRECT
+- DOMAIN-SUFFIX,iop.org,DIRECT
+- DOMAIN-SUFFIX,jamanetwork.com,DIRECT
+- DOMAIN-SUFFIX,jhu.edu,DIRECT
+- DOMAIN-SUFFIX,jstor.org,DIRECT
+- DOMAIN-SUFFIX,karger.com,DIRECT
+- DOMAIN-SUFFIX,libguides.com,DIRECT
+- DOMAIN-SUFFIX,madsrevolution.net,DIRECT
+- DOMAIN-SUFFIX,mpg.de,DIRECT
+- DOMAIN-SUFFIX,myilibrary.com,DIRECT
+- DOMAIN-SUFFIX,nature.com,DIRECT
+- DOMAIN-SUFFIX,oecd-ilibrary.org,DIRECT
+- DOMAIN-SUFFIX,osapublishing.org,DIRECT
+- DOMAIN-SUFFIX,oup.com,DIRECT
+- DOMAIN-SUFFIX,ovid.com,DIRECT
+- DOMAIN-SUFFIX,oxfordartonline.com,DIRECT
+- DOMAIN-SUFFIX,oxfordbibliographies.com,DIRECT
+- DOMAIN-SUFFIX,oxfordmusiconline.com,DIRECT
+- DOMAIN-SUFFIX,pnas.org,DIRECT
+- DOMAIN-SUFFIX,proquest.com,DIRECT
+- DOMAIN-SUFFIX,rsc.org,DIRECT
+- DOMAIN-SUFFIX,sagepub.com,DIRECT
+- DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+- DOMAIN-SUFFIX,sciencemag.org,DIRECT
+- DOMAIN-SUFFIX,scopus.com,DIRECT
+- DOMAIN-SUFFIX,siam.org,DIRECT
+- DOMAIN-SUFFIX,spiedigitallibrary.org,DIRECT
+- DOMAIN-SUFFIX,springer.com,DIRECT
+- DOMAIN-SUFFIX,springerlink.com,DIRECT
+- DOMAIN-SUFFIX,tandfonline.com,DIRECT
+- DOMAIN-SUFFIX,un.org,DIRECT
+- DOMAIN-SUFFIX,uni-bielefeld.de,DIRECT
+- DOMAIN-SUFFIX,webofknowledge.com,DIRECT
+- DOMAIN-SUFFIX,westlaw.com,DIRECT
+- DOMAIN-SUFFIX,wiley.com,DIRECT
+- DOMAIN-SUFFIX,worldbank.org,DIRECT
+- DOMAIN-SUFFIX,worldscientific.com,DIRECT
+- DOMAIN-SUFFIX,plex.tv,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-SUFFIX,360in.com,DIRECT
+- DOMAIN-SUFFIX,51ym.me,DIRECT
+- DOMAIN-SUFFIX,8686c.com,DIRECT
+- DOMAIN-SUFFIX,abchina.com,DIRECT
+- DOMAIN-SUFFIX,accuweather.com,DIRECT
+- DOMAIN-SUFFIX,aicoinstorge.com,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,air-matters.io,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-SUFFIX,amd.com,DIRECT
+- DOMAIN-SUFFIX,b612.net,DIRECT
+- DOMAIN-SUFFIX,bdatu.com,DIRECT
+- DOMAIN-SUFFIX,beitaichufang.com,DIRECT
+- DOMAIN-SUFFIX,bjango.com,DIRECT
+- DOMAIN-SUFFIX,booking.com,DIRECT
+- DOMAIN-SUFFIX,bstatic.com,DIRECT
+- DOMAIN-SUFFIX,cailianpress.com,DIRECT
+- DOMAIN-SUFFIX,camera360.com,DIRECT
+- DOMAIN-SUFFIX,chinaso.com,DIRECT
+- DOMAIN-SUFFIX,chua.pro,DIRECT
+- DOMAIN-SUFFIX,chuimg.com,DIRECT
+- DOMAIN-SUFFIX,chunyu.mobi,DIRECT
+- DOMAIN-SUFFIX,chushou.tv,DIRECT
+- DOMAIN-SUFFIX,cmbchina.com,DIRECT
+- DOMAIN-SUFFIX,cmbimg.com,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dfcfw.com,DIRECT
+- DOMAIN-SUFFIX,docschina.org,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,douyu.com,DIRECT
+- DOMAIN-SUFFIX,dxycdn.com,DIRECT
+- DOMAIN-SUFFIX,dytt8.net,DIRECT
+- DOMAIN-SUFFIX,eastmoney.com,DIRECT
+- DOMAIN-SUFFIX,eudic.net,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fengkongcloud.com,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,futu5.com,DIRECT
+- DOMAIN-SUFFIX,futunn.com,DIRECT
+- DOMAIN-SUFFIX,gandi.net,DIRECT
+- DOMAIN-SUFFIX,geilicdn.com,DIRECT
+- DOMAIN-SUFFIX,getpricetag.com,DIRECT
+- DOMAIN-SUFFIX,gifshow.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,hicloud.com,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hostbuf.com,DIRECT
+- DOMAIN-SUFFIX,huxiucdn.com,DIRECT
+- DOMAIN-SUFFIX,huya.com,DIRECT
+- DOMAIN-SUFFIX,infinitynewtab.com,DIRECT
+- DOMAIN-SUFFIX,ithome.com,DIRECT
+- DOMAIN-SUFFIX,java.com,DIRECT
+- DOMAIN-SUFFIX,jidian.im,DIRECT
+- DOMAIN-SUFFIX,kaiyanapp.com,DIRECT
+- DOMAIN-SUFFIX,kaspersky-labs.com,DIRECT
+- DOMAIN-SUFFIX,keepcdn.com,DIRECT
+- DOMAIN-SUFFIX,kkmh.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,linkedin.com,DIRECT
+- DOMAIN-SUFFIX,loli.net,DIRECT
+- DOMAIN-SUFFIX,luojilab.com,DIRECT
+- DOMAIN-SUFFIX,maoyan.com,DIRECT
+- DOMAIN-SUFFIX,maoyun.tv,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mobike.com,DIRECT
+- DOMAIN-SUFFIX,moke.com,DIRECT
+- DOMAIN-SUFFIX,mubu.com,DIRECT
+- DOMAIN-SUFFIX,myzaker.com,DIRECT
+- DOMAIN-SUFFIX,nim-lang-cn.org,DIRECT
+- DOMAIN-SUFFIX,nvidia.com,DIRECT
+- DOMAIN-SUFFIX,oracle.com,DIRECT
+- DOMAIN-SUFFIX,paypal.com,DIRECT
+- DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qyer.com,DIRECT
+- DOMAIN-SUFFIX,qyerstatic.com,DIRECT
+- DOMAIN-SUFFIX,raychase.net,DIRECT
+- DOMAIN-SUFFIX,ronghub.com,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,s-reader.com,DIRECT
+- DOMAIN-SUFFIX,sankuai.com,DIRECT
+- DOMAIN-SUFFIX,scomper.me,DIRECT
+- DOMAIN-SUFFIX,seafile.com,DIRECT
+- DOMAIN-SUFFIX,sm.ms,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,snapdrop.net,DIRECT
+- DOMAIN-SUFFIX,snwx.com,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,takungpao.com,DIRECT
+- DOMAIN-SUFFIX,teamviewer.com,DIRECT
+- DOMAIN-SUFFIX,tianyancha.com,DIRECT
+- DOMAIN-SUFFIX,udacity.com,DIRECT
+- DOMAIN-SUFFIX,uning.com,DIRECT
+- DOMAIN-SUFFIX,vmware.com,DIRECT
+- DOMAIN-SUFFIX,weather.com,DIRECT
+- DOMAIN-SUFFIX,weico.cc,DIRECT
+- DOMAIN-SUFFIX,weidian.com,DIRECT
+- DOMAIN-SUFFIX,xiachufang.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xinhuanet.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+- DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zhuihd.com,DIRECT
+- DOMAIN,download.jetbrains.com,DIRECT
+- DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
+- DOMAIN,cdn.angruo.com,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,Apple
+- DOMAIN-SUFFIX,apple.co,Apple
+- DOMAIN-SUFFIX,apple.com,Apple
+- DOMAIN-SUFFIX,apple.com.cn,Apple
+- DOMAIN-SUFFIX,apple-cloudkit.com,Apple
+- DOMAIN-SUFFIX,appstore.com,Apple
+- DOMAIN-SUFFIX,cdn-apple.com,Apple
+- DOMAIN-SUFFIX,crashlytics.com,Apple
+- DOMAIN-SUFFIX,icloud.com,Apple
+- DOMAIN-SUFFIX,icloud.com.cn,Apple
+- DOMAIN-SUFFIX,icloud-content.com,Apple
+- DOMAIN-SUFFIX,me.com,Apple
+- DOMAIN-SUFFIX,mzstatic.com,Apple
+- DOMAIN,www-cdn.icloud.com.akadns.net,Apple
+- DOMAIN-SUFFIX,zhongzilou.com,PROXY
+- DOMAIN-SUFFIX,mega.nz,PROXY
+- DOMAIN-SUFFIX,mega.io,PROXY
+- DOMAIN-SUFFIX,co.nz,PROXY
+- DOMAIN-SUFFIX,gofile.io,PROXY
+- DOMAIN-SUFFIX,qwe77.com,PROXY
+- DOMAIN-SUFFIX,oracle.com,PROXY
+- DOMAIN-SUFFIX,maicaidao.me,PROXY
+- IP-CIDR,118.193.38.103/21,PROXY,no-resolve
+- DOMAIN-SUFFIX,zhenbuka3.com,DIRECT
+- DOMAIN-SUFFIX,zhenbuka5.com,DIRECT
+- DOMAIN-SUFFIX,mofuncafe.com,DIRECT
+- DOMAIN-SUFFIX,755hunqing.com,DIRECT
+- DOMAIN-SUFFIX,dianyinggou.com,DIRECT
+- DOMAIN-SUFFIX,gg.gg,PROXY
+- DOMAIN-SUFFIX,cdqykt.com,DIRECT
+- DOMAIN-SUFFIX,bing.com,DIRECT
+- DOMAIN-SUFFIX,cxyzjd.com,DIRECT
+- DOMAIN-SUFFIX,freebsd.org,DIRECT
+- DOMAIN-SUFFIX,y.ribbon.to,PROXY
+- DOMAIN-SUFFIX,pkgs.org,PROXY
+- DOMAIN-SUFFIX,lanzous.com,PROXY
+- DOMAIN-SUFFIX,winehq.org,PROXY
+- DOMAIN-SUFFIX,xitongcheng.com,DIRECT
+- DOMAIN-SUFFIX,servyou.com.cn,DIRECT
+- DOMAIN-SUFFIX,kali.org,PROXY
+- DOMAIN-SUFFIX,virstotal.com,PROXY
+- DOMAIN-SUFFIX,ubuntu.com,PROXY
+- DOMAIN-SUFFIX,linuxmint.com,PROXY
+- DOMAIN-SUFFIX,parallels.com,DIRECT
+- DOMAIN-SUFFIX,linuxdiyf.com,PROXY
+- DOMAIN-SUFFIX,cloudflare.com,PROXY
+- DOMAIN-SUFFIX,fastandeasyhacking.com,PROXY
+- DOMAIN-SUFFIX,zlib.com,PROXY
+- DOMAIN-SUFFIX,openai.com,PROXY
+- DOMAIN-SUFFIX,v2ex.com,PROXY
+- DOMAIN-SUFFIX,tiktok.com,PROXY
+- DOMAIN-SUFFIX,notepad-plus-plus.org,PROXY
+- DOMAIN-SUFFIX,github.com,PROXY
+- DOMAIN-SUFFIX,githubusercontent.com,PROXY
+- DOMAIN-SUFFIX,ggpht.com,PROXY
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN,ssl.gstatic.com,DIRECT
+- DOMAIN-SUFFIX,bootstrapcdn.com,DIRECT
+- DOMAIN-SUFFIX,nunuyy1.top,DIRECT
+- DOMAIN-SUFFIX,macwk.com,DIRECT
+- DOMAIN-SUFFIX,jb51.net,DIRECT
+- DOMAIN-SUFFIX,aktkn.sg,DIRECT
+- DOMAIN-SUFFIX,cat.net,DIRECT
+- IP-CIDR,17.0.0.0/8,Apple,no-resolve
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,149.154.167.51/32,PROXY
+- IP-CIDR,103.252.114.11/32,PROXY
+- IP-CIDR,135.16.0.0/16,DIRECT
+- IP-CIDR,101.34.14.28/32,DIRECT
+- IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+- GEOIP,CN,DIRECT
+- MATCH,Final
+socks-port: 7891
