@@ -5618,19 +5618,7 @@ proxies:
   ws-path: /IYKLD53M
 - alterId: '0'
   cipher: auto
-  name: 504_日本-1.87MB
-  network: ws
-  port: '80'
-  server: jp-04.wxfz.ml
-  tls: 0
-  type: vmess
-  uuid: a0733fc9-457e-498d-c363-9ec774a74948
-  ws-headers:
-    host: jp-04.wxfz.ml
-  ws-path: /jun
-- alterId: '0'
-  cipher: auto
-  name: 505_澳门-988.4KB
+  name: 504_澳门-988.4KB
   network: ws
   port: '443'
   server: dd8.bestcloud.tk
@@ -5642,7 +5630,7 @@ proxies:
   ws-path: /2
 - alterId: '0'
   cipher: auto
-  name: 506_以色列-1015.9KB
+  name: 505_以色列-1015.9KB
   network: ws
   port: '10110'
   server: jerusalem-d2.4422331.xyz
@@ -5654,7 +5642,7 @@ proxies:
   ws-path: /sometimesnaive
 - alterId: '0'
   cipher: auto
-  name: 507_荷兰-1.02MB
+  name: 506_荷兰-1.02MB
   network: ws
   port: '10010'
   server: amsterdam-m.4422331.xyz
@@ -5666,7 +5654,7 @@ proxies:
   ws-path: /sometimesnaive
 - alterId: '0'
   cipher: auto
-  name: 508_未知国家-1.32MB
+  name: 507_未知国家-1.32MB
   network: ws
   port: '443'
   server: 162.159.135.42
@@ -5676,6 +5664,18 @@ proxies:
   ws-headers:
     host: lg10.cfcdn1.xyz
   ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 508_日本-1007.9KB
+  network: ws
+  port: '80'
+  server: jp-04.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: a0733fc9-457e-498d-c363-9ec774a74948
+  ws-headers:
+    host: jp-04.wxfz.ml
+  ws-path: /jun
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6183,11 +6183,11 @@ proxy-groups:
   - 501_未知国家-565.7KB
   - 502_印度-2.50MB
   - 503_加拿大-2.56MB
-  - 504_日本-1.87MB
-  - 505_澳门-988.4KB
-  - 506_以色列-1015.9KB
-  - 507_荷兰-1.02MB
-  - 508_未知国家-1.32MB
+  - 504_澳门-988.4KB
+  - 505_以色列-1015.9KB
+  - 506_荷兰-1.02MB
+  - 507_未知国家-1.32MB
+  - 508_日本-1007.9KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6696,11 +6696,11 @@ proxy-groups:
   - 501_未知国家-565.7KB
   - 502_印度-2.50MB
   - 503_加拿大-2.56MB
-  - 504_日本-1.87MB
-  - 505_澳门-988.4KB
-  - 506_以色列-1015.9KB
-  - 507_荷兰-1.02MB
-  - 508_未知国家-1.32MB
+  - 504_澳门-988.4KB
+  - 505_以色列-1015.9KB
+  - 506_荷兰-1.02MB
+  - 507_未知国家-1.32MB
+  - 508_日本-1007.9KB
   type: select
 - name: Final
   proxies:
@@ -7218,11 +7218,11 @@ proxy-groups:
   - 501_未知国家-565.7KB
   - 502_印度-2.50MB
   - 503_加拿大-2.56MB
-  - 504_日本-1.87MB
-  - 505_澳门-988.4KB
-  - 506_以色列-1015.9KB
-  - 507_荷兰-1.02MB
-  - 508_未知国家-1.32MB
+  - 504_澳门-988.4KB
+  - 505_以色列-1015.9KB
+  - 506_荷兰-1.02MB
+  - 507_未知国家-1.32MB
+  - 508_日本-1007.9KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7730,11 +7730,11 @@ proxy-groups:
   - 501_未知国家-565.7KB
   - 502_印度-2.50MB
   - 503_加拿大-2.56MB
-  - 504_日本-1.87MB
-  - 505_澳门-988.4KB
-  - 506_以色列-1015.9KB
-  - 507_荷兰-1.02MB
-  - 508_未知国家-1.32MB
+  - 504_澳门-988.4KB
+  - 505_以色列-1015.9KB
+  - 506_荷兰-1.02MB
+  - 507_未知国家-1.32MB
+  - 508_日本-1007.9KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
