@@ -3159,19 +3159,7 @@ proxies:
   ws-path: /chat
 - alterId: '0'
   cipher: auto
-  name: 302_美国-4.37MB
-  network: ws
-  port: '443'
-  server: cf-yd-dns.sharecentre.online
-  tls: 1
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  ws-headers:
-    host: hk-gcore.sharecentre.online
-  ws-path: /shirker
-- alterId: '0'
-  cipher: auto
-  name: 303_美国-560.8KB
+  name: 302_美国-560.8KB
   network: ws
   port: '443'
   server: mncc.cf
@@ -3183,7 +3171,7 @@ proxies:
   ws-path: /shirker
 - alterId: '0'
   cipher: auto
-  name: 304_美国-6.59MB
+  name: 303_美国-6.59MB
   network: ws
   port: '443'
   server: 172.64.153.155
@@ -3193,6 +3181,18 @@ proxies:
   ws-headers:
     host: clash6.ssr-free.xyz
   ws-path: /dongtaiwang.com
+- alterId: '0'
+  cipher: auto
+  name: 304_美国-222.2KB
+  network: ws
+  port: '443'
+  server: cf-yd-dns.sharecentre.online
+  tls: 1
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  ws-headers:
+    host: hk-gcore.sharecentre.online
+  ws-path: /shirker
 - cipher: aes-256-cfb
   name: 305_美国-176.0KB
   obfs: tls1.2_ticket_auth
@@ -6632,19 +6632,7 @@ proxies:
   ws-path: /65e619e7-0bf1-4f5b-a390-5735b01a3713
 - alterId: '0'
   cipher: auto
-  name: 597_印度-329.0KB
-  network: ws
-  port: '59477'
-  server: 68.183.83.94
-  tls: 0
-  type: vmess
-  uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 598_加拿大-484.2KB
+  name: 597_加拿大-484.2KB
   network: ws
   port: '443'
   server: 23.227.38.100
@@ -6656,7 +6644,7 @@ proxies:
   ws-path: /UMW36262
 - alterId: '0'
   cipher: auto
-  name: 599_俄罗斯联邦-3.50MB
+  name: 598_俄罗斯联邦-3.50MB
   network: tcp
   port: '54321'
   server: 46.17.43.55
@@ -6668,7 +6656,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 600_伯利兹-3.15MB
+  name: 599_伯利兹-3.15MB
   network: ws
   port: '443'
   server: 203.30.188.190
@@ -6680,7 +6668,7 @@ proxies:
   ws-path: /A2DJOPFT
 - alterId: '0'
   cipher: auto
-  name: 601_新加坡-658.8KB
+  name: 600_新加坡-658.8KB
   network: ws
   port: '443'
   server: sg-1.018999.xyz
@@ -6692,7 +6680,7 @@ proxies:
   ws-path: /384d38a9-c8e4-4a27-e49e-72454c798d85
 - alterId: '0'
   cipher: auto
-  name: 602_德国-834.1KB
+  name: 601_德国-834.1KB
   network: ws
   port: '64443'
   server: de-ls03.nb1.fr
@@ -6704,7 +6692,7 @@ proxies:
   ws-path: /clientarea
 - alterId: '0'
   cipher: auto
-  name: 603_亚美尼亚-4.18MB
+  name: 602_亚美尼亚-4.18MB
   network: ws
   port: '443'
   server: 185.162.228.230
@@ -6714,6 +6702,18 @@ proxies:
   ws-headers:
     host: lg10.cfcdn1.xyz
   ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 603_印度-1.74MB
+  network: ws
+  port: '59477'
+  server: 68.183.83.94
+  tls: 0
+  type: vmess
+  uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+  ws-headers:
+    host: ''
+  ws-path: /
 - alterId: '0'
   cipher: auto
   name: 604_澳大利亚-2.42MB
@@ -6726,6 +6726,66 @@ proxies:
   ws-headers:
     host: vau1.0bad.com
   ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 605_日本-7.03MB
+  network: tcp
+  port: '30011'
+  server: jpzz.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: e0573e4c-2cd3-4cb1-81d5-8e7cf4d8e790
+  ws-headers:
+    host: hk-gcore.sharecentre.online
+  ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 606_日本-5.91MB
+  network: ws
+  port: '30008'
+  server: jpzz.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 4ddf868c-f90b-41aa-a4ae-45294d23eff9
+  ws-headers:
+    host: jpzz.wxfz.ml
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 607_日本-3.09MB
+  network: tcp
+  port: '30001'
+  server: jpzz.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: a323fa3d-51f4-478b-cc8d-80a1fe0ea7a2
+  ws-headers:
+    host: jpzz.wxfz.ml
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 608_日本-469.4KB
+  network: tcp
+  port: '30013'
+  server: jpzz.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: dce55e76-8721-4fa5-dd27-4acf4cdd4127
+  ws-headers:
+    host: jpzz.wxfz.ml
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 609_日本-2.60MB
+  network: tcp
+  port: '30003'
+  server: jpzz.wxfz.ml
+  tls: 0
+  type: vmess
+  uuid: 7172bf8c-d209-4e0f-b5f9-70ea24a0d120
+  ws-headers:
+    host: jpzz.wxfz.ml
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -7031,9 +7091,9 @@ proxy-groups:
   - 299_美国-5.07MB
   - 300_美国-1.73MB
   - 301_美国-5.02MB
-  - 302_美国-4.37MB
-  - 303_美国-560.8KB
-  - 304_美国-6.59MB
+  - 302_美国-560.8KB
+  - 303_美国-6.59MB
+  - 304_美国-222.2KB
   - 305_美国-176.0KB
   - 306_日本-3.21MB
   - 307_日本-2.40MB
@@ -7326,14 +7386,19 @@ proxy-groups:
   - 594_新加坡-1.88MB
   - 595_新加坡-302.1KB
   - 596_日本-2.50MB
-  - 597_印度-329.0KB
-  - 598_加拿大-484.2KB
-  - 599_俄罗斯联邦-3.50MB
-  - 600_伯利兹-3.15MB
-  - 601_新加坡-658.8KB
-  - 602_德国-834.1KB
-  - 603_亚美尼亚-4.18MB
+  - 597_加拿大-484.2KB
+  - 598_俄罗斯联邦-3.50MB
+  - 599_伯利兹-3.15MB
+  - 600_新加坡-658.8KB
+  - 601_德国-834.1KB
+  - 602_亚美尼亚-4.18MB
+  - 603_印度-1.74MB
   - 604_澳大利亚-2.42MB
+  - 605_日本-7.03MB
+  - 606_日本-5.91MB
+  - 607_日本-3.09MB
+  - 608_日本-469.4KB
+  - 609_日本-2.60MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7640,9 +7705,9 @@ proxy-groups:
   - 299_美国-5.07MB
   - 300_美国-1.73MB
   - 301_美国-5.02MB
-  - 302_美国-4.37MB
-  - 303_美国-560.8KB
-  - 304_美国-6.59MB
+  - 302_美国-560.8KB
+  - 303_美国-6.59MB
+  - 304_美国-222.2KB
   - 305_美国-176.0KB
   - 306_日本-3.21MB
   - 307_日本-2.40MB
@@ -7935,14 +8000,19 @@ proxy-groups:
   - 594_新加坡-1.88MB
   - 595_新加坡-302.1KB
   - 596_日本-2.50MB
-  - 597_印度-329.0KB
-  - 598_加拿大-484.2KB
-  - 599_俄罗斯联邦-3.50MB
-  - 600_伯利兹-3.15MB
-  - 601_新加坡-658.8KB
-  - 602_德国-834.1KB
-  - 603_亚美尼亚-4.18MB
+  - 597_加拿大-484.2KB
+  - 598_俄罗斯联邦-3.50MB
+  - 599_伯利兹-3.15MB
+  - 600_新加坡-658.8KB
+  - 601_德国-834.1KB
+  - 602_亚美尼亚-4.18MB
+  - 603_印度-1.74MB
   - 604_澳大利亚-2.42MB
+  - 605_日本-7.03MB
+  - 606_日本-5.91MB
+  - 607_日本-3.09MB
+  - 608_日本-469.4KB
+  - 609_日本-2.60MB
   type: select
 - name: Final
   proxies:
@@ -8258,9 +8328,9 @@ proxy-groups:
   - 299_美国-5.07MB
   - 300_美国-1.73MB
   - 301_美国-5.02MB
-  - 302_美国-4.37MB
-  - 303_美国-560.8KB
-  - 304_美国-6.59MB
+  - 302_美国-560.8KB
+  - 303_美国-6.59MB
+  - 304_美国-222.2KB
   - 305_美国-176.0KB
   - 306_日本-3.21MB
   - 307_日本-2.40MB
@@ -8553,14 +8623,19 @@ proxy-groups:
   - 594_新加坡-1.88MB
   - 595_新加坡-302.1KB
   - 596_日本-2.50MB
-  - 597_印度-329.0KB
-  - 598_加拿大-484.2KB
-  - 599_俄罗斯联邦-3.50MB
-  - 600_伯利兹-3.15MB
-  - 601_新加坡-658.8KB
-  - 602_德国-834.1KB
-  - 603_亚美尼亚-4.18MB
+  - 597_加拿大-484.2KB
+  - 598_俄罗斯联邦-3.50MB
+  - 599_伯利兹-3.15MB
+  - 600_新加坡-658.8KB
+  - 601_德国-834.1KB
+  - 602_亚美尼亚-4.18MB
+  - 603_印度-1.74MB
   - 604_澳大利亚-2.42MB
+  - 605_日本-7.03MB
+  - 606_日本-5.91MB
+  - 607_日本-3.09MB
+  - 608_日本-469.4KB
+  - 609_日本-2.60MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8866,9 +8941,9 @@ proxy-groups:
   - 299_美国-5.07MB
   - 300_美国-1.73MB
   - 301_美国-5.02MB
-  - 302_美国-4.37MB
-  - 303_美国-560.8KB
-  - 304_美国-6.59MB
+  - 302_美国-560.8KB
+  - 303_美国-6.59MB
+  - 304_美国-222.2KB
   - 305_美国-176.0KB
   - 306_日本-3.21MB
   - 307_日本-2.40MB
@@ -9161,14 +9236,19 @@ proxy-groups:
   - 594_新加坡-1.88MB
   - 595_新加坡-302.1KB
   - 596_日本-2.50MB
-  - 597_印度-329.0KB
-  - 598_加拿大-484.2KB
-  - 599_俄罗斯联邦-3.50MB
-  - 600_伯利兹-3.15MB
-  - 601_新加坡-658.8KB
-  - 602_德国-834.1KB
-  - 603_亚美尼亚-4.18MB
+  - 597_加拿大-484.2KB
+  - 598_俄罗斯联邦-3.50MB
+  - 599_伯利兹-3.15MB
+  - 600_新加坡-658.8KB
+  - 601_德国-834.1KB
+  - 602_亚美尼亚-4.18MB
+  - 603_印度-1.74MB
   - 604_澳大利亚-2.42MB
+  - 605_日本-7.03MB
+  - 606_日本-5.91MB
+  - 607_日本-3.09MB
+  - 608_日本-469.4KB
+  - 609_日本-2.60MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
