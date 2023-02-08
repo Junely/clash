@@ -535,23 +535,23 @@ proxies:
   port: '20218'
   server: xmct.xn--dlq110j6ul.cc
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 83_中国-2.13MB
-  password: b5a503a9-a3ad-42d9-af00-86f959d3454b
-  port: '21125'
-  server: gzct.xn--dlq110j6ul.cc
-  type: ss
 - cipher: aes-128-cfb
-  name: 84_中国-357.4KB
+  name: 83_中国-357.4KB
   password: QazEdcTgb159@$*
   port: '24001'
   server: 14.29.124.168
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 85_中国-2.85MB
+  name: 84_中国-2.85MB
   password: dcea1723-249e-4fda-b8a7-d5f32a71513d
   port: '13065'
   server: z5.810823.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 85_中国-2.83MB
+  password: b5a503a9-a3ad-42d9-af00-86f959d3454b
+  port: '21125'
+  server: gzct.xn--dlq110j6ul.cc
   type: ss
 - alterId: '0'
   cipher: auto
@@ -2007,19 +2007,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 207_中国-3.00MB
-  network: ws
-  port: '30028'
-  server: v02.gutingting.com
-  tls: 0
-  type: vmess
-  uuid: c6863000-cf1d-420f-8db8-2ba58e5d0a63
-  ws-headers:
-    host: sh01.fastcloud.club
-  ws-path: /aceamedv
-- alterId: '0'
-  cipher: auto
-  name: 208_中国-659.2KB
+  name: 207_中国-659.2KB
   network: ws
   port: '40000'
   server: gzdx.jcnode.top
@@ -2031,7 +2019,7 @@ proxies:
   ws-path: /fly
 - alterId: '0'
   cipher: auto
-  name: 209_中国-1.62MB
+  name: 208_中国-1.62MB
   network: ws
   port: '41001'
   server: gzdx.jcnode.top
@@ -2043,7 +2031,7 @@ proxies:
   ws-path: /fly
 - alterId: '0'
   cipher: auto
-  name: 210_中国-1.10MB
+  name: 209_中国-1.10MB
   network: ws
   port: '49001'
   server: gzdx.jcnode.top
@@ -2055,7 +2043,7 @@ proxies:
   ws-path: /fly
 - alterId: '0'
   cipher: auto
-  name: 211_中国-3.44MB
+  name: 210_中国-3.44MB
   network: tcp
   port: '47223'
   server: xyk.cn.timeswath.uk
@@ -2067,7 +2055,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 212_中国-3.49MB
+  name: 211_中国-3.49MB
   network: ws
   port: '30024'
   server: v02.gutingting.com
@@ -2079,7 +2067,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: '0'
   cipher: auto
-  name: 213_中国-5.25MB
+  name: 212_中国-5.25MB
   network: tcp
   port: '24712'
   server: bjcua.r1u.cn
@@ -2091,7 +2079,7 @@ proxies:
   ws-path: /pq/jp2
 - alterId: '0'
   cipher: auto
-  name: 214_中国-331.8KB
+  name: 213_中国-331.8KB
   network: ws
   port: '49003'
   server: gzdx.jcnode.top
@@ -2103,7 +2091,7 @@ proxies:
   ws-path: /fly
 - alterId: '0'
   cipher: auto
-  name: 215_中国-5.89MB
+  name: 214_中国-5.89MB
   network: tcp
   port: '23733'
   server: bjcua.r1u.cn
@@ -2115,7 +2103,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 216_中国-3.55MB
+  name: 215_中国-3.55MB
   network: ws
   port: '43000'
   server: gzdx.jcnode.top
@@ -2127,7 +2115,7 @@ proxies:
   ws-path: /fly
 - alterId: '0'
   cipher: auto
-  name: 217_中国-5.37MB
+  name: 216_中国-5.37MB
   network: tcp
   port: '24711'
   server: bjcua.r1u.cn
@@ -2139,7 +2127,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 218_中国-382.5KB
+  name: 217_中国-382.5KB
   network: ws
   port: '28002'
   server: gzdx.jcnode.top
@@ -2151,10 +2139,22 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 219_中国-499.0KB
+  name: 218_中国-499.0KB
   network: ws
   port: '30009'
   server: ns01.gutingting.com
+  tls: 0
+  type: vmess
+  uuid: 34acad7e-e217-48d4-b8be-59595f182bed
+  ws-headers:
+    host: sh01.fastcloud.club
+  ws-path: /aceamedv
+- alterId: '0'
+  cipher: auto
+  name: 219_中国-1.10MB
+  network: ws
+  port: '30028'
+  server: v02.gutingting.com
   tls: 0
   type: vmess
   uuid: 34acad7e-e217-48d4-b8be-59595f182bed
@@ -2186,7 +2186,7 @@ proxies:
   server: z80001.security-cloudfront-cdn.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 223_中国-313.3KB
+  name: 223_中国-243.8KB
   obfs: http_simple
   password: YpX2opBbrfqJzzMs
   port: '42833'
@@ -6709,7 +6709,19 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 605_越南-748.8KB
+  name: 605_香港-7.50MB
+  network: ws
+  port: '6666'
+  server: 34.92.110.173
+  tls: 0
+  type: vmess
+  uuid: 63639a72-f01e-46f4-a45c-91b5cd5e171b
+  ws-headers:
+    host: apple.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 606_越南-748.8KB
   network: ws
   port: '80'
   server: 103.166.185.227
@@ -6805,9 +6817,9 @@ proxy-groups:
   - 80_中国-2.76MB
   - 81_中国-12.02MB
   - 82_中国-2.36MB
-  - 83_中国-2.13MB
-  - 84_中国-357.4KB
-  - 85_中国-2.85MB
+  - 83_中国-357.4KB
+  - 84_中国-2.85MB
+  - 85_中国-2.83MB
   - 86_中国-735.7KB
   - 87_中国-5.13MB
   - 88_中国-355.4KB
@@ -6929,23 +6941,23 @@ proxy-groups:
   - 204_中国-13.06MB
   - 205_中国-4.71MB
   - 206_中国-7.99MB
-  - 207_中国-3.00MB
-  - 208_中国-659.2KB
-  - 209_中国-1.62MB
-  - 210_中国-1.10MB
-  - 211_中国-3.44MB
-  - 212_中国-3.49MB
-  - 213_中国-5.25MB
-  - 214_中国-331.8KB
-  - 215_中国-5.89MB
-  - 216_中国-3.55MB
-  - 217_中国-5.37MB
-  - 218_中国-382.5KB
-  - 219_中国-499.0KB
+  - 207_中国-659.2KB
+  - 208_中国-1.62MB
+  - 209_中国-1.10MB
+  - 210_中国-3.44MB
+  - 211_中国-3.49MB
+  - 212_中国-5.25MB
+  - 213_中国-331.8KB
+  - 214_中国-5.89MB
+  - 215_中国-3.55MB
+  - 216_中国-5.37MB
+  - 217_中国-382.5KB
+  - 218_中国-499.0KB
+  - 219_中国-1.10MB
   - 220_中国-517.6KB
   - 221_中国-853.0KB
   - 222_中国-12.98MB
-  - 223_中国-313.3KB
+  - 223_中国-243.8KB
   - 224_美国-1.20MB
   - 225_美国-747.4KB
   - 226_美国-1.58MB
@@ -7327,7 +7339,8 @@ proxy-groups:
   - 602_日本-1.83MB
   - 603_日本-2.31MB
   - 604_韩国-271.9KB
-  - 605_越南-748.8KB
+  - 605_香港-7.50MB
+  - 606_越南-748.8KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7415,9 +7428,9 @@ proxy-groups:
   - 80_中国-2.76MB
   - 81_中国-12.02MB
   - 82_中国-2.36MB
-  - 83_中国-2.13MB
-  - 84_中国-357.4KB
-  - 85_中国-2.85MB
+  - 83_中国-357.4KB
+  - 84_中国-2.85MB
+  - 85_中国-2.83MB
   - 86_中国-735.7KB
   - 87_中国-5.13MB
   - 88_中国-355.4KB
@@ -7539,23 +7552,23 @@ proxy-groups:
   - 204_中国-13.06MB
   - 205_中国-4.71MB
   - 206_中国-7.99MB
-  - 207_中国-3.00MB
-  - 208_中国-659.2KB
-  - 209_中国-1.62MB
-  - 210_中国-1.10MB
-  - 211_中国-3.44MB
-  - 212_中国-3.49MB
-  - 213_中国-5.25MB
-  - 214_中国-331.8KB
-  - 215_中国-5.89MB
-  - 216_中国-3.55MB
-  - 217_中国-5.37MB
-  - 218_中国-382.5KB
-  - 219_中国-499.0KB
+  - 207_中国-659.2KB
+  - 208_中国-1.62MB
+  - 209_中国-1.10MB
+  - 210_中国-3.44MB
+  - 211_中国-3.49MB
+  - 212_中国-5.25MB
+  - 213_中国-331.8KB
+  - 214_中国-5.89MB
+  - 215_中国-3.55MB
+  - 216_中国-5.37MB
+  - 217_中国-382.5KB
+  - 218_中国-499.0KB
+  - 219_中国-1.10MB
   - 220_中国-517.6KB
   - 221_中国-853.0KB
   - 222_中国-12.98MB
-  - 223_中国-313.3KB
+  - 223_中国-243.8KB
   - 224_美国-1.20MB
   - 225_美国-747.4KB
   - 226_美国-1.58MB
@@ -7937,7 +7950,8 @@ proxy-groups:
   - 602_日本-1.83MB
   - 603_日本-2.31MB
   - 604_韩国-271.9KB
-  - 605_越南-748.8KB
+  - 605_香港-7.50MB
+  - 606_越南-748.8KB
   type: select
 - name: Final
   proxies:
@@ -8034,9 +8048,9 @@ proxy-groups:
   - 80_中国-2.76MB
   - 81_中国-12.02MB
   - 82_中国-2.36MB
-  - 83_中国-2.13MB
-  - 84_中国-357.4KB
-  - 85_中国-2.85MB
+  - 83_中国-357.4KB
+  - 84_中国-2.85MB
+  - 85_中国-2.83MB
   - 86_中国-735.7KB
   - 87_中国-5.13MB
   - 88_中国-355.4KB
@@ -8158,23 +8172,23 @@ proxy-groups:
   - 204_中国-13.06MB
   - 205_中国-4.71MB
   - 206_中国-7.99MB
-  - 207_中国-3.00MB
-  - 208_中国-659.2KB
-  - 209_中国-1.62MB
-  - 210_中国-1.10MB
-  - 211_中国-3.44MB
-  - 212_中国-3.49MB
-  - 213_中国-5.25MB
-  - 214_中国-331.8KB
-  - 215_中国-5.89MB
-  - 216_中国-3.55MB
-  - 217_中国-5.37MB
-  - 218_中国-382.5KB
-  - 219_中国-499.0KB
+  - 207_中国-659.2KB
+  - 208_中国-1.62MB
+  - 209_中国-1.10MB
+  - 210_中国-3.44MB
+  - 211_中国-3.49MB
+  - 212_中国-5.25MB
+  - 213_中国-331.8KB
+  - 214_中国-5.89MB
+  - 215_中国-3.55MB
+  - 216_中国-5.37MB
+  - 217_中国-382.5KB
+  - 218_中国-499.0KB
+  - 219_中国-1.10MB
   - 220_中国-517.6KB
   - 221_中国-853.0KB
   - 222_中国-12.98MB
-  - 223_中国-313.3KB
+  - 223_中国-243.8KB
   - 224_美国-1.20MB
   - 225_美国-747.4KB
   - 226_美国-1.58MB
@@ -8556,7 +8570,8 @@ proxy-groups:
   - 602_日本-1.83MB
   - 603_日本-2.31MB
   - 604_韩国-271.9KB
-  - 605_越南-748.8KB
+  - 605_香港-7.50MB
+  - 606_越南-748.8KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8643,9 +8658,9 @@ proxy-groups:
   - 80_中国-2.76MB
   - 81_中国-12.02MB
   - 82_中国-2.36MB
-  - 83_中国-2.13MB
-  - 84_中国-357.4KB
-  - 85_中国-2.85MB
+  - 83_中国-357.4KB
+  - 84_中国-2.85MB
+  - 85_中国-2.83MB
   - 86_中国-735.7KB
   - 87_中国-5.13MB
   - 88_中国-355.4KB
@@ -8767,23 +8782,23 @@ proxy-groups:
   - 204_中国-13.06MB
   - 205_中国-4.71MB
   - 206_中国-7.99MB
-  - 207_中国-3.00MB
-  - 208_中国-659.2KB
-  - 209_中国-1.62MB
-  - 210_中国-1.10MB
-  - 211_中国-3.44MB
-  - 212_中国-3.49MB
-  - 213_中国-5.25MB
-  - 214_中国-331.8KB
-  - 215_中国-5.89MB
-  - 216_中国-3.55MB
-  - 217_中国-5.37MB
-  - 218_中国-382.5KB
-  - 219_中国-499.0KB
+  - 207_中国-659.2KB
+  - 208_中国-1.62MB
+  - 209_中国-1.10MB
+  - 210_中国-3.44MB
+  - 211_中国-3.49MB
+  - 212_中国-5.25MB
+  - 213_中国-331.8KB
+  - 214_中国-5.89MB
+  - 215_中国-3.55MB
+  - 216_中国-5.37MB
+  - 217_中国-382.5KB
+  - 218_中国-499.0KB
+  - 219_中国-1.10MB
   - 220_中国-517.6KB
   - 221_中国-853.0KB
   - 222_中国-12.98MB
-  - 223_中国-313.3KB
+  - 223_中国-243.8KB
   - 224_美国-1.20MB
   - 225_美国-747.4KB
   - 226_美国-1.58MB
@@ -9165,7 +9180,8 @@ proxy-groups:
   - 602_日本-1.83MB
   - 603_日本-2.31MB
   - 604_韩国-271.9KB
-  - 605_越南-748.8KB
+  - 605_香港-7.50MB
+  - 606_越南-748.8KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
