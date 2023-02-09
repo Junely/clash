@@ -2329,8 +2329,20 @@ proxies:
   ws-headers:
     host: '%24hkt-pqs01.xiaohouzi.club'
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 235_中国-2.57MB
+  network: ws
+  port: '29096'
+  server: shct.xn--dlq110j6ul.cc
+  tls: 0
+  type: vmess
+  uuid: 63639a72-f01e-46f4-a45c-91b5cd5e171b
+  ws-headers:
+    host: shct.xn--dlq110j6ul.cc
+  ws-path: /
 - cipher: aes-256-cfb
-  name: 235_中国-941.0KB
+  name: 236_中国-941.0KB
   obfs: http_simple
   password: YpX2opBbrfqJzzMs
   port: '42833'
@@ -2338,7 +2350,7 @@ proxies:
   server: z00031.security-cloudfront-cdn.com
   type: ssr
 - cipher: aes-256-cfb
-  name: 236_中国-12.52MB
+  name: 237_中国-12.52MB
   obfs: http_simple
   password: YpX2opBbrfqJzzMs
   port: '42833'
@@ -2346,41 +2358,29 @@ proxies:
   server: z80001.security-cloudfront-cdn.com
   type: ssr
 - cipher: aes-256-gcm
-  name: 237_美国-1.20MB
+  name: 238_美国-1.20MB
   password: cdBIDV42DCwnfIN
   port: '8118'
   server: 38.91.107.37
   type: ss
 - cipher: aes-256-gcm
-  name: 238_美国-747.4KB
+  name: 239_美国-747.4KB
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 38.91.102.123
   type: ss
 - cipher: aes-256-gcm
-  name: 239_美国-1.58MB
+  name: 240_美国-1.58MB
   password: e4FCWrgpkji3QY
   port: '9102'
   server: 38.91.102.123
   type: ss
 - cipher: aes-256-gcm
-  name: 240_美国-1.20MB
+  name: 241_美国-1.20MB
   password: e4FCWrgpkji3QY
   port: '9101'
   server: ak1446.free.www.outline.network
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 241_美国-2.66MB
-  network: ws
-  port: '443'
-  server: nl1.baf1.sbs
-  tls: 1
-  type: vmess
-  uuid: 447ef855-b642-4157-a296-d797ef7508d4
-  ws-headers:
-    host: nl1.baf1.sbs
-  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: '0'
   cipher: auto
   name: 242_美国-1.12MB
@@ -6827,6 +6827,18 @@ proxies:
   ws-headers:
     host: apple.com
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 617_韩国-255.6KB
+  network: ws
+  port: '50328'
+  server: free-sg1.tencent.cfd
+  tls: 0
+  type: vmess
+  uuid: c922d9c5-28c5-444d-a4ab-cc227d86cc14
+  ws-headers:
+    host: free-sg1.tencent.cfd
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -7065,13 +7077,13 @@ proxy-groups:
   - 232_中国-786.9KB
   - 233_中国-7.40MB
   - 234_中国-13.65MB
-  - 235_中国-941.0KB
-  - 236_中国-12.52MB
-  - 237_美国-1.20MB
-  - 238_美国-747.4KB
-  - 239_美国-1.58MB
-  - 240_美国-1.20MB
-  - 241_美国-2.66MB
+  - 235_中国-2.57MB
+  - 236_中国-941.0KB
+  - 237_中国-12.52MB
+  - 238_美国-1.20MB
+  - 239_美国-747.4KB
+  - 240_美国-1.58MB
+  - 241_美国-1.20MB
   - 242_美国-1.12MB
   - 243_美国-1.68MB
   - 244_美国-662.3KB
@@ -7447,6 +7459,7 @@ proxy-groups:
   - 614_日本-1.84MB
   - 615_日本-1.20MB
   - 616_韩国-966.2KB
+  - 617_韩国-255.6KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7686,13 +7699,13 @@ proxy-groups:
   - 232_中国-786.9KB
   - 233_中国-7.40MB
   - 234_中国-13.65MB
-  - 235_中国-941.0KB
-  - 236_中国-12.52MB
-  - 237_美国-1.20MB
-  - 238_美国-747.4KB
-  - 239_美国-1.58MB
-  - 240_美国-1.20MB
-  - 241_美国-2.66MB
+  - 235_中国-2.57MB
+  - 236_中国-941.0KB
+  - 237_中国-12.52MB
+  - 238_美国-1.20MB
+  - 239_美国-747.4KB
+  - 240_美国-1.58MB
+  - 241_美国-1.20MB
   - 242_美国-1.12MB
   - 243_美国-1.68MB
   - 244_美国-662.3KB
@@ -8068,6 +8081,7 @@ proxy-groups:
   - 614_日本-1.84MB
   - 615_日本-1.20MB
   - 616_韩国-966.2KB
+  - 617_韩国-255.6KB
   type: select
 - name: Final
   proxies:
@@ -8316,13 +8330,13 @@ proxy-groups:
   - 232_中国-786.9KB
   - 233_中国-7.40MB
   - 234_中国-13.65MB
-  - 235_中国-941.0KB
-  - 236_中国-12.52MB
-  - 237_美国-1.20MB
-  - 238_美国-747.4KB
-  - 239_美国-1.58MB
-  - 240_美国-1.20MB
-  - 241_美国-2.66MB
+  - 235_中国-2.57MB
+  - 236_中国-941.0KB
+  - 237_中国-12.52MB
+  - 238_美国-1.20MB
+  - 239_美国-747.4KB
+  - 240_美国-1.58MB
+  - 241_美国-1.20MB
   - 242_美国-1.12MB
   - 243_美国-1.68MB
   - 244_美国-662.3KB
@@ -8698,6 +8712,7 @@ proxy-groups:
   - 614_日本-1.84MB
   - 615_日本-1.20MB
   - 616_韩国-966.2KB
+  - 617_韩国-255.6KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8936,13 +8951,13 @@ proxy-groups:
   - 232_中国-786.9KB
   - 233_中国-7.40MB
   - 234_中国-13.65MB
-  - 235_中国-941.0KB
-  - 236_中国-12.52MB
-  - 237_美国-1.20MB
-  - 238_美国-747.4KB
-  - 239_美国-1.58MB
-  - 240_美国-1.20MB
-  - 241_美国-2.66MB
+  - 235_中国-2.57MB
+  - 236_中国-941.0KB
+  - 237_中国-12.52MB
+  - 238_美国-1.20MB
+  - 239_美国-747.4KB
+  - 240_美国-1.58MB
+  - 241_美国-1.20MB
   - 242_美国-1.12MB
   - 243_美国-1.68MB
   - 244_美国-662.3KB
@@ -9318,6 +9333,7 @@ proxy-groups:
   - 614_日本-1.84MB
   - 615_日本-1.20MB
   - 616_韩国-966.2KB
+  - 617_韩国-255.6KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
