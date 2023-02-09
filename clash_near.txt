@@ -254,34 +254,34 @@ proxies:
   server: kqs-board.threekunlun.cn
   type: ss
 - cipher: aes-128-cfb
-  name: 36_中国-348.8KB
-  password: QazEdcTgb159@$*
-  port: '24009'
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: 37_中国-365.6KB
+  name: 36_中国-365.6KB
   password: QazEdcTgb159@$*
   port: '24007'
   server: 14.29.124.168
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 38_中国-320.9KB
+  name: 37_中国-320.9KB
   password: 3307ba30-a638-490a-9910-672c4049a722
   port: '61003'
   server: 500.sayitfree.website
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 39_中国-15.24MB
+  name: 38_中国-15.24MB
   password: ab1a67fe-697d-4e49-be65-10d6a483561c
   port: '13081'
   server: tongzhi.838501.xyz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 40_中国-4.72MB
+  name: 39_中国-4.72MB
   password: 2b617d7d-73d0-49b1-be82-5873212461d7
   port: '28003'
   server: hncu.1.xd.hela.lol
+  type: ss
+- cipher: aes-128-cfb
+  name: 40_中国-362.2KB
+  password: QazEdcTgb159@$*
+  port: '24009'
+  server: 14.29.124.168
   type: ss
 - alterId: '0'
   cipher: auto
@@ -3779,6 +3779,30 @@ proxies:
   ws-headers:
     host: apple.com
   ws-path: /
+- alterId: '1'
+  cipher: auto
+  name: 337_台湾-2.00MB
+  network: ws
+  port: '64443'
+  server: hinet-d02.whiteconnectb.com
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: hinet-d02.whiteconnectb.com
+  ws-path: /clientarea
+- alterId: '0'
+  cipher: auto
+  name: 338_巴西-407.9KB
+  network: ws
+  port: '17207'
+  server: 144.22.171.182
+  tls: 0
+  type: vmess
+  uuid: a0a098af-6a76-427f-df91-3c3dd6796e22
+  ws-headers:
+    host: ''
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -3818,11 +3842,11 @@ proxy-groups:
   - 33_中国-3.27MB
   - 34_中国-1.58MB
   - 35_中国-2.26MB
-  - 36_中国-348.8KB
-  - 37_中国-365.6KB
-  - 38_中国-320.9KB
-  - 39_中国-15.24MB
-  - 40_中国-4.72MB
+  - 36_中国-365.6KB
+  - 37_中国-320.9KB
+  - 38_中国-15.24MB
+  - 39_中国-4.72MB
+  - 40_中国-362.2KB
   - 41_中国-7.12MB
   - 42_中国-567.8KB
   - 43_中国-2.23MB
@@ -4119,6 +4143,8 @@ proxy-groups:
   - 334_韩国-255.6KB
   - 335_日本-432.0KB
   - 336_韩国-4.19MB
+  - 337_台湾-2.00MB
+  - 338_巴西-407.9KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4159,11 +4185,11 @@ proxy-groups:
   - 33_中国-3.27MB
   - 34_中国-1.58MB
   - 35_中国-2.26MB
-  - 36_中国-348.8KB
-  - 37_中国-365.6KB
-  - 38_中国-320.9KB
-  - 39_中国-15.24MB
-  - 40_中国-4.72MB
+  - 36_中国-365.6KB
+  - 37_中国-320.9KB
+  - 38_中国-15.24MB
+  - 39_中国-4.72MB
+  - 40_中国-362.2KB
   - 41_中国-7.12MB
   - 42_中国-567.8KB
   - 43_中国-2.23MB
@@ -4460,6 +4486,8 @@ proxy-groups:
   - 334_韩国-255.6KB
   - 335_日本-432.0KB
   - 336_韩国-4.19MB
+  - 337_台湾-2.00MB
+  - 338_巴西-407.9KB
   type: select
 - name: Final
   proxies:
@@ -4509,11 +4537,11 @@ proxy-groups:
   - 33_中国-3.27MB
   - 34_中国-1.58MB
   - 35_中国-2.26MB
-  - 36_中国-348.8KB
-  - 37_中国-365.6KB
-  - 38_中国-320.9KB
-  - 39_中国-15.24MB
-  - 40_中国-4.72MB
+  - 36_中国-365.6KB
+  - 37_中国-320.9KB
+  - 38_中国-15.24MB
+  - 39_中国-4.72MB
+  - 40_中国-362.2KB
   - 41_中国-7.12MB
   - 42_中国-567.8KB
   - 43_中国-2.23MB
@@ -4810,6 +4838,8 @@ proxy-groups:
   - 334_韩国-255.6KB
   - 335_日本-432.0KB
   - 336_韩国-4.19MB
+  - 337_台湾-2.00MB
+  - 338_巴西-407.9KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -4849,11 +4879,11 @@ proxy-groups:
   - 33_中国-3.27MB
   - 34_中国-1.58MB
   - 35_中国-2.26MB
-  - 36_中国-348.8KB
-  - 37_中国-365.6KB
-  - 38_中国-320.9KB
-  - 39_中国-15.24MB
-  - 40_中国-4.72MB
+  - 36_中国-365.6KB
+  - 37_中国-320.9KB
+  - 38_中国-15.24MB
+  - 39_中国-4.72MB
+  - 40_中国-362.2KB
   - 41_中国-7.12MB
   - 42_中国-567.8KB
   - 43_中国-2.23MB
@@ -5150,6 +5180,8 @@ proxy-groups:
   - 334_韩国-255.6KB
   - 335_日本-432.0KB
   - 336_韩国-4.19MB
+  - 337_台湾-2.00MB
+  - 338_巴西-407.9KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
