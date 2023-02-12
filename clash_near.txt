@@ -4257,8 +4257,20 @@ proxies:
   ws-headers:
     host: ''
   ws-path: /
+- alterId: '1'
+  cipher: auto
+  name: 389_澳大利亚-1.14MB
+  network: ws
+  port: '64443'
+  server: au-ls03.nb1.fr
+  tls: 1
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-headers:
+    host: au-ls03.nb1.fr
+  ws-path: /clientarea
 - cipher: aes-256-cfb
-  name: 389_日本-551.1KB
+  name: 390_日本-551.1KB
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: '8081'
@@ -4657,7 +4669,8 @@ proxy-groups:
   - 386_香港-156.3KB
   - 387_未知国家-478.0KB
   - 388_巴西-1.61MB
-  - 389_日本-551.1KB
+  - 389_澳大利亚-1.14MB
+  - 390_日本-551.1KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5051,7 +5064,8 @@ proxy-groups:
   - 386_香港-156.3KB
   - 387_未知国家-478.0KB
   - 388_巴西-1.61MB
-  - 389_日本-551.1KB
+  - 389_澳大利亚-1.14MB
+  - 390_日本-551.1KB
   type: select
 - name: Final
   proxies:
@@ -5454,7 +5468,8 @@ proxy-groups:
   - 386_香港-156.3KB
   - 387_未知国家-478.0KB
   - 388_巴西-1.61MB
-  - 389_日本-551.1KB
+  - 389_澳大利亚-1.14MB
+  - 390_日本-551.1KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -5847,7 +5862,8 @@ proxy-groups:
   - 386_香港-156.3KB
   - 387_未知国家-478.0KB
   - 388_巴西-1.61MB
-  - 389_日本-551.1KB
+  - 389_澳大利亚-1.14MB
+  - 390_日本-551.1KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
