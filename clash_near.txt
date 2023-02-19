@@ -975,7 +975,7 @@ proxies:
   ws-path: /shirker
 - alterId: '0'
   cipher: auto
-  name: 83_(已存活1天)美国-1.76MB
+  name: 83_美国-4.22MB
   network: ws
   port: '11176'
   server: 158.101.7.73
@@ -2113,6 +2113,18 @@ proxies:
   ws-headers:
     host: in-full.privateip.net
   ws-path: /racevpn
+- alterId: '0'
+  cipher: auto
+  name: 179_日本-8.34MB
+  network: ws
+  port: '80'
+  server: 20.48.89.190
+  tls: 0
+  type: vmess
+  uuid: 0dc005cb-c72e-4ff9-a418-988278bd7f57
+  ws-headers:
+    host: ''
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -2199,7 +2211,7 @@ proxy-groups:
   - 80_美国-332.0KB
   - 81_美国-625.7KB
   - 82_美国-1.72MB
-  - 83_(已存活1天)美国-1.76MB
+  - 83_美国-4.22MB
   - 84_新加坡-1.64MB
   - 85_新加坡-1.50MB
   - 86_未知国家-1.59MB
@@ -2295,6 +2307,7 @@ proxy-groups:
   - 176_香港-1.03MB
   - 177_意大利-1.62MB
   - 178_印度-2.03MB
+  - 179_日本-8.34MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2382,7 +2395,7 @@ proxy-groups:
   - 80_美国-332.0KB
   - 81_美国-625.7KB
   - 82_美国-1.72MB
-  - 83_(已存活1天)美国-1.76MB
+  - 83_美国-4.22MB
   - 84_新加坡-1.64MB
   - 85_新加坡-1.50MB
   - 86_未知国家-1.59MB
@@ -2478,6 +2491,7 @@ proxy-groups:
   - 176_香港-1.03MB
   - 177_意大利-1.62MB
   - 178_印度-2.03MB
+  - 179_日本-8.34MB
   type: select
 - name: Final
   proxies:
@@ -2574,7 +2588,7 @@ proxy-groups:
   - 80_美国-332.0KB
   - 81_美国-625.7KB
   - 82_美国-1.72MB
-  - 83_(已存活1天)美国-1.76MB
+  - 83_美国-4.22MB
   - 84_新加坡-1.64MB
   - 85_新加坡-1.50MB
   - 86_未知国家-1.59MB
@@ -2670,6 +2684,7 @@ proxy-groups:
   - 176_香港-1.03MB
   - 177_意大利-1.62MB
   - 178_印度-2.03MB
+  - 179_日本-8.34MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -2756,7 +2771,7 @@ proxy-groups:
   - 80_美国-332.0KB
   - 81_美国-625.7KB
   - 82_美国-1.72MB
-  - 83_(已存活1天)美国-1.76MB
+  - 83_美国-4.22MB
   - 84_新加坡-1.64MB
   - 85_新加坡-1.50MB
   - 86_未知国家-1.59MB
@@ -2852,6 +2867,7 @@ proxy-groups:
   - 176_香港-1.03MB
   - 177_意大利-1.62MB
   - 178_印度-2.03MB
+  - 179_日本-8.34MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
