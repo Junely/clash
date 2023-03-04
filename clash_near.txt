@@ -3257,6 +3257,18 @@ proxies:
   ws-headers:
     host: uk.718398.xyz
   ws-path: /aaahax02
+- alterId: '0'
+  cipher: auto
+  name: 294_巴基斯坦-374.5KB
+  network: tcp
+  port: '54321'
+  server: 103.69.129.195
+  tls: 0
+  type: vmess
+  uuid: aaa155c7-9898-4023-a9f5-9b92cd1b47a5
+  ws-headers:
+    host: data-sg.xn--vur082k.cc
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -3554,6 +3566,7 @@ proxy-groups:
   - 291_日本-1.36MB
   - 292_俄罗斯联邦-1.74MB
   - 293_未知国家-1.52MB
+  - 294_巴基斯坦-374.5KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3852,6 +3865,7 @@ proxy-groups:
   - 291_日本-1.36MB
   - 292_俄罗斯联邦-1.74MB
   - 293_未知国家-1.52MB
+  - 294_巴基斯坦-374.5KB
   type: select
 - name: Final
   proxies:
@@ -4159,6 +4173,7 @@ proxy-groups:
   - 291_日本-1.36MB
   - 292_俄罗斯联邦-1.74MB
   - 293_未知国家-1.52MB
+  - 294_巴基斯坦-374.5KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -4456,6 +4471,7 @@ proxy-groups:
   - 291_日本-1.36MB
   - 292_俄罗斯联邦-1.74MB
   - 293_未知国家-1.52MB
+  - 294_巴基斯坦-374.5KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
