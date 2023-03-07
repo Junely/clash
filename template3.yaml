@@ -5161,6 +5161,30 @@ proxies:
   ws-headers:
     host: zhuyong.hucloud-dns.xyz
   ws-path: /huhublog
+- alterId: '0'
+  cipher: auto
+  name: 471_新加坡-568.0KB
+  network: ws
+  port: '10016'
+  server: sg8.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: 921f7580-61d2-49bd-bcc2-067bf79a9f25
+  ws-headers:
+    host: tlu.dl.delivery.mp.microsoft.com
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 472_新加坡-1.03MB
+  network: ws
+  port: '10015'
+  server: sg10.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: 921f7580-61d2-49bd-bcc2-067bf79a9f25
+  ws-headers:
+    host: tlu.dl.delivery.mp.microsoft.com
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -5635,6 +5659,8 @@ proxy-groups:
   - 468_未知国家-5.05MB
   - 469_新加坡-1.75MB
   - 470_法国-15.90MB
+  - 471_新加坡-568.0KB
+  - 472_新加坡-1.03MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6110,6 +6136,8 @@ proxy-groups:
   - 468_未知国家-5.05MB
   - 469_新加坡-1.75MB
   - 470_法国-15.90MB
+  - 471_新加坡-568.0KB
+  - 472_新加坡-1.03MB
   type: select
 - name: Final
   proxies:
@@ -6594,6 +6622,8 @@ proxy-groups:
   - 468_未知国家-5.05MB
   - 469_新加坡-1.75MB
   - 470_法国-15.90MB
+  - 471_新加坡-568.0KB
+  - 472_新加坡-1.03MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7068,6 +7098,8 @@ proxy-groups:
   - 468_未知国家-5.05MB
   - 469_新加坡-1.75MB
   - 470_法国-15.90MB
+  - 471_新加坡-568.0KB
+  - 472_新加坡-1.03MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
