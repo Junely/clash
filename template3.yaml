@@ -4705,6 +4705,18 @@ proxies:
   ws-headers:
     host: wew.rest8746.ml
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 457_新加坡-1.34MB
+  network: ws
+  port: '80'
+  server: sg16.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: 2a33af30-ef37-4f40-b903-dad5f167398f
+  ws-headers:
+    host: tlu.dl.delivery.mp.microsoft.com
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -5165,6 +5177,7 @@ proxy-groups:
   - 454_印度-588.2KB
   - 455_英国-1.35MB
   - 456_伊朗-2.09MB
+  - 457_新加坡-1.34MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5626,6 +5639,7 @@ proxy-groups:
   - 454_印度-588.2KB
   - 455_英国-1.35MB
   - 456_伊朗-2.09MB
+  - 457_新加坡-1.34MB
   type: select
 - name: Final
   proxies:
@@ -6096,6 +6110,7 @@ proxy-groups:
   - 454_印度-588.2KB
   - 455_英国-1.35MB
   - 456_伊朗-2.09MB
+  - 457_新加坡-1.34MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6556,6 +6571,7 @@ proxy-groups:
   - 454_印度-588.2KB
   - 455_英国-1.35MB
   - 456_伊朗-2.09MB
+  - 457_新加坡-1.34MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
