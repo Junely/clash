@@ -631,30 +631,18 @@ proxies:
   port: '34674'
   server: gdyd.aikun.online
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 99_中国-3.32MB
-  network: ws
-  port: '11410'
-  server: hy.guanguan.club
-  tls: 1
-  type: vmess
-  uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c
-  ws-headers:
-    host: hy.guanguan.club
-  ws-path: /nba
-- alterId: '0'
-  cipher: auto
-  name: 100_中国-1.31MB
-  network: ws
-  port: '41406'
-  server: cs.guanguan.club
-  tls: 0
-  type: vmess
-  uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c
-  ws-headers:
-    host: cs.guanguan.club
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 99_中国-7.89MB
+  password: 3772f7db-6ba0-47e3-bbd5-a9807cb87932
+  port: '11702'
+  server: jpa.101cloud.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 100_中国-5.26MB
+  password: 3772f7db-6ba0-47e3-bbd5-a9807cb87932
+  port: '58301'
+  server: taig.101cloud.xyz
+  type: ss
 - alterId: '0'
   cipher: auto
   name: 101_中国-15.46MB
@@ -3157,6 +3145,18 @@ proxies:
   ws-headers:
     host: lv2.sharecentrepro.org
   ws-path: /shirker
+- alterId: '0'
+  cipher: auto
+  name: 320_日本-334.2KB
+  network: ws
+  port: '23245'
+  server: jp05.170203.xyz
+  tls: 0
+  type: vmess
+  uuid: ef1f3f22-8a28-40f2-ad4e-86c966c73d8a
+  ws-headers:
+    host: jp05.170203.xyz
+  ws-path: /
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -3259,8 +3259,8 @@ proxy-groups:
   - 96_中国-4.00MB
   - 97_中国-4.91MB
   - 98_中国-17.76MB
-  - 99_中国-3.32MB
-  - 100_中国-1.31MB
+  - 99_中国-7.89MB
+  - 100_中国-5.26MB
   - 101_中国-15.46MB
   - 102_中国-4.76MB
   - 103_中国-6.81MB
@@ -3480,6 +3480,7 @@ proxy-groups:
   - 317_伊朗-201.4KB
   - 318_香港-1.14MB
   - 319_未知国家-5.91MB
+  - 320_日本-334.2KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3583,8 +3584,8 @@ proxy-groups:
   - 96_中国-4.00MB
   - 97_中国-4.91MB
   - 98_中国-17.76MB
-  - 99_中国-3.32MB
-  - 100_中国-1.31MB
+  - 99_中国-7.89MB
+  - 100_中国-5.26MB
   - 101_中国-15.46MB
   - 102_中国-4.76MB
   - 103_中国-6.81MB
@@ -3804,6 +3805,7 @@ proxy-groups:
   - 317_伊朗-201.4KB
   - 318_香港-1.14MB
   - 319_未知国家-5.91MB
+  - 320_日本-334.2KB
   type: select
 - name: Final
   proxies:
@@ -3916,8 +3918,8 @@ proxy-groups:
   - 96_中国-4.00MB
   - 97_中国-4.91MB
   - 98_中国-17.76MB
-  - 99_中国-3.32MB
-  - 100_中国-1.31MB
+  - 99_中国-7.89MB
+  - 100_中国-5.26MB
   - 101_中国-15.46MB
   - 102_中国-4.76MB
   - 103_中国-6.81MB
@@ -4137,6 +4139,7 @@ proxy-groups:
   - 317_伊朗-201.4KB
   - 318_香港-1.14MB
   - 319_未知国家-5.91MB
+  - 320_日本-334.2KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -4239,8 +4242,8 @@ proxy-groups:
   - 96_中国-4.00MB
   - 97_中国-4.91MB
   - 98_中国-17.76MB
-  - 99_中国-3.32MB
-  - 100_中国-1.31MB
+  - 99_中国-7.89MB
+  - 100_中国-5.26MB
   - 101_中国-15.46MB
   - 102_中国-4.76MB
   - 103_中国-6.81MB
@@ -4460,6 +4463,7 @@ proxy-groups:
   - 317_伊朗-201.4KB
   - 318_香港-1.14MB
   - 319_未知国家-5.91MB
+  - 320_日本-334.2KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
