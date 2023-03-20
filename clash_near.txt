@@ -475,29 +475,29 @@ proxies:
   port: '24000'
   server: 14.29.124.168
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 73_中国-1.22MB
-  password: 5d651d8c-d5b3-418b-a3ea-55171af5b726
-  port: '19198'
-  server: cn1.applebench.tech
-  type: ss
 - cipher: aes-128-cfb
-  name: 74_中国-313.2KB
+  name: 73_中国-313.2KB
   password: QazEdcTgb159@$*
   port: '24005'
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: 75_中国-298.2KB
+  name: 74_中国-298.2KB
   password: QazEdcTgb159@$*
   port: '24006'
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: 76_中国-250.8KB
+  name: 75_中国-250.8KB
   password: QazEdcTgb159@$*
   port: '24007'
   server: 14.29.124.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 76_中国-698.2KB
+  password: 5d651d8c-d5b3-418b-a3ea-55171af5b726
+  port: '19198'
+  server: cn1.applebench.tech
   type: ss
 - alterId: '0'
   cipher: auto
@@ -1919,7 +1919,7 @@ proxies:
   ws-path: /shirker
 - alterId: '0'
   cipher: auto
-  name: 197_美国-503.3KB
+  name: 197_美国-1.37MB
   network: ws
   port: '443'
   server: 192.203.230.153
@@ -2044,7 +2044,7 @@ proxies:
   server: 43.207.225.151
   type: ss
 - cipher: aes-256-cfb
-  name: 217_新加坡-451.2KB
+  name: 217_新加坡-207.8KB
   password: amazonskr05
   port: '443'
   server: 13.212.244.29
@@ -2769,21 +2769,9 @@ proxies:
   ws-headers:
     host: 131.186.56.116
   ws-path: /ray
-- alterId: '0'
-  cipher: auto
-  name: 278_伯利兹-711.3KB
-  network: ws
-  port: '443'
-  server: 203.30.191.1
-  tls: 1
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-headers:
-    host: clash1.ssr-free2.xyz
-  ws-path: /5QNROSRV
 - alterId: '64'
   cipher: auto
-  name: 279_香港-499.7KB
+  name: 278_香港-499.7KB
   network: ws
   port: '55543'
   server: 43.155.102.33
@@ -2795,7 +2783,7 @@ proxies:
   ws-path: /hk6/getData
 - alterId: '0'
   cipher: auto
-  name: 280_香港-3.18MB
+  name: 279_香港-3.18MB
   network: http
   port: '20329'
   server: 8.218.226.112
@@ -2807,7 +2795,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 281_伯利兹-5.66MB
+  name: 280_伯利兹-5.66MB
   network: ws
   port: '443'
   server: 203.30.191.19
@@ -2819,7 +2807,7 @@ proxies:
   ws-path: /dongtaiwang.com
 - alterId: '0'
   cipher: auto
-  name: 282_伯利兹-1.02MB
+  name: 281_伯利兹-1.02MB
   network: ws
   port: '443'
   server: 203.30.191.10
@@ -2831,7 +2819,7 @@ proxies:
   ws-path: /AUIKN8AU
 - alterId: '0'
   cipher: auto
-  name: 283_卢森堡-2.48MB
+  name: 282_卢森堡-2.48MB
   network: ws
   port: '443'
   server: rtl.ircf.space
@@ -2843,19 +2831,7 @@ proxies:
   ws-path: /speedtest
 - alterId: '0'
   cipher: auto
-  name: 284_荷兰-1.62MB
-  network: ws
-  port: '2083'
-  server: 95.179.128.145
-  tls: 0
-  type: vmess
-  uuid: 1cf2679f-8ec4-4b07-d758-132573825850
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 285_荷兰-3.46MB
+  name: 283_荷兰-3.46MB
   network: ws
   port: '443'
   server: 45.95.241.29
@@ -2867,7 +2843,7 @@ proxies:
   ws-path: /speedtest
 - alterId: '0'
   cipher: auto
-  name: 286_未知国家-2.46MB
+  name: 284_未知国家-2.46MB
   network: ws
   port: '443'
   server: hk-hytron.ilovescp.com
@@ -2879,7 +2855,7 @@ proxies:
   ws-path: /shirker
 - alterId: '0'
   cipher: auto
-  name: 287_香港-1.06MB
+  name: 285_香港-1.06MB
   network: http
   port: '34579'
   server: 8.218.204.207
@@ -2889,9 +2865,21 @@ proxies:
   ws-headers:
     host: ''
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 286_伯利兹-458.8KB
+  network: ws
+  port: '443'
+  server: 203.30.191.6
+  tls: 1
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-headers:
+    host: oplg1.cfcdn2.xyz
+  ws-path: /AUIKN8AU
 - alterId: '64'
   cipher: auto
-  name: 288_香港-244.1KB
+  name: 287_香港-244.1KB
   network: ws
   port: '58620'
   server: 43.154.90.64
@@ -2903,16 +2891,28 @@ proxies:
   ws-path: /hkx/getData
 - alterId: '0'
   cipher: auto
-  name: 289_伯利兹-458.8KB
+  name: 288_荷兰-3.08MB
+  network: ws
+  port: '2083'
+  server: 95.179.128.145
+  tls: 0
+  type: vmess
+  uuid: 1cf2679f-8ec4-4b07-d758-132573825850
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 289_伯利兹-477.9KB
   network: ws
   port: '443'
-  server: 203.30.191.6
+  server: 203.30.191.1
   tls: 1
   type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-headers:
-    host: oplg1.cfcdn2.xyz
-  ws-path: /AUIKN8AU
+    host: clash1.ssr-free2.xyz
+  ws-path: /5QNROSRV
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -2989,10 +2989,10 @@ proxy-groups:
   - 70_中国-12.42MB
   - 71_中国-348.6KB
   - 72_中国-364.7KB
-  - 73_中国-1.22MB
-  - 74_中国-313.2KB
-  - 75_中国-298.2KB
-  - 76_中国-250.8KB
+  - 73_中国-313.2KB
+  - 74_中国-298.2KB
+  - 75_中国-250.8KB
+  - 76_中国-698.2KB
   - 77_中国-157.6KB
   - 78_中国-3.51MB
   - 79_中国-3.50MB
@@ -3113,7 +3113,7 @@ proxy-groups:
   - 194_美国-1001.1KB
   - 195_美国-3.20MB
   - 196_美国-5.35MB
-  - 197_美国-503.3KB
+  - 197_美国-1.37MB
   - 198_新加坡-1.36MB
   - 199_新加坡-3.35MB
   - 200_新加坡-3.94MB
@@ -3133,7 +3133,7 @@ proxy-groups:
   - 214_日本-5.44MB
   - 215_日本-165.0KB
   - 216_日本-304.0KB
-  - 217_新加坡-451.2KB
+  - 217_新加坡-207.8KB
   - 218_德国-368.8KB
   - 219_香港-270.3KB
   - 220_未知国家-14.28MB
@@ -3194,18 +3194,18 @@ proxy-groups:
   - 275_亚美尼亚-352.4KB
   - 276_伯利兹-4.05MB
   - 277_日本-647.8KB
-  - 278_伯利兹-711.3KB
-  - 279_香港-499.7KB
-  - 280_香港-3.18MB
-  - 281_伯利兹-5.66MB
-  - 282_伯利兹-1.02MB
-  - 283_卢森堡-2.48MB
-  - 284_荷兰-1.62MB
-  - 285_荷兰-3.46MB
-  - 286_未知国家-2.46MB
-  - 287_香港-1.06MB
-  - 288_香港-244.1KB
-  - 289_伯利兹-458.8KB
+  - 278_香港-499.7KB
+  - 279_香港-3.18MB
+  - 280_伯利兹-5.66MB
+  - 281_伯利兹-1.02MB
+  - 282_卢森堡-2.48MB
+  - 283_荷兰-3.46MB
+  - 284_未知国家-2.46MB
+  - 285_香港-1.06MB
+  - 286_伯利兹-458.8KB
+  - 287_香港-244.1KB
+  - 288_荷兰-3.08MB
+  - 289_伯利兹-477.9KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3283,10 +3283,10 @@ proxy-groups:
   - 70_中国-12.42MB
   - 71_中国-348.6KB
   - 72_中国-364.7KB
-  - 73_中国-1.22MB
-  - 74_中国-313.2KB
-  - 75_中国-298.2KB
-  - 76_中国-250.8KB
+  - 73_中国-313.2KB
+  - 74_中国-298.2KB
+  - 75_中国-250.8KB
+  - 76_中国-698.2KB
   - 77_中国-157.6KB
   - 78_中国-3.51MB
   - 79_中国-3.50MB
@@ -3407,7 +3407,7 @@ proxy-groups:
   - 194_美国-1001.1KB
   - 195_美国-3.20MB
   - 196_美国-5.35MB
-  - 197_美国-503.3KB
+  - 197_美国-1.37MB
   - 198_新加坡-1.36MB
   - 199_新加坡-3.35MB
   - 200_新加坡-3.94MB
@@ -3427,7 +3427,7 @@ proxy-groups:
   - 214_日本-5.44MB
   - 215_日本-165.0KB
   - 216_日本-304.0KB
-  - 217_新加坡-451.2KB
+  - 217_新加坡-207.8KB
   - 218_德国-368.8KB
   - 219_香港-270.3KB
   - 220_未知国家-14.28MB
@@ -3488,18 +3488,18 @@ proxy-groups:
   - 275_亚美尼亚-352.4KB
   - 276_伯利兹-4.05MB
   - 277_日本-647.8KB
-  - 278_伯利兹-711.3KB
-  - 279_香港-499.7KB
-  - 280_香港-3.18MB
-  - 281_伯利兹-5.66MB
-  - 282_伯利兹-1.02MB
-  - 283_卢森堡-2.48MB
-  - 284_荷兰-1.62MB
-  - 285_荷兰-3.46MB
-  - 286_未知国家-2.46MB
-  - 287_香港-1.06MB
-  - 288_香港-244.1KB
-  - 289_伯利兹-458.8KB
+  - 278_香港-499.7KB
+  - 279_香港-3.18MB
+  - 280_伯利兹-5.66MB
+  - 281_伯利兹-1.02MB
+  - 282_卢森堡-2.48MB
+  - 283_荷兰-3.46MB
+  - 284_未知国家-2.46MB
+  - 285_香港-1.06MB
+  - 286_伯利兹-458.8KB
+  - 287_香港-244.1KB
+  - 288_荷兰-3.08MB
+  - 289_伯利兹-477.9KB
   type: select
 - name: Final
   proxies:
@@ -3586,10 +3586,10 @@ proxy-groups:
   - 70_中国-12.42MB
   - 71_中国-348.6KB
   - 72_中国-364.7KB
-  - 73_中国-1.22MB
-  - 74_中国-313.2KB
-  - 75_中国-298.2KB
-  - 76_中国-250.8KB
+  - 73_中国-313.2KB
+  - 74_中国-298.2KB
+  - 75_中国-250.8KB
+  - 76_中国-698.2KB
   - 77_中国-157.6KB
   - 78_中国-3.51MB
   - 79_中国-3.50MB
@@ -3710,7 +3710,7 @@ proxy-groups:
   - 194_美国-1001.1KB
   - 195_美国-3.20MB
   - 196_美国-5.35MB
-  - 197_美国-503.3KB
+  - 197_美国-1.37MB
   - 198_新加坡-1.36MB
   - 199_新加坡-3.35MB
   - 200_新加坡-3.94MB
@@ -3730,7 +3730,7 @@ proxy-groups:
   - 214_日本-5.44MB
   - 215_日本-165.0KB
   - 216_日本-304.0KB
-  - 217_新加坡-451.2KB
+  - 217_新加坡-207.8KB
   - 218_德国-368.8KB
   - 219_香港-270.3KB
   - 220_未知国家-14.28MB
@@ -3791,18 +3791,18 @@ proxy-groups:
   - 275_亚美尼亚-352.4KB
   - 276_伯利兹-4.05MB
   - 277_日本-647.8KB
-  - 278_伯利兹-711.3KB
-  - 279_香港-499.7KB
-  - 280_香港-3.18MB
-  - 281_伯利兹-5.66MB
-  - 282_伯利兹-1.02MB
-  - 283_卢森堡-2.48MB
-  - 284_荷兰-1.62MB
-  - 285_荷兰-3.46MB
-  - 286_未知国家-2.46MB
-  - 287_香港-1.06MB
-  - 288_香港-244.1KB
-  - 289_伯利兹-458.8KB
+  - 278_香港-499.7KB
+  - 279_香港-3.18MB
+  - 280_伯利兹-5.66MB
+  - 281_伯利兹-1.02MB
+  - 282_卢森堡-2.48MB
+  - 283_荷兰-3.46MB
+  - 284_未知国家-2.46MB
+  - 285_香港-1.06MB
+  - 286_伯利兹-458.8KB
+  - 287_香港-244.1KB
+  - 288_荷兰-3.08MB
+  - 289_伯利兹-477.9KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -3879,10 +3879,10 @@ proxy-groups:
   - 70_中国-12.42MB
   - 71_中国-348.6KB
   - 72_中国-364.7KB
-  - 73_中国-1.22MB
-  - 74_中国-313.2KB
-  - 75_中国-298.2KB
-  - 76_中国-250.8KB
+  - 73_中国-313.2KB
+  - 74_中国-298.2KB
+  - 75_中国-250.8KB
+  - 76_中国-698.2KB
   - 77_中国-157.6KB
   - 78_中国-3.51MB
   - 79_中国-3.50MB
@@ -4003,7 +4003,7 @@ proxy-groups:
   - 194_美国-1001.1KB
   - 195_美国-3.20MB
   - 196_美国-5.35MB
-  - 197_美国-503.3KB
+  - 197_美国-1.37MB
   - 198_新加坡-1.36MB
   - 199_新加坡-3.35MB
   - 200_新加坡-3.94MB
@@ -4023,7 +4023,7 @@ proxy-groups:
   - 214_日本-5.44MB
   - 215_日本-165.0KB
   - 216_日本-304.0KB
-  - 217_新加坡-451.2KB
+  - 217_新加坡-207.8KB
   - 218_德国-368.8KB
   - 219_香港-270.3KB
   - 220_未知国家-14.28MB
@@ -4084,18 +4084,18 @@ proxy-groups:
   - 275_亚美尼亚-352.4KB
   - 276_伯利兹-4.05MB
   - 277_日本-647.8KB
-  - 278_伯利兹-711.3KB
-  - 279_香港-499.7KB
-  - 280_香港-3.18MB
-  - 281_伯利兹-5.66MB
-  - 282_伯利兹-1.02MB
-  - 283_卢森堡-2.48MB
-  - 284_荷兰-1.62MB
-  - 285_荷兰-3.46MB
-  - 286_未知国家-2.46MB
-  - 287_香港-1.06MB
-  - 288_香港-244.1KB
-  - 289_伯利兹-458.8KB
+  - 278_香港-499.7KB
+  - 279_香港-3.18MB
+  - 280_伯利兹-5.66MB
+  - 281_伯利兹-1.02MB
+  - 282_卢森堡-2.48MB
+  - 283_荷兰-3.46MB
+  - 284_未知国家-2.46MB
+  - 285_香港-1.06MB
+  - 286_伯利兹-458.8KB
+  - 287_香港-244.1KB
+  - 288_荷兰-3.08MB
+  - 289_伯利兹-477.9KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
