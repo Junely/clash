@@ -163,42 +163,24 @@ proxies:
   port: '23100'
   server: p1.bxy-fun3.com
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 21_中国-3.89MB
-  network: tcp
-  port: '10012'
-  server: bvlv.cofstart.com
-  tls: 0
-  type: vmess
-  uuid: 7fa0ca07-9e54-33db-8d16-8e756538271d
-  ws-headers:
-    host: z143.hongkongnode.top
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 22_中国-887.1KB
-  network: tcp
-  port: '10043'
-  server: spsg00.cofstart.com
-  tls: 0
-  type: vmess
-  uuid: 7fa0ca07-9e54-33db-8d16-8e756538271d
-  ws-headers:
-    host: z143.hongkongnode.top
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 23_中国-3.67MB
-  network: tcp
-  port: '10006'
-  server: ion02.cofstart.com
-  tls: 0
-  type: vmess
-  uuid: 7fa0ca07-9e54-33db-8d16-8e756538271d
-  ws-headers:
-    host: tw2.594888.xyz
-  ws-path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: 21_中国-4.34MB
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: '26106'
+  server: p1.bxy-fun3.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 22_中国-7.87MB
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: '24105'
+  server: p1.bxy-fun3.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 23_中国-4.13MB
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: '23101'
+  server: p1.bxy-fun2.com
+  type: ss
 - alterId: '0'
   cipher: auto
   name: 24_中国-3.46MB
@@ -1431,48 +1413,42 @@ proxies:
   port: '443'
   server: 13.228.30.25
   type: ss
+- cipher: aes-256-gcm
+  name: 130_日本-804.2KB
+  password: Y6R9pAtvxxzmGC
+  port: '5600'
+  server: 85.208.108.60
+  type: ss
 - cipher: aes-256-cfb
-  name: 130_新加坡-3.40MB
+  name: 131_新加坡-3.40MB
   password: amazonskr05
   port: '443'
   server: 13.215.177.64
   type: ss
 - cipher: aes-256-gcm
-  name: 131_日本-3.08MB
+  name: 132_日本-2.92MB
   password: Y6R9pAtvxxzmGC
   port: '8888'
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 132_日本-3.07MB
+  name: 133_日本-3.07MB
   password: TEzjfAYq2IjtuoS
   port: '6697'
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-cfb
-  name: 133_新加坡-3.43MB
+  name: 134_新加坡-3.48MB
   password: amazonskr05
   port: '443'
   server: 18.143.187.111
   type: ss
 - cipher: aes-256-gcm
-  name: 134_日本-3.14MB
+  name: 135_日本-2.86MB
   password: RexnBgU7EV5ADxG
   port: '7001'
   server: 85.208.108.60
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 135_台湾-4.05MB
-  network: ws
-  port: '25551'
-  server: tw2.594888.xyz
-  tls: 0
-  type: vmess
-  uuid: 27b7db82-e053-3b04-9711-9ab9c154bc84
-  ws-headers:
-    host: tw2.594888.xyz
-  ws-path: /v2ray
 - alterId: '0'
   cipher: auto
   name: 136_未知国家-5.76MB
@@ -1973,9 +1949,9 @@ proxy-groups:
   - 18_中国-4.49MB
   - 19_中国-9.63MB
   - 20_中国-5.83MB
-  - 21_中国-3.89MB
-  - 22_中国-887.1KB
-  - 23_中国-3.67MB
+  - 21_中国-4.34MB
+  - 22_中国-7.87MB
+  - 23_中国-4.13MB
   - 24_中国-3.46MB
   - 25_中国-3.96MB
   - 26_中国-2.60MB
@@ -2082,12 +2058,12 @@ proxy-groups:
   - 127_日本-772.1KB
   - 128_新加坡-3.04MB
   - 129_新加坡-3.73MB
-  - 130_新加坡-3.40MB
-  - 131_日本-3.08MB
-  - 132_日本-3.07MB
-  - 133_新加坡-3.43MB
-  - 134_日本-3.14MB
-  - 135_台湾-4.05MB
+  - 130_日本-804.2KB
+  - 131_新加坡-3.40MB
+  - 132_日本-2.92MB
+  - 133_日本-3.07MB
+  - 134_新加坡-3.48MB
+  - 135_日本-2.86MB
   - 136_未知国家-5.76MB
   - 137_澳大利亚-3.25MB
   - 138_未知国家-5.73MB
@@ -2153,9 +2129,9 @@ proxy-groups:
   - 18_中国-4.49MB
   - 19_中国-9.63MB
   - 20_中国-5.83MB
-  - 21_中国-3.89MB
-  - 22_中国-887.1KB
-  - 23_中国-3.67MB
+  - 21_中国-4.34MB
+  - 22_中国-7.87MB
+  - 23_中国-4.13MB
   - 24_中国-3.46MB
   - 25_中国-3.96MB
   - 26_中国-2.60MB
@@ -2262,12 +2238,12 @@ proxy-groups:
   - 127_日本-772.1KB
   - 128_新加坡-3.04MB
   - 129_新加坡-3.73MB
-  - 130_新加坡-3.40MB
-  - 131_日本-3.08MB
-  - 132_日本-3.07MB
-  - 133_新加坡-3.43MB
-  - 134_日本-3.14MB
-  - 135_台湾-4.05MB
+  - 130_日本-804.2KB
+  - 131_新加坡-3.40MB
+  - 132_日本-2.92MB
+  - 133_日本-3.07MB
+  - 134_新加坡-3.48MB
+  - 135_日本-2.86MB
   - 136_未知国家-5.76MB
   - 137_澳大利亚-3.25MB
   - 138_未知国家-5.73MB
@@ -2342,9 +2318,9 @@ proxy-groups:
   - 18_中国-4.49MB
   - 19_中国-9.63MB
   - 20_中国-5.83MB
-  - 21_中国-3.89MB
-  - 22_中国-887.1KB
-  - 23_中国-3.67MB
+  - 21_中国-4.34MB
+  - 22_中国-7.87MB
+  - 23_中国-4.13MB
   - 24_中国-3.46MB
   - 25_中国-3.96MB
   - 26_中国-2.60MB
@@ -2451,12 +2427,12 @@ proxy-groups:
   - 127_日本-772.1KB
   - 128_新加坡-3.04MB
   - 129_新加坡-3.73MB
-  - 130_新加坡-3.40MB
-  - 131_日本-3.08MB
-  - 132_日本-3.07MB
-  - 133_新加坡-3.43MB
-  - 134_日本-3.14MB
-  - 135_台湾-4.05MB
+  - 130_日本-804.2KB
+  - 131_新加坡-3.40MB
+  - 132_日本-2.92MB
+  - 133_日本-3.07MB
+  - 134_新加坡-3.48MB
+  - 135_日本-2.86MB
   - 136_未知国家-5.76MB
   - 137_澳大利亚-3.25MB
   - 138_未知国家-5.73MB
@@ -2521,9 +2497,9 @@ proxy-groups:
   - 18_中国-4.49MB
   - 19_中国-9.63MB
   - 20_中国-5.83MB
-  - 21_中国-3.89MB
-  - 22_中国-887.1KB
-  - 23_中国-3.67MB
+  - 21_中国-4.34MB
+  - 22_中国-7.87MB
+  - 23_中国-4.13MB
   - 24_中国-3.46MB
   - 25_中国-3.96MB
   - 26_中国-2.60MB
@@ -2630,12 +2606,12 @@ proxy-groups:
   - 127_日本-772.1KB
   - 128_新加坡-3.04MB
   - 129_新加坡-3.73MB
-  - 130_新加坡-3.40MB
-  - 131_日本-3.08MB
-  - 132_日本-3.07MB
-  - 133_新加坡-3.43MB
-  - 134_日本-3.14MB
-  - 135_台湾-4.05MB
+  - 130_日本-804.2KB
+  - 131_新加坡-3.40MB
+  - 132_日本-2.92MB
+  - 133_日本-3.07MB
+  - 134_新加坡-3.48MB
+  - 135_日本-2.86MB
   - 136_未知国家-5.76MB
   - 137_澳大利亚-3.25MB
   - 138_未知国家-5.73MB
