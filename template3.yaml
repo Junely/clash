@@ -541,35 +541,35 @@ proxies:
   port: '24002'
   server: 14.29.124.168
   type: ss
-- cipher: aes-128-cfb
-  name: 84_中国-447.9KB
-  password: QazEdcTgb159@$*
-  port: '31046'
-  server: 14.29.124.168
-  type: ss
 - cipher: aes-128-gcm
-  name: 85_中国-361.3KB
+  name: 84_中国-361.3KB
   password: f2ae2629-89da-452f-b1f6-544666600bb4
   port: '5620'
   server: v3-jp.aliyun-obsd.xyz
   type: ss
 - cipher: aes-128-cfb
-  name: 86_中国-348.4KB
+  name: 85_中国-348.4KB
   password: QazEdcTgb159@$*
   port: '24006'
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: 87_中国-356.6KB
+  name: 86_中国-356.6KB
   password: QazEdcTgb159@$*
   port: '24009'
   server: 14.29.124.168
   type: ss
 - cipher: aes-256-cfb
-  name: 88_中国-1.15MB
+  name: 87_中国-1.15MB
   password: RsDk3peCSuo76B68
   port: '10068'
   server: 180.101.193.226
+  type: ss
+- cipher: aes-128-cfb
+  name: 88_中国-430.2KB
+  password: QazEdcTgb159@$*
+  port: '31046'
+  server: 14.29.124.168
   type: ss
 - alterId: '0'
   cipher: auto
@@ -2190,7 +2190,7 @@ proxies:
   server: us1.ym196914.tk
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 227_美国-5.47MB
+  name: 227_美国-5.28MB
   password: ppOxjbvryQ49
   port: '443'
   server: 45.78.66.108
@@ -2857,19 +2857,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 283_美国-1.25MB
-  network: ws
-  port: '443'
-  server: quranweb41.xyz
-  tls: 1
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-headers:
-    host: quranweb41.xyz
-  ws-path: /current_time
-- alterId: '0'
-  cipher: auto
-  name: 284_美国-3.60MB
+  name: 283_美国-3.60MB
   network: ws
   port: '443'
   server: www.damonhuang.top
@@ -2881,7 +2869,7 @@ proxies:
   ws-path: /damonhuang
 - alterId: '0'
   cipher: auto
-  name: 285_美国-4.52MB
+  name: 284_美国-4.52MB
   network: ws
   port: '443'
   server: cf-topspeedone.uk
@@ -2893,7 +2881,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 286_美国-483.5KB
+  name: 285_美国-483.5KB
   network: ws
   port: '443'
   server: 172.67.164.125
@@ -2905,7 +2893,7 @@ proxies:
   ws-path: /AUIKN8AU
 - alterId: '0'
   cipher: auto
-  name: 287_美国-5.80MB
+  name: 286_美国-5.80MB
   network: ws
   port: '443'
   server: cf-topspeedonline.uk
@@ -2917,7 +2905,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 288_美国-1.10MB
+  name: 287_美国-1.10MB
   network: ws
   port: '443'
   server: 172.67.132.15
@@ -2929,7 +2917,7 @@ proxies:
   ws-path: /ray
 - alterId: '0'
   cipher: auto
-  name: 289_美国-5.95MB
+  name: 288_美国-5.95MB
   network: ws
   port: '443'
   server: quranweb15.xyz
@@ -2941,7 +2929,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 290_美国-4.88MB
+  name: 289_美国-4.88MB
   network: ws
   port: '443'
   server: holyquran10.store
@@ -2953,7 +2941,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 291_美国-3.92MB
+  name: 290_美国-3.92MB
   network: ws
   port: '443'
   server: 45.89.106.139
@@ -2965,7 +2953,7 @@ proxies:
   ws-path: /ray
 - alterId: '0'
   cipher: auto
-  name: 292_美国-6.03MB
+  name: 291_美国-6.03MB
   network: ws
   port: '443'
   server: quranweb3.xyz
@@ -2977,7 +2965,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 293_美国-498.8KB
+  name: 292_美国-498.8KB
   network: ws
   port: '443'
   server: 143.42.110.81
@@ -2989,7 +2977,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 294_美国-4.94MB
+  name: 293_美国-4.94MB
   network: ws
   port: '443'
   server: 172.67.132.167
@@ -3001,7 +2989,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 295_美国-3.40MB
+  name: 294_美国-3.40MB
   network: ws
   port: '443'
   server: vin1.0bad.com
@@ -3013,7 +3001,7 @@ proxies:
   ws-path: /chat
 - alterId: '0'
   cipher: auto
-  name: 296_美国-546.2KB
+  name: 295_美国-546.2KB
   network: ws
   port: '443'
   server: 143.42.87.69
@@ -3025,7 +3013,7 @@ proxies:
   ws-path: /chat
 - alterId: '0'
   cipher: auto
-  name: 297_美国-5.75MB
+  name: 296_美国-5.75MB
   network: ws
   port: '443'
   server: holyquran18.store
@@ -3037,7 +3025,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 298_美国-5.83MB
+  name: 297_美国-5.83MB
   network: ws
   port: '58839'
   server: d210.clco.in
@@ -3049,7 +3037,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 299_美国-3.33MB
+  name: 298_美国-3.33MB
   network: ws
   port: '443'
   server: holyquran15.store
@@ -3061,7 +3049,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 300_美国-6.47MB
+  name: 299_美国-6.47MB
   network: ws
   port: '443'
   server: quranweb6.xyz
@@ -3073,7 +3061,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 301_美国-4.50MB
+  name: 300_美国-4.50MB
   network: ws
   port: '443'
   server: hwb.4ir2rayv.tk
@@ -3085,7 +3073,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 302_美国-4.80MB
+  name: 301_美国-4.80MB
   network: ws
   port: '443'
   server: holyquran19.store
@@ -3097,7 +3085,7 @@ proxies:
   ws-path: /current_time
 - alterId: '64'
   cipher: auto
-  name: 303_美国-3.34MB
+  name: 302_美国-3.34MB
   network: tcp
   port: '35954'
   server: 156.225.67.122
@@ -3109,7 +3097,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 304_美国-5.96MB
+  name: 303_美国-5.96MB
   network: ws
   port: '443'
   server: cf-topspeed.uk
@@ -3121,7 +3109,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 305_美国-4.81MB
+  name: 304_美国-4.81MB
   network: ws
   port: '443'
   server: 1st.starvskii2world.top
@@ -3133,7 +3121,7 @@ proxies:
   ws-path: /cf01
 - alterId: '0'
   cipher: auto
-  name: 306_美国-2.48MB
+  name: 305_美国-2.48MB
   network: ws
   port: '443'
   server: vuk1.0bad.com
@@ -3143,6 +3131,18 @@ proxies:
   ws-headers:
     host: vuk1.0bad.com
   ws-path: /chat
+- alterId: '0'
+  cipher: auto
+  name: 306_美国-5.23MB
+  network: ws
+  port: '443'
+  server: quranweb41.xyz
+  tls: 1
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-headers:
+    host: quranweb41.xyz
+  ws-path: /current_time
 - cipher: aes-256-gcm
   name: 307_日本-756.0KB
   password: faBAoD54k87UJG7
@@ -4855,19 +4855,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 477_未知国家-5.65MB
-  network: ws
-  port: '443'
-  server: freequranbook.uk
-  tls: 1
-  type: vmess
-  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
-  ws-headers:
-    host: freequranbook.uk
-  ws-path: /current_time
-- alterId: '0'
-  cipher: auto
-  name: 478_香港-804.9KB
+  name: 477_香港-804.9KB
   network: ws
   port: '443'
   server: hk3.af49c4e4c2ef.sanfen001.pics
@@ -4879,7 +4867,7 @@ proxies:
   ws-path: /zh-cn
 - alterId: '0'
   cipher: auto
-  name: 479_罗马尼亚-5.49MB
+  name: 478_罗马尼亚-5.49MB
   network: ws
   port: '443'
   server: legenderyserversirn.ddns.net
@@ -4891,7 +4879,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 480_未知国家-5.80MB
+  name: 479_未知国家-5.80MB
   network: ws
   port: '443'
   server: quranweb12.xyz
@@ -4903,7 +4891,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 481_马来西亚-3.04MB
+  name: 480_马来西亚-3.04MB
   network: ws
   port: '80'
   server: napsternetv-3-cdn1.unlimiteddev.tk
@@ -4915,19 +4903,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 482_罗马尼亚-4.60MB
-  network: ws
-  port: '443'
-  server: rtl.4ir2rayv.tk
-  tls: 1
-  type: vmess
-  uuid: 2f66b74e-be6b-41fd-91eb-15bf715a4e88
-  ws-headers:
-    host: all0106.we4all2me.shop
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 483_瑞典-1.17MB
+  name: 481_瑞典-1.17MB
   network: ws
   port: '8080'
   server: 16.170.173.226
@@ -4939,7 +4915,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 484_日本-2.75MB
+  name: 482_日本-2.75MB
   network: tcp
   port: '443'
   server: jp4.af49c4e4c2ef.sanfen001.pics
@@ -4951,7 +4927,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 485_台湾-1.75MB
+  name: 483_台湾-1.75MB
   network: tcp
   port: '224'
   server: hinet1261.gfwisbest.xyz
@@ -4963,7 +4939,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 486_日本-392.9KB
+  name: 484_日本-392.9KB
   network: tcp
   port: '16650'
   server: jp.mousse.tk
@@ -4975,7 +4951,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 487_未知国家-5.01MB
+  name: 485_未知国家-5.01MB
   network: ws
   port: '443'
   server: holyquran8.store
@@ -4987,7 +4963,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 488_未知国家-5.49MB
+  name: 486_未知国家-5.49MB
   network: ws
   port: '443'
   server: quranweb17.xyz
@@ -4999,7 +4975,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 489_未知国家-4.53MB
+  name: 487_未知国家-4.53MB
   network: ws
   port: '443'
   server: quranweb26.xyz
@@ -5011,7 +4987,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 490_未知国家-4.49MB
+  name: 488_未知国家-4.49MB
   network: ws
   port: '443'
   server: quran-audio4.xyz
@@ -5023,7 +4999,7 @@ proxies:
   ws-path: /current_time
 - alterId: '0'
   cipher: auto
-  name: 491_未知国家-6.12MB
+  name: 489_未知国家-6.12MB
   network: ws
   port: '443'
   server: quranweb1.xyz
@@ -5033,6 +5009,30 @@ proxies:
   ws-headers:
     host: quranweb1.xyz
   ws-path: /current_time
+- alterId: '0'
+  cipher: auto
+  name: 490_罗马尼亚-4.97MB
+  network: ws
+  port: '443'
+  server: mtn.ircf.space
+  tls: 1
+  type: vmess
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  ws-headers:
+    host: irancelll.appsandhack2.tech
+  ws-path: /dp2.scproxy.top/shirker
+- alterId: '0'
+  cipher: auto
+  name: 491_罗马尼亚-4.51MB
+  network: ws
+  port: '443'
+  server: rtl.4ir2rayv.tk
+  tls: 1
+  type: vmess
+  uuid: 2f66b74e-be6b-41fd-91eb-15bf715a4e88
+  ws-headers:
+    host: all0106.we4all2me.shop
+  ws-path: /
 - alterId: '0'
   cipher: auto
   name: 492_伊朗-2.65MB
@@ -5045,8 +5045,32 @@ proxies:
   ws-headers:
     host: join-to2.unlimiteddev.click
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 493_新加坡-320.2KB
+  network: ws
+  port: '443'
+  server: sg17.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: 2c0da31c-026e-48ea-9c5a-9e018ad019bb
+  ws-headers:
+    host: awkj
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 494_未知国家-5.68MB
+  network: ws
+  port: '443'
+  server: freequranbook.uk
+  tls: 1
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-headers:
+    host: freequranbook.uk
+  ws-path: /current_time
 - cipher: aes-256-cfb
-  name: 493_日本-5.91MB
+  name: 495_日本-5.91MB
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: '8081'
@@ -5140,11 +5164,11 @@ proxy-groups:
   - 81_中国-1.27MB
   - 82_中国-373.8KB
   - 83_中国-357.8KB
-  - 84_中国-447.9KB
-  - 85_中国-361.3KB
-  - 86_中国-348.4KB
-  - 87_中国-356.6KB
-  - 88_中国-1.15MB
+  - 84_中国-361.3KB
+  - 85_中国-348.4KB
+  - 86_中国-356.6KB
+  - 87_中国-1.15MB
+  - 88_中国-430.2KB
   - 89_中国-11.47MB
   - 90_中国-12.12MB
   - 91_中国-3.04MB
@@ -5283,7 +5307,7 @@ proxy-groups:
   - 224_美国-5.45MB
   - 225_美国-842.7KB
   - 226_美国-3.54MB
-  - 227_美国-5.47MB
+  - 227_美国-5.28MB
   - 228_美国-1.86MB
   - 229_美国-2.57MB
   - 230_美国-3.87MB
@@ -5339,30 +5363,30 @@ proxy-groups:
   - 280_美国-3.68MB
   - 281_美国-204.0KB
   - 282_美国-2.46MB
-  - 283_美国-1.25MB
-  - 284_美国-3.60MB
-  - 285_美国-4.52MB
-  - 286_美国-483.5KB
-  - 287_美国-5.80MB
-  - 288_美国-1.10MB
-  - 289_美国-5.95MB
-  - 290_美国-4.88MB
-  - 291_美国-3.92MB
-  - 292_美国-6.03MB
-  - 293_美国-498.8KB
-  - 294_美国-4.94MB
-  - 295_美国-3.40MB
-  - 296_美国-546.2KB
-  - 297_美国-5.75MB
-  - 298_美国-5.83MB
-  - 299_美国-3.33MB
-  - 300_美国-6.47MB
-  - 301_美国-4.50MB
-  - 302_美国-4.80MB
-  - 303_美国-3.34MB
-  - 304_美国-5.96MB
-  - 305_美国-4.81MB
-  - 306_美国-2.48MB
+  - 283_美国-3.60MB
+  - 284_美国-4.52MB
+  - 285_美国-483.5KB
+  - 286_美国-5.80MB
+  - 287_美国-1.10MB
+  - 288_美国-5.95MB
+  - 289_美国-4.88MB
+  - 290_美国-3.92MB
+  - 291_美国-6.03MB
+  - 292_美国-498.8KB
+  - 293_美国-4.94MB
+  - 294_美国-3.40MB
+  - 295_美国-546.2KB
+  - 296_美国-5.75MB
+  - 297_美国-5.83MB
+  - 298_美国-3.33MB
+  - 299_美国-6.47MB
+  - 300_美国-4.50MB
+  - 301_美国-4.80MB
+  - 302_美国-3.34MB
+  - 303_美国-5.96MB
+  - 304_美国-4.81MB
+  - 305_美国-2.48MB
+  - 306_美国-5.23MB
   - 307_日本-756.0KB
   - 308_日本-462.0KB
   - 309_日本-540.5KB
@@ -5533,23 +5557,25 @@ proxy-groups:
   - 474_伯利兹-5.45MB
   - 475_伯利兹-477.5KB
   - 476_未知国家-4.87MB
-  - 477_未知国家-5.65MB
-  - 478_香港-804.9KB
-  - 479_罗马尼亚-5.49MB
-  - 480_未知国家-5.80MB
-  - 481_马来西亚-3.04MB
-  - 482_罗马尼亚-4.60MB
-  - 483_瑞典-1.17MB
-  - 484_日本-2.75MB
-  - 485_台湾-1.75MB
-  - 486_日本-392.9KB
-  - 487_未知国家-5.01MB
-  - 488_未知国家-5.49MB
-  - 489_未知国家-4.53MB
-  - 490_未知国家-4.49MB
-  - 491_未知国家-6.12MB
+  - 477_香港-804.9KB
+  - 478_罗马尼亚-5.49MB
+  - 479_未知国家-5.80MB
+  - 480_马来西亚-3.04MB
+  - 481_瑞典-1.17MB
+  - 482_日本-2.75MB
+  - 483_台湾-1.75MB
+  - 484_日本-392.9KB
+  - 485_未知国家-5.01MB
+  - 486_未知国家-5.49MB
+  - 487_未知国家-4.53MB
+  - 488_未知国家-4.49MB
+  - 489_未知国家-6.12MB
+  - 490_罗马尼亚-4.97MB
+  - 491_罗马尼亚-4.51MB
   - 492_伊朗-2.65MB
-  - 493_日本-5.91MB
+  - 493_新加坡-320.2KB
+  - 494_未知国家-5.68MB
+  - 495_日本-5.91MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5638,11 +5664,11 @@ proxy-groups:
   - 81_中国-1.27MB
   - 82_中国-373.8KB
   - 83_中国-357.8KB
-  - 84_中国-447.9KB
-  - 85_中国-361.3KB
-  - 86_中国-348.4KB
-  - 87_中国-356.6KB
-  - 88_中国-1.15MB
+  - 84_中国-361.3KB
+  - 85_中国-348.4KB
+  - 86_中国-356.6KB
+  - 87_中国-1.15MB
+  - 88_中国-430.2KB
   - 89_中国-11.47MB
   - 90_中国-12.12MB
   - 91_中国-3.04MB
@@ -5781,7 +5807,7 @@ proxy-groups:
   - 224_美国-5.45MB
   - 225_美国-842.7KB
   - 226_美国-3.54MB
-  - 227_美国-5.47MB
+  - 227_美国-5.28MB
   - 228_美国-1.86MB
   - 229_美国-2.57MB
   - 230_美国-3.87MB
@@ -5837,30 +5863,30 @@ proxy-groups:
   - 280_美国-3.68MB
   - 281_美国-204.0KB
   - 282_美国-2.46MB
-  - 283_美国-1.25MB
-  - 284_美国-3.60MB
-  - 285_美国-4.52MB
-  - 286_美国-483.5KB
-  - 287_美国-5.80MB
-  - 288_美国-1.10MB
-  - 289_美国-5.95MB
-  - 290_美国-4.88MB
-  - 291_美国-3.92MB
-  - 292_美国-6.03MB
-  - 293_美国-498.8KB
-  - 294_美国-4.94MB
-  - 295_美国-3.40MB
-  - 296_美国-546.2KB
-  - 297_美国-5.75MB
-  - 298_美国-5.83MB
-  - 299_美国-3.33MB
-  - 300_美国-6.47MB
-  - 301_美国-4.50MB
-  - 302_美国-4.80MB
-  - 303_美国-3.34MB
-  - 304_美国-5.96MB
-  - 305_美国-4.81MB
-  - 306_美国-2.48MB
+  - 283_美国-3.60MB
+  - 284_美国-4.52MB
+  - 285_美国-483.5KB
+  - 286_美国-5.80MB
+  - 287_美国-1.10MB
+  - 288_美国-5.95MB
+  - 289_美国-4.88MB
+  - 290_美国-3.92MB
+  - 291_美国-6.03MB
+  - 292_美国-498.8KB
+  - 293_美国-4.94MB
+  - 294_美国-3.40MB
+  - 295_美国-546.2KB
+  - 296_美国-5.75MB
+  - 297_美国-5.83MB
+  - 298_美国-3.33MB
+  - 299_美国-6.47MB
+  - 300_美国-4.50MB
+  - 301_美国-4.80MB
+  - 302_美国-3.34MB
+  - 303_美国-5.96MB
+  - 304_美国-4.81MB
+  - 305_美国-2.48MB
+  - 306_美国-5.23MB
   - 307_日本-756.0KB
   - 308_日本-462.0KB
   - 309_日本-540.5KB
@@ -6031,23 +6057,25 @@ proxy-groups:
   - 474_伯利兹-5.45MB
   - 475_伯利兹-477.5KB
   - 476_未知国家-4.87MB
-  - 477_未知国家-5.65MB
-  - 478_香港-804.9KB
-  - 479_罗马尼亚-5.49MB
-  - 480_未知国家-5.80MB
-  - 481_马来西亚-3.04MB
-  - 482_罗马尼亚-4.60MB
-  - 483_瑞典-1.17MB
-  - 484_日本-2.75MB
-  - 485_台湾-1.75MB
-  - 486_日本-392.9KB
-  - 487_未知国家-5.01MB
-  - 488_未知国家-5.49MB
-  - 489_未知国家-4.53MB
-  - 490_未知国家-4.49MB
-  - 491_未知国家-6.12MB
+  - 477_香港-804.9KB
+  - 478_罗马尼亚-5.49MB
+  - 479_未知国家-5.80MB
+  - 480_马来西亚-3.04MB
+  - 481_瑞典-1.17MB
+  - 482_日本-2.75MB
+  - 483_台湾-1.75MB
+  - 484_日本-392.9KB
+  - 485_未知国家-5.01MB
+  - 486_未知国家-5.49MB
+  - 487_未知国家-4.53MB
+  - 488_未知国家-4.49MB
+  - 489_未知国家-6.12MB
+  - 490_罗马尼亚-4.97MB
+  - 491_罗马尼亚-4.51MB
   - 492_伊朗-2.65MB
-  - 493_日本-5.91MB
+  - 493_新加坡-320.2KB
+  - 494_未知国家-5.68MB
+  - 495_日本-5.91MB
   type: select
 - name: Final
   proxies:
@@ -6145,11 +6173,11 @@ proxy-groups:
   - 81_中国-1.27MB
   - 82_中国-373.8KB
   - 83_中国-357.8KB
-  - 84_中国-447.9KB
-  - 85_中国-361.3KB
-  - 86_中国-348.4KB
-  - 87_中国-356.6KB
-  - 88_中国-1.15MB
+  - 84_中国-361.3KB
+  - 85_中国-348.4KB
+  - 86_中国-356.6KB
+  - 87_中国-1.15MB
+  - 88_中国-430.2KB
   - 89_中国-11.47MB
   - 90_中国-12.12MB
   - 91_中国-3.04MB
@@ -6288,7 +6316,7 @@ proxy-groups:
   - 224_美国-5.45MB
   - 225_美国-842.7KB
   - 226_美国-3.54MB
-  - 227_美国-5.47MB
+  - 227_美国-5.28MB
   - 228_美国-1.86MB
   - 229_美国-2.57MB
   - 230_美国-3.87MB
@@ -6344,30 +6372,30 @@ proxy-groups:
   - 280_美国-3.68MB
   - 281_美国-204.0KB
   - 282_美国-2.46MB
-  - 283_美国-1.25MB
-  - 284_美国-3.60MB
-  - 285_美国-4.52MB
-  - 286_美国-483.5KB
-  - 287_美国-5.80MB
-  - 288_美国-1.10MB
-  - 289_美国-5.95MB
-  - 290_美国-4.88MB
-  - 291_美国-3.92MB
-  - 292_美国-6.03MB
-  - 293_美国-498.8KB
-  - 294_美国-4.94MB
-  - 295_美国-3.40MB
-  - 296_美国-546.2KB
-  - 297_美国-5.75MB
-  - 298_美国-5.83MB
-  - 299_美国-3.33MB
-  - 300_美国-6.47MB
-  - 301_美国-4.50MB
-  - 302_美国-4.80MB
-  - 303_美国-3.34MB
-  - 304_美国-5.96MB
-  - 305_美国-4.81MB
-  - 306_美国-2.48MB
+  - 283_美国-3.60MB
+  - 284_美国-4.52MB
+  - 285_美国-483.5KB
+  - 286_美国-5.80MB
+  - 287_美国-1.10MB
+  - 288_美国-5.95MB
+  - 289_美国-4.88MB
+  - 290_美国-3.92MB
+  - 291_美国-6.03MB
+  - 292_美国-498.8KB
+  - 293_美国-4.94MB
+  - 294_美国-3.40MB
+  - 295_美国-546.2KB
+  - 296_美国-5.75MB
+  - 297_美国-5.83MB
+  - 298_美国-3.33MB
+  - 299_美国-6.47MB
+  - 300_美国-4.50MB
+  - 301_美国-4.80MB
+  - 302_美国-3.34MB
+  - 303_美国-5.96MB
+  - 304_美国-4.81MB
+  - 305_美国-2.48MB
+  - 306_美国-5.23MB
   - 307_日本-756.0KB
   - 308_日本-462.0KB
   - 309_日本-540.5KB
@@ -6538,23 +6566,25 @@ proxy-groups:
   - 474_伯利兹-5.45MB
   - 475_伯利兹-477.5KB
   - 476_未知国家-4.87MB
-  - 477_未知国家-5.65MB
-  - 478_香港-804.9KB
-  - 479_罗马尼亚-5.49MB
-  - 480_未知国家-5.80MB
-  - 481_马来西亚-3.04MB
-  - 482_罗马尼亚-4.60MB
-  - 483_瑞典-1.17MB
-  - 484_日本-2.75MB
-  - 485_台湾-1.75MB
-  - 486_日本-392.9KB
-  - 487_未知国家-5.01MB
-  - 488_未知国家-5.49MB
-  - 489_未知国家-4.53MB
-  - 490_未知国家-4.49MB
-  - 491_未知国家-6.12MB
+  - 477_香港-804.9KB
+  - 478_罗马尼亚-5.49MB
+  - 479_未知国家-5.80MB
+  - 480_马来西亚-3.04MB
+  - 481_瑞典-1.17MB
+  - 482_日本-2.75MB
+  - 483_台湾-1.75MB
+  - 484_日本-392.9KB
+  - 485_未知国家-5.01MB
+  - 486_未知国家-5.49MB
+  - 487_未知国家-4.53MB
+  - 488_未知国家-4.49MB
+  - 489_未知国家-6.12MB
+  - 490_罗马尼亚-4.97MB
+  - 491_罗马尼亚-4.51MB
   - 492_伊朗-2.65MB
-  - 493_日本-5.91MB
+  - 493_新加坡-320.2KB
+  - 494_未知国家-5.68MB
+  - 495_日本-5.91MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6642,11 +6672,11 @@ proxy-groups:
   - 81_中国-1.27MB
   - 82_中国-373.8KB
   - 83_中国-357.8KB
-  - 84_中国-447.9KB
-  - 85_中国-361.3KB
-  - 86_中国-348.4KB
-  - 87_中国-356.6KB
-  - 88_中国-1.15MB
+  - 84_中国-361.3KB
+  - 85_中国-348.4KB
+  - 86_中国-356.6KB
+  - 87_中国-1.15MB
+  - 88_中国-430.2KB
   - 89_中国-11.47MB
   - 90_中国-12.12MB
   - 91_中国-3.04MB
@@ -6785,7 +6815,7 @@ proxy-groups:
   - 224_美国-5.45MB
   - 225_美国-842.7KB
   - 226_美国-3.54MB
-  - 227_美国-5.47MB
+  - 227_美国-5.28MB
   - 228_美国-1.86MB
   - 229_美国-2.57MB
   - 230_美国-3.87MB
@@ -6841,30 +6871,30 @@ proxy-groups:
   - 280_美国-3.68MB
   - 281_美国-204.0KB
   - 282_美国-2.46MB
-  - 283_美国-1.25MB
-  - 284_美国-3.60MB
-  - 285_美国-4.52MB
-  - 286_美国-483.5KB
-  - 287_美国-5.80MB
-  - 288_美国-1.10MB
-  - 289_美国-5.95MB
-  - 290_美国-4.88MB
-  - 291_美国-3.92MB
-  - 292_美国-6.03MB
-  - 293_美国-498.8KB
-  - 294_美国-4.94MB
-  - 295_美国-3.40MB
-  - 296_美国-546.2KB
-  - 297_美国-5.75MB
-  - 298_美国-5.83MB
-  - 299_美国-3.33MB
-  - 300_美国-6.47MB
-  - 301_美国-4.50MB
-  - 302_美国-4.80MB
-  - 303_美国-3.34MB
-  - 304_美国-5.96MB
-  - 305_美国-4.81MB
-  - 306_美国-2.48MB
+  - 283_美国-3.60MB
+  - 284_美国-4.52MB
+  - 285_美国-483.5KB
+  - 286_美国-5.80MB
+  - 287_美国-1.10MB
+  - 288_美国-5.95MB
+  - 289_美国-4.88MB
+  - 290_美国-3.92MB
+  - 291_美国-6.03MB
+  - 292_美国-498.8KB
+  - 293_美国-4.94MB
+  - 294_美国-3.40MB
+  - 295_美国-546.2KB
+  - 296_美国-5.75MB
+  - 297_美国-5.83MB
+  - 298_美国-3.33MB
+  - 299_美国-6.47MB
+  - 300_美国-4.50MB
+  - 301_美国-4.80MB
+  - 302_美国-3.34MB
+  - 303_美国-5.96MB
+  - 304_美国-4.81MB
+  - 305_美国-2.48MB
+  - 306_美国-5.23MB
   - 307_日本-756.0KB
   - 308_日本-462.0KB
   - 309_日本-540.5KB
@@ -7035,23 +7065,25 @@ proxy-groups:
   - 474_伯利兹-5.45MB
   - 475_伯利兹-477.5KB
   - 476_未知国家-4.87MB
-  - 477_未知国家-5.65MB
-  - 478_香港-804.9KB
-  - 479_罗马尼亚-5.49MB
-  - 480_未知国家-5.80MB
-  - 481_马来西亚-3.04MB
-  - 482_罗马尼亚-4.60MB
-  - 483_瑞典-1.17MB
-  - 484_日本-2.75MB
-  - 485_台湾-1.75MB
-  - 486_日本-392.9KB
-  - 487_未知国家-5.01MB
-  - 488_未知国家-5.49MB
-  - 489_未知国家-4.53MB
-  - 490_未知国家-4.49MB
-  - 491_未知国家-6.12MB
+  - 477_香港-804.9KB
+  - 478_罗马尼亚-5.49MB
+  - 479_未知国家-5.80MB
+  - 480_马来西亚-3.04MB
+  - 481_瑞典-1.17MB
+  - 482_日本-2.75MB
+  - 483_台湾-1.75MB
+  - 484_日本-392.9KB
+  - 485_未知国家-5.01MB
+  - 486_未知国家-5.49MB
+  - 487_未知国家-4.53MB
+  - 488_未知国家-4.49MB
+  - 489_未知国家-6.12MB
+  - 490_罗马尼亚-4.97MB
+  - 491_罗马尼亚-4.51MB
   - 492_伊朗-2.65MB
-  - 493_日本-5.91MB
+  - 493_新加坡-320.2KB
+  - 494_未知国家-5.68MB
+  - 495_日本-5.91MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
