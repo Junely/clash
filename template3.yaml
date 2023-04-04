@@ -3093,19 +3093,7 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 301_美国-4.71MB
-  network: tcp
-  port: '55332'
-  server: 23.224.14.142
-  tls: 0
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 302_美国-1.19MB
+  name: 301_美国-1.19MB
   network: tcp
   port: '51234'
   server: 156.225.67.107
@@ -3117,7 +3105,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 303_美国-2.04MB
+  name: 302_美国-2.04MB
   network: ws
   port: '2082'
   server: cf.noaries.de
@@ -3129,7 +3117,7 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 304_美国-2.84MB
+  name: 303_美国-2.84MB
   network: tcp
   port: '59009'
   server: 137.175.63.135
@@ -3141,7 +3129,7 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 305_美国-2.90MB
+  name: 304_美国-2.90MB
   network: tcp
   port: '43549'
   server: 156.225.67.36
@@ -3153,10 +3141,22 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 306_美国-5.53MB
+  name: 305_美国-5.53MB
   network: tcp
   port: '50702'
   server: 38.63.17.175
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 306_美国-1.97MB
+  network: tcp
+  port: '55332'
+  server: 23.224.14.142
   tls: 0
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -5342,12 +5342,12 @@ proxy-groups:
   - 298_美国-382.2KB
   - 299_美国-2.04MB
   - 300_美国-3.01MB
-  - 301_美国-4.71MB
-  - 302_美国-1.19MB
-  - 303_美国-2.04MB
-  - 304_美国-2.84MB
-  - 305_美国-2.90MB
-  - 306_美国-5.53MB
+  - 301_美国-1.19MB
+  - 302_美国-2.04MB
+  - 303_美国-2.84MB
+  - 304_美国-2.90MB
+  - 305_美国-5.53MB
+  - 306_美国-1.97MB
   - 307_日本-2.92MB
   - 308_日本-972.6KB
   - 309_新加坡-2.80MB
@@ -5838,12 +5838,12 @@ proxy-groups:
   - 298_美国-382.2KB
   - 299_美国-2.04MB
   - 300_美国-3.01MB
-  - 301_美国-4.71MB
-  - 302_美国-1.19MB
-  - 303_美国-2.04MB
-  - 304_美国-2.84MB
-  - 305_美国-2.90MB
-  - 306_美国-5.53MB
+  - 301_美国-1.19MB
+  - 302_美国-2.04MB
+  - 303_美国-2.84MB
+  - 304_美国-2.90MB
+  - 305_美国-5.53MB
+  - 306_美国-1.97MB
   - 307_日本-2.92MB
   - 308_日本-972.6KB
   - 309_新加坡-2.80MB
@@ -6343,12 +6343,12 @@ proxy-groups:
   - 298_美国-382.2KB
   - 299_美国-2.04MB
   - 300_美国-3.01MB
-  - 301_美国-4.71MB
-  - 302_美国-1.19MB
-  - 303_美国-2.04MB
-  - 304_美国-2.84MB
-  - 305_美国-2.90MB
-  - 306_美国-5.53MB
+  - 301_美国-1.19MB
+  - 302_美国-2.04MB
+  - 303_美国-2.84MB
+  - 304_美国-2.90MB
+  - 305_美国-5.53MB
+  - 306_美国-1.97MB
   - 307_日本-2.92MB
   - 308_日本-972.6KB
   - 309_新加坡-2.80MB
@@ -6838,12 +6838,12 @@ proxy-groups:
   - 298_美国-382.2KB
   - 299_美国-2.04MB
   - 300_美国-3.01MB
-  - 301_美国-4.71MB
-  - 302_美国-1.19MB
-  - 303_美国-2.04MB
-  - 304_美国-2.84MB
-  - 305_美国-2.90MB
-  - 306_美国-5.53MB
+  - 301_美国-1.19MB
+  - 302_美国-2.04MB
+  - 303_美国-2.84MB
+  - 304_美国-2.90MB
+  - 305_美国-5.53MB
+  - 306_美国-1.97MB
   - 307_日本-2.92MB
   - 308_日本-972.6KB
   - 309_新加坡-2.80MB
