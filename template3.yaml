@@ -5132,21 +5132,9 @@ proxies:
   ws-headers:
     host: fr.binghe.design
   ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 500_未知国家-4.09MB
-  network: ws
-  port: '80'
-  server: 104.18.3.2
-  tls: 0
-  type: vmess
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-  ws-headers:
-    host: idnusanet.vpnexecutive.my.id
-  ws-path: /vmess
 - alterId: '64'
   cipher: auto
-  name: 501_香港-241.4KB
+  name: 500_香港-241.4KB
   network: tcp
   port: '42976'
   server: 156.245.8.26
@@ -5158,19 +5146,7 @@ proxies:
   ws-path: /vmess
 - alterId: '0'
   cipher: auto
-  name: 502_新加坡-750.0KB
-  network: ws
-  port: '2052'
-  server: cdn.imnibaba.wiki
-  tls: 0
-  type: vmess
-  uuid: 82276930-fa80-47d7-c228-7f4bd68d5046
-  ws-headers:
-    host: rn-us1-sudoxin.imnibaba.wiki
-  ws-path: /tg@sudoxin
-- alterId: '0'
-  cipher: auto
-  name: 503_未知国家-5.14MB
+  name: 501_未知国家-5.14MB
   network: ws
   port: '80'
   server: 104.19.170.36
@@ -5180,8 +5156,44 @@ proxies:
   ws-headers:
     host: freedelxc.argotus.live
   ws-path: /uitsrt
+- alterId: '0'
+  cipher: auto
+  name: 502_新加坡-2.97MB
+  network: ws
+  port: '2052'
+  server: cdn.imnibaba.wiki
+  tls: 0
+  type: vmess
+  uuid: 19527dac-7e92-4d18-b29d-70fd890f5741
+  ws-headers:
+    host: woiden-uk1-sudoxin.imnibaba.wiki
+  ws-path: /tg@sudoxin
+- alterId: '0'
+  cipher: auto
+  name: 503_亚美尼亚-562.4KB
+  network: ws
+  port: '8443'
+  server: dark100.viporg12345.info
+  tls: 1
+  type: vmess
+  uuid: 457d1938-cb62-4ce7-c13a-96b6812b9f05
+  ws-headers:
+    host: t4.l9liiii.info
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 504_未知国家-3.44MB
+  network: ws
+  port: '80'
+  server: 104.18.3.2
+  tls: 0
+  type: vmess
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  ws-headers:
+    host: idnusanet.vpnexecutive.my.id
+  ws-path: /vmess
 - cipher: aes-256-cfb
-  name: 504_日本-740.7KB
+  name: 505_日本-740.7KB
   obfs: tls1.2_ticket_auth
   password: eAokbaDN6
   port: '8081'
@@ -5691,11 +5703,12 @@ proxy-groups:
   - 497_荷兰-3.85MB
   - 498_俄罗斯联邦-4.64MB
   - 499_未知国家-4.72MB
-  - 500_未知国家-4.09MB
-  - 501_香港-241.4KB
-  - 502_新加坡-750.0KB
-  - 503_未知国家-5.14MB
-  - 504_日本-740.7KB
+  - 500_香港-241.4KB
+  - 501_未知国家-5.14MB
+  - 502_新加坡-2.97MB
+  - 503_亚美尼亚-562.4KB
+  - 504_未知国家-3.44MB
+  - 505_日本-740.7KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6200,11 +6213,12 @@ proxy-groups:
   - 497_荷兰-3.85MB
   - 498_俄罗斯联邦-4.64MB
   - 499_未知国家-4.72MB
-  - 500_未知国家-4.09MB
-  - 501_香港-241.4KB
-  - 502_新加坡-750.0KB
-  - 503_未知国家-5.14MB
-  - 504_日本-740.7KB
+  - 500_香港-241.4KB
+  - 501_未知国家-5.14MB
+  - 502_新加坡-2.97MB
+  - 503_亚美尼亚-562.4KB
+  - 504_未知国家-3.44MB
+  - 505_日本-740.7KB
   type: select
 - name: Final
   proxies:
@@ -6718,11 +6732,12 @@ proxy-groups:
   - 497_荷兰-3.85MB
   - 498_俄罗斯联邦-4.64MB
   - 499_未知国家-4.72MB
-  - 500_未知国家-4.09MB
-  - 501_香港-241.4KB
-  - 502_新加坡-750.0KB
-  - 503_未知国家-5.14MB
-  - 504_日本-740.7KB
+  - 500_香港-241.4KB
+  - 501_未知国家-5.14MB
+  - 502_新加坡-2.97MB
+  - 503_亚美尼亚-562.4KB
+  - 504_未知国家-3.44MB
+  - 505_日本-740.7KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7226,11 +7241,12 @@ proxy-groups:
   - 497_荷兰-3.85MB
   - 498_俄罗斯联邦-4.64MB
   - 499_未知国家-4.72MB
-  - 500_未知国家-4.09MB
-  - 501_香港-241.4KB
-  - 502_新加坡-750.0KB
-  - 503_未知国家-5.14MB
-  - 504_日本-740.7KB
+  - 500_香港-241.4KB
+  - 501_未知国家-5.14MB
+  - 502_新加坡-2.97MB
+  - 503_亚美尼亚-562.4KB
+  - 504_未知国家-3.44MB
+  - 505_日本-740.7KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
