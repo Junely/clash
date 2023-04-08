@@ -2063,7 +2063,7 @@ proxies:
   type: vmess
   uuid: a41c3448-c5a1-4aba-ad94-7e65380fe69e
   ws-headers:
-    host: v2th01.fuqiangren.com
+    host: lf3-cdn-tos.bytescm.com
   ws-path: /
 - alterId: '2'
   cipher: auto
@@ -3633,19 +3633,7 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 349_美国-2.55MB
-  network: tcp
-  port: '50003'
-  server: 108.186.208.157
-  tls: 0
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    host: images-cn.ssl-images-amazon.com
-  ws-path: /
-- alterId: '64'
-  cipher: auto
-  name: 350_美国-1.88MB
+  name: 349_美国-1.88MB
   network: tcp
   port: '50002'
   server: 198.2.203.146
@@ -3657,7 +3645,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 351_美国-4.83MB
+  name: 350_美国-4.83MB
   network: ws
   port: '443'
   server: 192.203.230.65
@@ -3667,6 +3655,18 @@ proxies:
   ws-headers:
     host: jp1.hnokkdf.top
   ws-path: /kbjc/jp1
+- alterId: '64'
+  cipher: auto
+  name: 351_美国-3.02MB
+  network: tcp
+  port: '50003'
+  server: 108.186.208.157
+  tls: 0
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    host: ''
+  ws-path: /
 - cipher: aes-256-cfb
   name: 352_新加坡-248.5KB
   password: amazonskr05
@@ -5092,19 +5092,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 493_法国-1.36MB
-  network: ws
-  port: '2087'
-  server: 45.77.61.111
-  tls: 0
-  type: vmess
-  uuid: 70b89498-7c48-480d-b147-b4a2be37b614
-  ws-headers:
-    host: ''
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 494_未知国家-1.40MB
+  name: 493_未知国家-1.40MB
   network: ws
   port: '80'
   server: 104.18.3.2
@@ -5116,7 +5104,7 @@ proxies:
   ws-path: /
 - alterId: '64'
   cipher: auto
-  name: 495_荷兰-2.09MB
+  name: 494_荷兰-2.09MB
   network: tcp
   port: '44902'
   server: 154.84.1.31
@@ -5128,7 +5116,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: '0'
   cipher: auto
-  name: 496_日本-1.79MB
+  name: 495_日本-1.79MB
   network: ws
   port: '443'
   server: suzhihan.eu.org
@@ -5140,7 +5128,7 @@ proxies:
   ws-path: /roewesu
 - alterId: '64'
   cipher: auto
-  name: 497_香港-1.87MB
+  name: 496_香港-1.87MB
   network: tcp
   port: '44884'
   server: 156.245.8.227
@@ -5152,7 +5140,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 498_未知国家-3.25MB
+  name: 497_未知国家-3.25MB
   network: ws
   port: '2052'
   server: spectra.aryogen.store
@@ -5164,7 +5152,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 499_荷兰-542.8KB
+  name: 498_荷兰-542.8KB
   network: ws
   port: '80'
   server: 188.114.99.2
@@ -5176,7 +5164,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 500_未知国家-571.8KB
+  name: 499_未知国家-571.8KB
   network: ws
   port: '8443'
   server: 162.159.136.75
@@ -5188,7 +5176,7 @@ proxies:
   ws-path: /8cda48b3
 - alterId: '64'
   cipher: auto
-  name: 501_香港-1.88MB
+  name: 500_香港-1.88MB
   network: tcp
   port: '58356'
   server: 156.245.8.165
@@ -5200,7 +5188,7 @@ proxies:
   ws-path: /8cda48b3
 - alterId: '0'
   cipher: auto
-  name: 502_越南-3.32MB
+  name: 501_越南-3.32MB
   network: ws
   port: '80'
   server: cloudsever8.tuananh4g.com
@@ -5212,7 +5200,7 @@ proxies:
   ws-path: /tuananh4g
 - alterId: '2'
   cipher: auto
-  name: 503_香港-7.30MB
+  name: 502_香港-7.30MB
   network: ws
   port: '30776'
   server: hkthome2.iggfastweb.com
@@ -5224,7 +5212,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 504_未知国家-4.41MB
+  name: 503_未知国家-4.41MB
   network: ws
   port: '8080'
   server: po-59.f-sub.xyz
@@ -5234,9 +5222,21 @@ proxies:
   ws-headers:
     host: po-59.f-sub.xyz
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 504_法国-1.93MB
+  network: ws
+  port: '2087'
+  server: 45.77.61.111
+  tls: 0
+  type: vmess
+  uuid: 70b89498-7c48-480d-b147-b4a2be37b614
+  ws-headers:
+    host: ''
+  ws-path: /
 - alterId: '2'
   cipher: auto
-  name: 505_韩国-12.19MB
+  name: 505_韩国-4.78MB
   network: ws
   port: '24200'
   server: kr2.iggfastweb.com
@@ -5606,9 +5606,9 @@ proxy-groups:
   - 346_美国-3.51MB
   - 347_美国-534.9KB
   - 348_美国-2.27MB
-  - 349_美国-2.55MB
-  - 350_美国-1.88MB
-  - 351_美国-4.83MB
+  - 349_美国-1.88MB
+  - 350_美国-4.83MB
+  - 351_美国-3.02MB
   - 352_新加坡-248.5KB
   - 353_新加坡-1.10MB
   - 354_新加坡-1.13MB
@@ -5750,19 +5750,19 @@ proxy-groups:
   - 490_荷兰-425.3KB
   - 491_台湾-855.3KB
   - 492_台湾-1.44MB
-  - 493_法国-1.36MB
-  - 494_未知国家-1.40MB
-  - 495_荷兰-2.09MB
-  - 496_日本-1.79MB
-  - 497_香港-1.87MB
-  - 498_未知国家-3.25MB
-  - 499_荷兰-542.8KB
-  - 500_未知国家-571.8KB
-  - 501_香港-1.88MB
-  - 502_越南-3.32MB
-  - 503_香港-7.30MB
-  - 504_未知国家-4.41MB
-  - 505_韩国-12.19MB
+  - 493_未知国家-1.40MB
+  - 494_荷兰-2.09MB
+  - 495_日本-1.79MB
+  - 496_香港-1.87MB
+  - 497_未知国家-3.25MB
+  - 498_荷兰-542.8KB
+  - 499_未知国家-571.8KB
+  - 500_香港-1.88MB
+  - 501_越南-3.32MB
+  - 502_香港-7.30MB
+  - 503_未知国家-4.41MB
+  - 504_法国-1.93MB
+  - 505_韩国-4.78MB
   - 506_日本-740.7KB
   type: url-test
   url: https://www.google.com/
@@ -6117,9 +6117,9 @@ proxy-groups:
   - 346_美国-3.51MB
   - 347_美国-534.9KB
   - 348_美国-2.27MB
-  - 349_美国-2.55MB
-  - 350_美国-1.88MB
-  - 351_美国-4.83MB
+  - 349_美国-1.88MB
+  - 350_美国-4.83MB
+  - 351_美国-3.02MB
   - 352_新加坡-248.5KB
   - 353_新加坡-1.10MB
   - 354_新加坡-1.13MB
@@ -6261,19 +6261,19 @@ proxy-groups:
   - 490_荷兰-425.3KB
   - 491_台湾-855.3KB
   - 492_台湾-1.44MB
-  - 493_法国-1.36MB
-  - 494_未知国家-1.40MB
-  - 495_荷兰-2.09MB
-  - 496_日本-1.79MB
-  - 497_香港-1.87MB
-  - 498_未知国家-3.25MB
-  - 499_荷兰-542.8KB
-  - 500_未知国家-571.8KB
-  - 501_香港-1.88MB
-  - 502_越南-3.32MB
-  - 503_香港-7.30MB
-  - 504_未知国家-4.41MB
-  - 505_韩国-12.19MB
+  - 493_未知国家-1.40MB
+  - 494_荷兰-2.09MB
+  - 495_日本-1.79MB
+  - 496_香港-1.87MB
+  - 497_未知国家-3.25MB
+  - 498_荷兰-542.8KB
+  - 499_未知国家-571.8KB
+  - 500_香港-1.88MB
+  - 501_越南-3.32MB
+  - 502_香港-7.30MB
+  - 503_未知国家-4.41MB
+  - 504_法国-1.93MB
+  - 505_韩国-4.78MB
   - 506_日本-740.7KB
   type: select
 - name: Final
@@ -6637,9 +6637,9 @@ proxy-groups:
   - 346_美国-3.51MB
   - 347_美国-534.9KB
   - 348_美国-2.27MB
-  - 349_美国-2.55MB
-  - 350_美国-1.88MB
-  - 351_美国-4.83MB
+  - 349_美国-1.88MB
+  - 350_美国-4.83MB
+  - 351_美国-3.02MB
   - 352_新加坡-248.5KB
   - 353_新加坡-1.10MB
   - 354_新加坡-1.13MB
@@ -6781,19 +6781,19 @@ proxy-groups:
   - 490_荷兰-425.3KB
   - 491_台湾-855.3KB
   - 492_台湾-1.44MB
-  - 493_法国-1.36MB
-  - 494_未知国家-1.40MB
-  - 495_荷兰-2.09MB
-  - 496_日本-1.79MB
-  - 497_香港-1.87MB
-  - 498_未知国家-3.25MB
-  - 499_荷兰-542.8KB
-  - 500_未知国家-571.8KB
-  - 501_香港-1.88MB
-  - 502_越南-3.32MB
-  - 503_香港-7.30MB
-  - 504_未知国家-4.41MB
-  - 505_韩国-12.19MB
+  - 493_未知国家-1.40MB
+  - 494_荷兰-2.09MB
+  - 495_日本-1.79MB
+  - 496_香港-1.87MB
+  - 497_未知国家-3.25MB
+  - 498_荷兰-542.8KB
+  - 499_未知国家-571.8KB
+  - 500_香港-1.88MB
+  - 501_越南-3.32MB
+  - 502_香港-7.30MB
+  - 503_未知国家-4.41MB
+  - 504_法国-1.93MB
+  - 505_韩国-4.78MB
   - 506_日本-740.7KB
   type: select
 - name: HKMTMedia
@@ -7147,9 +7147,9 @@ proxy-groups:
   - 346_美国-3.51MB
   - 347_美国-534.9KB
   - 348_美国-2.27MB
-  - 349_美国-2.55MB
-  - 350_美国-1.88MB
-  - 351_美国-4.83MB
+  - 349_美国-1.88MB
+  - 350_美国-4.83MB
+  - 351_美国-3.02MB
   - 352_新加坡-248.5KB
   - 353_新加坡-1.10MB
   - 354_新加坡-1.13MB
@@ -7291,19 +7291,19 @@ proxy-groups:
   - 490_荷兰-425.3KB
   - 491_台湾-855.3KB
   - 492_台湾-1.44MB
-  - 493_法国-1.36MB
-  - 494_未知国家-1.40MB
-  - 495_荷兰-2.09MB
-  - 496_日本-1.79MB
-  - 497_香港-1.87MB
-  - 498_未知国家-3.25MB
-  - 499_荷兰-542.8KB
-  - 500_未知国家-571.8KB
-  - 501_香港-1.88MB
-  - 502_越南-3.32MB
-  - 503_香港-7.30MB
-  - 504_未知国家-4.41MB
-  - 505_韩国-12.19MB
+  - 493_未知国家-1.40MB
+  - 494_荷兰-2.09MB
+  - 495_日本-1.79MB
+  - 496_香港-1.87MB
+  - 497_未知国家-3.25MB
+  - 498_荷兰-542.8KB
+  - 499_未知国家-571.8KB
+  - 500_香港-1.88MB
+  - 501_越南-3.32MB
+  - 502_香港-7.30MB
+  - 503_未知国家-4.41MB
+  - 504_法国-1.93MB
+  - 505_韩国-4.78MB
   - 506_日本-740.7KB
   type: select
 rules:
