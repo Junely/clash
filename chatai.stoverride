@@ -3,16 +3,12 @@ desc: chatai app 解锁plus
 http:
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
-    name: chat-ai-aqi # 引用 script-providers 中的脚本
-    type: response # 脚本类型：request / response
-    require-body: true # 如果需要 request / response body，请设置为 true
-    timeout: 10 # script timeout in second (optional)
-    argument: '' # script argument (optional)
-    debug: false # 开发模式，每次执行前会从 provider 加载最新脚本
-    binary-mode: false # 以二进制模式获取 body
-    max-size: 1048576 # 1MB
+      name: chat-ai-aqi # 引用 script-providers 中的脚本
+      type: response # 脚本类型：request / response
+      require-body: true # 如果需要 request / response body，请设置为 true
+      timeout: 10 # script timeout in second (optional)
 
 script-providers:
   chat-ai-aqi:
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/script/iOS15_Weather_AQI_Standard.js
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/chatai.js
     interval: 86400
