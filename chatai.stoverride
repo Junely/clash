@@ -1,6 +1,8 @@
 name: chatai
 desc: chatai app 解锁plus
 http:
+  mitm:
+    - 'api.revenuecat.com'
   script:
     - match: ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$)
       name: chat-ai-aqi # 引用 script-providers 中的脚本
